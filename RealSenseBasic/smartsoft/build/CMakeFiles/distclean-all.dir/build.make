@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft
+CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build
+CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build
 
 # Utility rule file for distclean-all.
 
@@ -67,6 +67,6 @@ CMakeFiles/distclean-all.dir/clean:
 .PHONY : CMakeFiles/distclean-all.dir/clean
 
 CMakeFiles/distclean-all.dir/depend:
-	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles/distclean-all.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles/distclean-all.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/distclean-all.dir/depend
 

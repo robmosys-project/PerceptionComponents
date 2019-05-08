@@ -144,31 +144,31 @@ aceSmartSoft.hh
 SmartStateChangeHandlerCore.hh
 ../src/SmartStateChangeHandlerCore.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.cc
 CaptureSensorCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.hh
 CaptureSensor.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CaptureSensor.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CaptureSensor.hh
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.hh
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/aceSmartSoft.hh
 RGBImagePushServiceInUpcallInterface.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
 CaptureSensorObserverInterface.hh
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.cc
 ColorQueryServiceCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.hh
 ColorQueryService.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorQueryService.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorQueryService.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.hh
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/aceSmartSoft.hh
 CommObjectRecognitionObjects/CommColorDetection.hh
 -
 CommObjectRecognitionObjects/CommPoint2d.hh
@@ -176,29 +176,29 @@ CommObjectRecognitionObjects/CommPoint2d.hh
 ColorQueryServiceObserverInterface.hh
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.cc
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
 smartTimedTaskTrigger.h
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/smartTimedTaskTrigger.h
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/smartTimedTaskTrigger.h
 ColorSegmentationAcePortFactory.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
 map
 -
 iostream
 -
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/aceSmartSoft.hh
 smartQueryServerTaskTrigger_T.h
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/smartQueryServerTaskTrigger_T.h
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/smartQueryServerTaskTrigger_T.h
 ColorSegmentationCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationCore.hh
 ColorSegmentationPortFactoryInterface.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
 ColorSegmentationExtension.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
 CommObjectRecognitionObjects/CommColorDetection.hh
 -
 CommObjectRecognitionObjects/CommColorDetectionACE.hh
@@ -212,31 +212,31 @@ DomainVision/CommVideoImage.hh
 DomainVision/CommVideoImageACE.hh
 -
 CaptureSensor.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CaptureSensor.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CaptureSensor.hh
 RGBImagePushServiceInUpcallManager.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
 ColorQueryService.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorQueryService.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorQueryService.hh
 CompHandler.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CompHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CompHandler.hh
 SmartStateChangeHandler.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/SmartStateChangeHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/SmartStateChangeHandler.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.cc
 ColorSegmentationAcePortFactory.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.hh
 ColorSegmentationImpl.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
 ColorSegmentationPortFactoryInterface.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.cc
 ColorSegmentationExtension.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
 string
 -
 atomic
@@ -246,19 +246,19 @@ future
 chrono
 -
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.cc
 ColorSegmentationImpl.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
 chrono
 -
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/aceSmartSoft.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
 CommObjectRecognitionObjects/CommColorDetection.hh
 -
 CommObjectRecognitionObjects/CommColorDetectionACE.hh
@@ -274,107 +274,107 @@ DomainVision/CommVideoImageACE.hh
 chrono
 -
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
 DomainVision/CommVideoImage.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/DomainVision/CommVideoImage.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/DomainVision/CommVideoImage.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc
 RGBImagePushServiceInUpcallManager.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
 list
 -
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/aceSmartSoft.hh
 RGBImagePushServiceInUpcallInterface.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/main.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/main.cc
 iostream
 -
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.cc
 ParameterUpdateHandler.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.hh
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/ColorSegmentation.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.hh
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/aceSmartSoft.hh
 ParameterStateStruct.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/ParameterStateStruct.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/ParameterStateStruct.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CaptureSensor.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CaptureSensor.cc
 CaptureSensor.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CaptureSensor.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CaptureSensor.hh
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentation.hh
 iostream
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CaptureSensor.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CaptureSensor.hh
 CaptureSensorCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CaptureSensorCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CaptureSensorCore.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorQueryService.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorQueryService.cc
 ColorQueryService.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorQueryService.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorQueryService.hh
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentation.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorQueryService.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorQueryService.hh
 ColorQueryServiceCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorQueryServiceCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorQueryServiceCore.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentationCore.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentationCore.cc
 ColorSegmentationCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentationCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentationCore.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentationCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentationCore.hh
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/aceSmartSoft.hh
 iostream
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CompHandler.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CompHandler.cc
 CompHandler.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CompHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CompHandler.hh
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentation.hh
 iostream
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CompHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CompHandler.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ParameterStateStruct.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ParameterStateStruct.cc
 ParameterStateStruct.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ParameterStateStruct.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ParameterStateStruct.hh
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentation.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ParameterStateStruct.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ParameterStateStruct.hh
 ParameterStateStructCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ParameterStateStructCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ParameterStateStructCore.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.cc
 SmartStateChangeHandler.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.hh
 ColorSegmentation.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentation.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentation.hh
 iostream
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.hh
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/aceSmartSoft.hh
 SmartStateChangeHandlerCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/SmartStateChangeHandlerCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/SmartStateChangeHandlerCore.hh
 
 /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
 CommBasicObjects/CommBasePoseCore.hh

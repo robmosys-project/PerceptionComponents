@@ -20,6 +20,11 @@
 ObjectRecognitionQueryService::ObjectRecognitionQueryService(Smart::IQueryServerPattern<CommObjectRecognitionObjects::CommObjectRecognitionInformation, CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties, SmartACE::QueryId>* server)
 :	ObjectRecognitionQueryServiceCore(server)
 {
+	Smart::StatusCode status = COMP->colorQueryServiceReq->connect("ColorSegmentation", "ColorQueryServiceAnsw");
+
+	if(status != Smart::SMART_OK) {
+		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status);
+	}
 	
 }
 
@@ -31,9 +36,35 @@ ObjectRecognitionQueryService::~ObjectRecognitionQueryService()
 
 void ObjectRecognitionQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommObjectRecognitionInformation& request) 
 {
+	std::cout << "[ObjectRecognitionQuery] ObjectRecognitionQueryService "<< std::endl;
+	std::cout<< "CommObjectRecognitionInformation roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
+
+
 	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer;
 	
-	// implement your query handling logic here and fill in the answer object
-	
+
+//	DomainVision::CommVideoImage colorImage = COMP->getVideoImage();
+//	std::vector<unsigned char> image_date;
+//	image_date = colorImage.getDataRef();
+//	std::cout << "[Image Task] colorImage data "<< image_date.size()<< std::endl;
+
+
+	//llamar al servicio del componente segmentation
+	CommObjectRecognitionObjects::CommColorDetection image_information;
+	CommObjectRecognitionObjects::CommPoint2d object_information;
+
+	Smart::StatusCode status = COMP->colorQueryServiceReq->query(image_information, object_information);
+	if(status != Smart::SMART_OK) {
+		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status);
+	}
+	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<object_information.getX()<<", y:"<<object_information.getY()<<std::endl;
+
+	//Pasar de 2d a 3d con object_information
+	CommBasicObjects::CommPose3d p_object;
+	p_object.set_x(12);
+	p_object.set_y(52),
+	p_object.set_z(142);
+
+	answer.setPose(p_object);
 	this->server->answer(id, answer);
 }

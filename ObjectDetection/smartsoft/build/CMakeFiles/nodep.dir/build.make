@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build
 
 # Utility rule file for nodep.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/percepti
 include CMakeFiles/nodep.dir/progress.make
 
 CMakeFiles/nodep:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Build ObjectDetection without dependency checking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Build ObjectDetection without dependency checking"
 	/usr/bin/make ObjectDetection/fast
 
 nodep: CMakeFiles/nodep
@@ -72,6 +72,6 @@ CMakeFiles/nodep.dir/clean:
 .PHONY : CMakeFiles/nodep.dir/clean
 
 CMakeFiles/nodep.dir/depend:
-	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/CMakeFiles/nodep.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles/nodep.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nodep.dir/depend
 

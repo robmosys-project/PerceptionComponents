@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft
+CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build
+CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build
 
 # Utility rule file for ColorSegmentation_distclean.
 
@@ -54,10 +54,10 @@ CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/percepti
 include CMakeFiles/ColorSegmentation_distclean.dir/progress.make
 
 CMakeFiles/ColorSegmentation_distclean: cmake_distclean_all.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Remove ALL generated files from make AND CMake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Remove ALL generated files from make AND CMake"
 	/usr/bin/make clean
-	/usr/bin/cmake -P /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/cmake_distclean_all.cmake
-	/usr/bin/cmake -E remove /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/cmake_distclean_all.cmake
+	/usr/bin/cmake -P /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/cmake_distclean_all.cmake
+	/usr/bin/cmake -E remove /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/cmake_distclean_all.cmake
 
 ColorSegmentation_distclean: CMakeFiles/ColorSegmentation_distclean
 ColorSegmentation_distclean: CMakeFiles/ColorSegmentation_distclean.dir/build.make
@@ -74,6 +74,6 @@ CMakeFiles/ColorSegmentation_distclean.dir/clean:
 .PHONY : CMakeFiles/ColorSegmentation_distclean.dir/clean
 
 CMakeFiles/ColorSegmentation_distclean.dir/depend:
-	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles/ColorSegmentation_distclean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles/ColorSegmentation_distclean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ColorSegmentation_distclean.dir/depend
 

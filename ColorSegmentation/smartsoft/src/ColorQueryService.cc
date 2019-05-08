@@ -33,7 +33,16 @@ void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjec
 {
 	CommObjectRecognitionObjects::CommPoint2d answer;
 	
-	// implement your query handling logic here and fill in the answer object
-	
+
+	std::cout<< "ColorQueryService roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
+
+//	cv::Mat colorImage = COMP->getVideoMat();
+// sacar roi
+//segmentar
+// blob
+	//setear punto
+
+
+	answer.setX(12).setY(25);
 	this->server->answer(id, answer);
 }

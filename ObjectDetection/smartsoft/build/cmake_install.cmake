@@ -1,4 +1,4 @@
-# Install script for directory: /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft
+# Install script for directory: /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ObjectDetection"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/ObjectDetection")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/ObjectDetection")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ObjectDetection" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ObjectDetection")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ObjectDetection"
-         OLD_RPATH "/home/lmartinez/SOFTWARE/smartsoft/repos/AceSmartSoftFramework/build/AceSmartSoftKernel:/home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommObjectRecognitionObjects/smartsoft/build:/home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build:/home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build:/opt/ACE_wrappers/lib:/home/lmartinez/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build:/home/lmartinez/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build:"
+         OLD_RPATH "/home/lmartinez/SOFTWARE/smartsoft/repos/AceSmartSoftFramework/build/AceSmartSoftKernel:/opt/ros/kinetic/lib/x86_64-linux-gnu:/home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommObjectRecognitionObjects/smartsoft/build:/home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build:/home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build:/opt/ACE_wrappers/lib:/home/lmartinez/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build:/home/lmartinez/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/ObjectDetection")
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft
+CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build
+CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ColorSegmentation.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ColorSegmentation.dir/flags.make
 
 CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.o: ../src/ColorQueryService.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorQueryService.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorQueryService.cc
 
 CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorQueryService.cc > CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorQueryService.cc > CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorQueryService.cc -o CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorQueryService.cc -o CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.o.provides.build: CMak
 
 CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.o: ../src/CompHandler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CompHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CompHandler.cc
 
 CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CompHandler.cc > CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CompHandler.cc > CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CompHandler.cc -o CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CompHandler.cc -o CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.o.provides.build: CMakeFiles
 
 CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.o: ../src/SmartStateChangeHandler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.cc
 
 CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.cc > CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.cc > CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.cc -o CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.cc -o CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.o.provides.build
 
 CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.o: ../src/ColorSegmentationCore.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentationCore.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentationCore.cc
 
 CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentationCore.cc > CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentationCore.cc > CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentationCore.cc -o CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentationCore.cc -o CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.o.provides.build: 
 
 CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.o: ../src/ParameterStateStruct.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ParameterStateStruct.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ParameterStateStruct.cc
 
 CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ParameterStateStruct.cc > CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ParameterStateStruct.cc > CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ParameterStateStruct.cc -o CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ParameterStateStruct.cc -o CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.o.provides.build: C
 
 CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.o: ../src/CaptureSensor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CaptureSensor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CaptureSensor.cc
 
 CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CaptureSensor.cc > CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CaptureSensor.cc > CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CaptureSensor.cc -o CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CaptureSensor.cc -o CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.o.provides.build: CMakeFil
 
 CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.o: ../src-gen/params/ParameterUpdateHandler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.cc
 
 CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.cc > CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.cc > CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.o.prov
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.o: ../src-gen/ColorSegmentationAcePortFactory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.cc
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.cc > CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.cc > CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.o.pr
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.o: ../src-gen/ColorSegmentationImpl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.cc
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.cc > CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.cc > CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.o.provides.bui
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.o: ../src-gen/ColorQueryServiceCore.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.cc
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.cc > CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.cc > CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.o.provides.bui
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.o: ../src-gen/ColorSegmentation.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.cc
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.cc > CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.cc > CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.o.provides.build: 
 
 CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o: ../src-gen/RGBImagePushServiceInUpcallManager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc
 
 CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc > CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc > CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.o: ../src-gen/ColorSegmentationExtension.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.cc
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.cc > CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.cc > CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.o.provide
 
 CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.o: ../src-gen/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/main.cc
 
 CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/main.cc > CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/main.cc > CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/main.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/main.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.o.provides.build: CMakeFiles/Co
 
 CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.o: CMakeFiles/ColorSegmentation.dir/flags.make
 CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.o: ../src-gen/CaptureSensorCore.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.cc
 
 CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.cc > CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.cc > CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.i
 
 CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.cc -o CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.s
 
 CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.o.requires:
 
@@ -477,7 +477,7 @@ ColorSegmentation: /opt/ACE_wrappers/lib/libACE.so
 ColorSegmentation: /home/lmartinez/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build/libSmartXml.so.1.0.0
 ColorSegmentation: /home/lmartinez/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build/libSmartProperty.so.1.0.0
 ColorSegmentation: CMakeFiles/ColorSegmentation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ColorSegmentation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ColorSegmentation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ColorSegmentation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -508,6 +508,6 @@ CMakeFiles/ColorSegmentation.dir/clean:
 .PHONY : CMakeFiles/ColorSegmentation.dir/clean
 
 CMakeFiles/ColorSegmentation.dir/depend:
-	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles/ColorSegmentation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/CMakeFiles/ColorSegmentation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ColorSegmentation.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build
 
 # Utility rule file for ObjectDetection_distclean.
 
@@ -54,10 +54,10 @@ CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/percepti
 include CMakeFiles/ObjectDetection_distclean.dir/progress.make
 
 CMakeFiles/ObjectDetection_distclean: cmake_distclean_all.cmake
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Remove ALL generated files from make AND CMake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Remove ALL generated files from make AND CMake"
 	/usr/bin/make clean
-	/usr/bin/cmake -P /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/cmake_distclean_all.cmake
-	/usr/bin/cmake -E remove /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/cmake_distclean_all.cmake
+	/usr/bin/cmake -P /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/cmake_distclean_all.cmake
+	/usr/bin/cmake -E remove /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/cmake_distclean_all.cmake
 
 ObjectDetection_distclean: CMakeFiles/ObjectDetection_distclean
 ObjectDetection_distclean: CMakeFiles/ObjectDetection_distclean.dir/build.make
@@ -74,6 +74,6 @@ CMakeFiles/ObjectDetection_distclean.dir/clean:
 .PHONY : CMakeFiles/ObjectDetection_distclean.dir/clean
 
 CMakeFiles/ObjectDetection_distclean.dir/depend:
-	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/CMakeFiles/ObjectDetection_distclean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles/ObjectDetection_distclean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ObjectDetection_distclean.dir/depend
 

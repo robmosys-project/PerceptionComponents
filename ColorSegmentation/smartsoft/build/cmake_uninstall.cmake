@@ -30,10 +30,10 @@
 #
 # --------------------------------------------------------------------------
 
-IF(NOT EXISTS "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/install_manifest.txt")
-    MESSAGE("Cannot find install manifest: \"/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/install_manifest.txt\"")
-ELSE(NOT EXISTS "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/install_manifest.txt")
-FILE(READ "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/install_manifest.txt" files)
+IF(NOT EXISTS "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/install_manifest.txt")
+    MESSAGE("Cannot find install manifest: \"/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/install_manifest.txt\"")
+ELSE(NOT EXISTS "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/install_manifest.txt")
+FILE(READ "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 # LIST(REVERSE files)
 FOREACH (file ${files})
@@ -52,4 +52,4 @@ FOREACH (file ${files})
     ENDIF (EXISTS "$ENV{DESTDIR}${file}")
 ENDFOREACH(file)
 
-ENDIF(NOT EXISTS "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/install_manifest.txt")
+ENDIF(NOT EXISTS "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/build/install_manifest.txt")

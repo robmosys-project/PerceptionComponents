@@ -108,17 +108,17 @@ aceSmartSoft.hh
 SmartStateChangeHandlerCore.hh
 ../src/SmartStateChangeHandlerCore.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/GetImageCore.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/GetImageCore.cc
 GetImageCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/GetImageCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/GetImageCore.hh
 GetImage.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/GetImage.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/GetImage.hh
 RealSenseBasic.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/GetImageCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/GetImageCore.hh
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/aceSmartSoft.hh
 DomainVision/CommRGBDImage.hh
 -
 DomainVision/CommVideoImage.hh
@@ -126,29 +126,29 @@ DomainVision/CommVideoImage.hh
 GetImageObserverInterface.hh
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.cc
 RealSenseBasic.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
 smartTimedTaskTrigger.h
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/smartTimedTaskTrigger.h
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/smartTimedTaskTrigger.h
 RealSenseBasicAcePortFactory.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
 map
 -
 iostream
 -
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/aceSmartSoft.hh
 smartQueryServerTaskTrigger_T.h
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/smartQueryServerTaskTrigger_T.h
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/smartQueryServerTaskTrigger_T.h
 RealSenseBasicCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicCore.hh
 RealSenseBasicPortFactoryInterface.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
 RealSenseBasicExtension.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
 DomainVision/CommRGBDImage.hh
 -
 DomainVision/CommRGBDImageACE.hh
@@ -158,27 +158,27 @@ DomainVision/CommVideoImage.hh
 DomainVision/CommVideoImageACE.hh
 -
 GetImage.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/GetImage.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/GetImage.hh
 CompHandler.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/CompHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/CompHandler.hh
 SmartStateChangeHandler.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/SmartStateChangeHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/SmartStateChangeHandler.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.cc
 RealSenseBasicAcePortFactory.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.hh
 RealSenseBasicImpl.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
 RealSenseBasicPortFactoryInterface.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.cc
 RealSenseBasicExtension.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
 string
 -
 atomic
@@ -188,19 +188,19 @@ future
 chrono
 -
 RealSenseBasic.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.cc
 RealSenseBasicImpl.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
 chrono
 -
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/aceSmartSoft.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
 DomainVision/CommRGBDImage.hh
 -
 DomainVision/CommRGBDImageACE.hh
@@ -212,83 +212,83 @@ DomainVision/CommVideoImageACE.hh
 chrono
 -
 RealSenseBasic.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/main.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/main.cc
 iostream
 -
 RealSenseBasic.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.cc
 ParameterUpdateHandler.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.hh
 RealSenseBasic.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/RealSenseBasic.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.hh
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/aceSmartSoft.hh
 ParameterStateStruct.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/ParameterStateStruct.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/ParameterStateStruct.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/CompHandler.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/CompHandler.cc
 CompHandler.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/CompHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/CompHandler.hh
 RealSenseBasic.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasic.hh
 iostream
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/CompHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/CompHandler.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/GetImage.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/GetImage.cc
 GetImage.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/GetImage.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/GetImage.hh
 RealSenseBasic.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasic.hh
 iostream
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/GetImage.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/GetImage.hh
 GetImageCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/GetImageCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/GetImageCore.hh
 librealsense2/rs.hpp
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/ParameterStateStruct.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/ParameterStateStruct.cc
 ParameterStateStruct.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/ParameterStateStruct.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/ParameterStateStruct.hh
 RealSenseBasic.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasic.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/ParameterStateStruct.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/ParameterStateStruct.hh
 ParameterStateStructCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/ParameterStateStructCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/ParameterStateStructCore.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasicCore.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasicCore.cc
 RealSenseBasicCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasicCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasicCore.hh
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasicCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasicCore.hh
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/aceSmartSoft.hh
 iostream
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.cc
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.cc
 SmartStateChangeHandler.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.hh
 RealSenseBasic.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasic.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasic.hh
 iostream
 -
 
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.hh
 aceSmartSoft.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/aceSmartSoft.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/aceSmartSoft.hh
 SmartStateChangeHandlerCore.hh
-/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/SmartStateChangeHandlerCore.hh
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/SmartStateChangeHandlerCore.hh
 
 /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
 CommBasicObjects/CommBasePoseCore.hh

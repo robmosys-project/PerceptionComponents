@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft
+CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build
+CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RealSenseBasic.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/RealSenseBasic.dir/flags.make
 
 CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.o: ../src/RealSenseBasicCore.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasicCore.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasicCore.cc
 
 CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasicCore.cc > CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasicCore.cc > CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasicCore.cc -o CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasicCore.cc -o CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.o.provides.build: CMakeF
 
 CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.o: ../src/CompHandler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/CompHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/CompHandler.cc
 
 CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/CompHandler.cc > CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/CompHandler.cc > CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/CompHandler.cc -o CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/CompHandler.cc -o CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.o.provides.build: CMakeFiles/Re
 
 CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.o: ../src/SmartStateChangeHandler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.cc
 
 CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.cc > CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.cc > CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.cc -o CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.cc -o CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.o.provides.build: C
 
 CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.o: ../src/ParameterStateStruct.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/ParameterStateStruct.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/ParameterStateStruct.cc
 
 CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/ParameterStateStruct.cc > CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/ParameterStateStruct.cc > CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/ParameterStateStruct.cc -o CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/ParameterStateStruct.cc -o CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.o.provides.build: CMak
 
 CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.o: ../src/GetImage.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/GetImage.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/GetImage.cc
 
 CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/GetImage.cc > CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/GetImage.cc > CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/GetImage.cc -o CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/GetImage.cc -o CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.o.provides.build: CMakeFiles/RealS
 
 CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.o: ../src-gen/params/ParameterUpdateHandler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.cc
 
 CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.cc > CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.cc > CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.o.provide
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.o: ../src-gen/RealSenseBasicImpl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.cc
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.cc > CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.cc > CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.o.provides.build: CM
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.o: ../src-gen/RealSenseBasicExtension.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.cc
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.cc > CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.cc > CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.o.provides.buil
 
 CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.o: ../src-gen/GetImageCore.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/GetImageCore.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/GetImageCore.cc
 
 CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/GetImageCore.cc > CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/GetImageCore.cc > CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/GetImageCore.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/GetImageCore.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.o.provides.build: CMakeFil
 
 CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.o: ../src-gen/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/main.cc
 
 CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/main.cc > CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/main.cc > CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/main.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/main.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.o.provides.build: CMakeFiles/RealS
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.o: ../src-gen/RealSenseBasicAcePortFactory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.cc
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.cc > CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.cc > CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.o.provides
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.o: CMakeFiles/RealSenseBasic.dir/flags.make
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.o: ../src-gen/RealSenseBasic.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.cc
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.cc > CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.cc > CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.i
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.cc -o CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.s
 
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.o.requires:
 
@@ -384,7 +384,7 @@ RealSenseBasic: /opt/ACE_wrappers/lib/libACE.so
 RealSenseBasic: /home/lmartinez/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build/libSmartXml.so.1.0.0
 RealSenseBasic: /home/lmartinez/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build/libSmartProperty.so.1.0.0
 RealSenseBasic: CMakeFiles/RealSenseBasic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable RealSenseBasic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable RealSenseBasic"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RealSenseBasic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -412,6 +412,6 @@ CMakeFiles/RealSenseBasic.dir/clean:
 .PHONY : CMakeFiles/RealSenseBasic.dir/clean
 
 CMakeFiles/RealSenseBasic.dir/depend:
-	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles/RealSenseBasic.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles/RealSenseBasic.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RealSenseBasic.dir/depend
 

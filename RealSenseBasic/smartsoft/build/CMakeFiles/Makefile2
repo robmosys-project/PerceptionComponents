@@ -54,47 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft
+CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build
-
-#=============================================================================
-# Target rules for target CMakeFiles/autoinstall.dir
-
-# All Build rule for target.
-CMakeFiles/autoinstall.dir/all: CMakeFiles/RealSenseBasic.dir/all
-	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/depend
-	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=75 "Built target autoinstall"
-.PHONY : CMakeFiles/autoinstall.dir/all
-
-# Include target in all.
-all: CMakeFiles/autoinstall.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/autoinstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 74
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/autoinstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
-.PHONY : CMakeFiles/autoinstall.dir/rule
-
-# Convenience name for target.
-autoinstall: CMakeFiles/autoinstall.dir/rule
-
-.PHONY : autoinstall
-
-# clean rule for target.
-CMakeFiles/autoinstall.dir/clean:
-	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/clean
-.PHONY : CMakeFiles/autoinstall.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/autoinstall.dir/clean
-
-.PHONY : clean
+CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/nodep.dir
@@ -103,14 +66,14 @@ clean: CMakeFiles/autoinstall.dir/clean
 CMakeFiles/nodep.dir/all:
 	$(MAKE) -f CMakeFiles/nodep.dir/build.make CMakeFiles/nodep.dir/depend
 	$(MAKE) -f CMakeFiles/nodep.dir/build.make CMakeFiles/nodep.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=76 "Built target nodep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=16 "Built target nodep"
 .PHONY : CMakeFiles/nodep.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nodep.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/nodep.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/nodep.dir/rule
 
 # Convenience name for target.
@@ -129,40 +92,34 @@ clean: CMakeFiles/nodep.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/DomainVisionExternal.dir
+# Target rules for target CMakeFiles/uninstall.dir
 
 # All Build rule for target.
-CMakeFiles/DomainVisionExternal.dir/all: CMakeFiles/CommBasicObjectsExternal.dir/all
-CMakeFiles/DomainVisionExternal.dir/all: CMakeFiles/SmartXmlExternal.dir/all
-	$(MAKE) -f CMakeFiles/DomainVisionExternal.dir/build.make CMakeFiles/DomainVisionExternal.dir/depend
-	$(MAKE) -f CMakeFiles/DomainVisionExternal.dir/build.make CMakeFiles/DomainVisionExternal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=21,22,23,24,25,26,27,28,29,30 "Built target DomainVisionExternal"
-.PHONY : CMakeFiles/DomainVisionExternal.dir/all
-
-# Include target in all.
-all: CMakeFiles/DomainVisionExternal.dir/all
-
-.PHONY : all
+CMakeFiles/uninstall.dir/all:
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=17 "Built target uninstall"
+.PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/DomainVisionExternal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 60
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DomainVisionExternal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
-.PHONY : CMakeFiles/DomainVisionExternal.dir/rule
+CMakeFiles/uninstall.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 0
+.PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
-DomainVisionExternal: CMakeFiles/DomainVisionExternal.dir/rule
+uninstall: CMakeFiles/uninstall.dir/rule
 
-.PHONY : DomainVisionExternal
-
-# clean rule for target.
-CMakeFiles/DomainVisionExternal.dir/clean:
-	$(MAKE) -f CMakeFiles/DomainVisionExternal.dir/build.make CMakeFiles/DomainVisionExternal.dir/clean
-.PHONY : CMakeFiles/DomainVisionExternal.dir/clean
+.PHONY : uninstall
 
 # clean rule for target.
-clean: CMakeFiles/DomainVisionExternal.dir/clean
+CMakeFiles/uninstall.dir/clean:
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/clean
+.PHONY : CMakeFiles/uninstall.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
 
@@ -173,14 +130,14 @@ clean: CMakeFiles/DomainVisionExternal.dir/clean
 CMakeFiles/distclean-all.dir/all: CMakeFiles/RealSenseBasic_distclean.dir/all
 	$(MAKE) -f CMakeFiles/distclean-all.dir/build.make CMakeFiles/distclean-all.dir/depend
 	$(MAKE) -f CMakeFiles/distclean-all.dir/build.make CMakeFiles/distclean-all.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num= "Built target distclean-all"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num= "Built target distclean-all"
 .PHONY : CMakeFiles/distclean-all.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/distclean-all.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/distclean-all.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/distclean-all.dir/rule
 
 # Convenience name for target.
@@ -205,14 +162,14 @@ clean: CMakeFiles/distclean-all.dir/clean
 CMakeFiles/RealSenseBasic_distclean.dir/all:
 	$(MAKE) -f CMakeFiles/RealSenseBasic_distclean.dir/build.make CMakeFiles/RealSenseBasic_distclean.dir/depend
 	$(MAKE) -f CMakeFiles/RealSenseBasic_distclean.dir/build.make CMakeFiles/RealSenseBasic_distclean.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=44 "Built target RealSenseBasic_distclean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=14 "Built target RealSenseBasic_distclean"
 .PHONY : CMakeFiles/RealSenseBasic_distclean.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RealSenseBasic_distclean.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RealSenseBasic_distclean.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/RealSenseBasic_distclean.dir/rule
 
 # Convenience name for target.
@@ -234,15 +191,10 @@ clean: CMakeFiles/RealSenseBasic_distclean.dir/clean
 # Target rules for target CMakeFiles/RealSenseBasic.dir
 
 # All Build rule for target.
-CMakeFiles/RealSenseBasic.dir/all: CMakeFiles/TransformationMatricesExternal.dir/all
-CMakeFiles/RealSenseBasic.dir/all: CMakeFiles/DomainVisionExternal.dir/all
-CMakeFiles/RealSenseBasic.dir/all: CMakeFiles/ArmadilloExternal.dir/all
-CMakeFiles/RealSenseBasic.dir/all: CMakeFiles/SmartPropertyExternal.dir/all
-CMakeFiles/RealSenseBasic.dir/all: CMakeFiles/CommBasicObjectsExternal.dir/all
-CMakeFiles/RealSenseBasic.dir/all: CMakeFiles/SmartXmlExternal.dir/all
+CMakeFiles/RealSenseBasic.dir/all:
 	$(MAKE) -f CMakeFiles/RealSenseBasic.dir/build.make CMakeFiles/RealSenseBasic.dir/depend
 	$(MAKE) -f CMakeFiles/RealSenseBasic.dir/build.make CMakeFiles/RealSenseBasic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42,43 "Built target RealSenseBasic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13 "Built target RealSenseBasic"
 .PHONY : CMakeFiles/RealSenseBasic.dir/all
 
 # Include target in all.
@@ -252,9 +204,9 @@ all: CMakeFiles/RealSenseBasic.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RealSenseBasic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RealSenseBasic.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/RealSenseBasic.dir/rule
 
 # Convenience name for target.
@@ -273,222 +225,39 @@ clean: CMakeFiles/RealSenseBasic.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/TransformationMatricesExternal.dir
+# Target rules for target CMakeFiles/autoinstall.dir
 
 # All Build rule for target.
-CMakeFiles/TransformationMatricesExternal.dir/all:
-	$(MAKE) -f CMakeFiles/TransformationMatricesExternal.dir/build.make CMakeFiles/TransformationMatricesExternal.dir/depend
-	$(MAKE) -f CMakeFiles/TransformationMatricesExternal.dir/build.make CMakeFiles/TransformationMatricesExternal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=65,66,67,68,69,70,71,72,73,74 "Built target TransformationMatricesExternal"
-.PHONY : CMakeFiles/TransformationMatricesExternal.dir/all
+CMakeFiles/autoinstall.dir/all: CMakeFiles/RealSenseBasic.dir/all
+	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/depend
+	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=15 "Built target autoinstall"
+.PHONY : CMakeFiles/autoinstall.dir/all
 
 # Include target in all.
-all: CMakeFiles/TransformationMatricesExternal.dir/all
+all: CMakeFiles/autoinstall.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TransformationMatricesExternal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 10
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TransformationMatricesExternal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
-.PHONY : CMakeFiles/TransformationMatricesExternal.dir/rule
+CMakeFiles/autoinstall.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 14
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/autoinstall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/build/CMakeFiles 0
+.PHONY : CMakeFiles/autoinstall.dir/rule
 
 # Convenience name for target.
-TransformationMatricesExternal: CMakeFiles/TransformationMatricesExternal.dir/rule
+autoinstall: CMakeFiles/autoinstall.dir/rule
 
-.PHONY : TransformationMatricesExternal
-
-# clean rule for target.
-CMakeFiles/TransformationMatricesExternal.dir/clean:
-	$(MAKE) -f CMakeFiles/TransformationMatricesExternal.dir/build.make CMakeFiles/TransformationMatricesExternal.dir/clean
-.PHONY : CMakeFiles/TransformationMatricesExternal.dir/clean
+.PHONY : autoinstall
 
 # clean rule for target.
-clean: CMakeFiles/TransformationMatricesExternal.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/CommBasicObjectsExternal.dir
-
-# All Build rule for target.
-CMakeFiles/CommBasicObjectsExternal.dir/all: CMakeFiles/TransformationMatricesExternal.dir/all
-CMakeFiles/CommBasicObjectsExternal.dir/all: CMakeFiles/ArmadilloExternal.dir/all
-CMakeFiles/CommBasicObjectsExternal.dir/all: CMakeFiles/SmartPropertyExternal.dir/all
-CMakeFiles/CommBasicObjectsExternal.dir/all: CMakeFiles/SmartXmlExternal.dir/all
-	$(MAKE) -f CMakeFiles/CommBasicObjectsExternal.dir/build.make CMakeFiles/CommBasicObjectsExternal.dir/depend
-	$(MAKE) -f CMakeFiles/CommBasicObjectsExternal.dir/build.make CMakeFiles/CommBasicObjectsExternal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20 "Built target CommBasicObjectsExternal"
-.PHONY : CMakeFiles/CommBasicObjectsExternal.dir/all
-
-# Include target in all.
-all: CMakeFiles/CommBasicObjectsExternal.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/CommBasicObjectsExternal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 50
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CommBasicObjectsExternal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
-.PHONY : CMakeFiles/CommBasicObjectsExternal.dir/rule
-
-# Convenience name for target.
-CommBasicObjectsExternal: CMakeFiles/CommBasicObjectsExternal.dir/rule
-
-.PHONY : CommBasicObjectsExternal
+CMakeFiles/autoinstall.dir/clean:
+	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/clean
+.PHONY : CMakeFiles/autoinstall.dir/clean
 
 # clean rule for target.
-CMakeFiles/CommBasicObjectsExternal.dir/clean:
-	$(MAKE) -f CMakeFiles/CommBasicObjectsExternal.dir/build.make CMakeFiles/CommBasicObjectsExternal.dir/clean
-.PHONY : CMakeFiles/CommBasicObjectsExternal.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/CommBasicObjectsExternal.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/uninstall.dir
-
-# All Build rule for target.
-CMakeFiles/uninstall.dir/all:
-	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
-	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=77 "Built target uninstall"
-.PHONY : CMakeFiles/uninstall.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
-.PHONY : CMakeFiles/uninstall.dir/rule
-
-# Convenience name for target.
-uninstall: CMakeFiles/uninstall.dir/rule
-
-.PHONY : uninstall
-
-# clean rule for target.
-CMakeFiles/uninstall.dir/clean:
-	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/clean
-.PHONY : CMakeFiles/uninstall.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/uninstall.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/SmartXmlExternal.dir
-
-# All Build rule for target.
-CMakeFiles/SmartXmlExternal.dir/all:
-	$(MAKE) -f CMakeFiles/SmartXmlExternal.dir/build.make CMakeFiles/SmartXmlExternal.dir/depend
-	$(MAKE) -f CMakeFiles/SmartXmlExternal.dir/build.make CMakeFiles/SmartXmlExternal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=55,56,57,58,59,60,61,62,63,64 "Built target SmartXmlExternal"
-.PHONY : CMakeFiles/SmartXmlExternal.dir/all
-
-# Include target in all.
-all: CMakeFiles/SmartXmlExternal.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/SmartXmlExternal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 10
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SmartXmlExternal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
-.PHONY : CMakeFiles/SmartXmlExternal.dir/rule
-
-# Convenience name for target.
-SmartXmlExternal: CMakeFiles/SmartXmlExternal.dir/rule
-
-.PHONY : SmartXmlExternal
-
-# clean rule for target.
-CMakeFiles/SmartXmlExternal.dir/clean:
-	$(MAKE) -f CMakeFiles/SmartXmlExternal.dir/build.make CMakeFiles/SmartXmlExternal.dir/clean
-.PHONY : CMakeFiles/SmartXmlExternal.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/SmartXmlExternal.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ArmadilloExternal.dir
-
-# All Build rule for target.
-CMakeFiles/ArmadilloExternal.dir/all:
-	$(MAKE) -f CMakeFiles/ArmadilloExternal.dir/build.make CMakeFiles/ArmadilloExternal.dir/depend
-	$(MAKE) -f CMakeFiles/ArmadilloExternal.dir/build.make CMakeFiles/ArmadilloExternal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target ArmadilloExternal"
-.PHONY : CMakeFiles/ArmadilloExternal.dir/all
-
-# Include target in all.
-all: CMakeFiles/ArmadilloExternal.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ArmadilloExternal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 10
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ArmadilloExternal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
-.PHONY : CMakeFiles/ArmadilloExternal.dir/rule
-
-# Convenience name for target.
-ArmadilloExternal: CMakeFiles/ArmadilloExternal.dir/rule
-
-.PHONY : ArmadilloExternal
-
-# clean rule for target.
-CMakeFiles/ArmadilloExternal.dir/clean:
-	$(MAKE) -f CMakeFiles/ArmadilloExternal.dir/build.make CMakeFiles/ArmadilloExternal.dir/clean
-.PHONY : CMakeFiles/ArmadilloExternal.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/ArmadilloExternal.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/SmartPropertyExternal.dir
-
-# All Build rule for target.
-CMakeFiles/SmartPropertyExternal.dir/all:
-	$(MAKE) -f CMakeFiles/SmartPropertyExternal.dir/build.make CMakeFiles/SmartPropertyExternal.dir/depend
-	$(MAKE) -f CMakeFiles/SmartPropertyExternal.dir/build.make CMakeFiles/SmartPropertyExternal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54 "Built target SmartPropertyExternal"
-.PHONY : CMakeFiles/SmartPropertyExternal.dir/all
-
-# Include target in all.
-all: CMakeFiles/SmartPropertyExternal.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/SmartPropertyExternal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 10
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SmartPropertyExternal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles 0
-.PHONY : CMakeFiles/SmartPropertyExternal.dir/rule
-
-# Convenience name for target.
-SmartPropertyExternal: CMakeFiles/SmartPropertyExternal.dir/rule
-
-.PHONY : SmartPropertyExternal
-
-# clean rule for target.
-CMakeFiles/SmartPropertyExternal.dir/clean:
-	$(MAKE) -f CMakeFiles/SmartPropertyExternal.dir/build.make CMakeFiles/SmartPropertyExternal.dir/clean
-.PHONY : CMakeFiles/SmartPropertyExternal.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/SmartPropertyExternal.dir/clean
+clean: CMakeFiles/autoinstall.dir/clean
 
 .PHONY : clean
 

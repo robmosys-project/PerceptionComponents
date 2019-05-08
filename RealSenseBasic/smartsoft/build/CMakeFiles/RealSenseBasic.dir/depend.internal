@@ -8,11 +8,11 @@ CMakeFiles/RealSenseBasic.dir/src-gen/GetImageCore.cc.o
  ../src/GetImage.hh
  ../src/RealSenseBasicCore.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/GetImageCore.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/GetImageCore.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/GetImageCore.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/GetImageCore.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -821,12 +821,12 @@ CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasic.cc.o
  ../src/GetImage.hh
  ../src/RealSenseBasicCore.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -1636,12 +1636,12 @@ CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicAcePortFactory.cc.o
  ../src/GetImage.hh
  ../src/RealSenseBasicCore.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicAcePortFactory.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -2450,10 +2450,10 @@ CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.o
  ../src/GetImage.hh
  ../src/RealSenseBasicCore.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -3255,8 +3255,8 @@ CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicExtension.cc.o
  /usr/local/include/librealsense2/rs.h
  /usr/local/include/librealsense2/rs.hpp
 CMakeFiles/RealSenseBasic.dir/src-gen/RealSenseBasicImpl.cc.o
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicImpl.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartIActiveQueueInputHandlerDecorator_T.h
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartIClientPattern.h
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartICommunicationPattern.h
@@ -3778,10 +3778,10 @@ CMakeFiles/RealSenseBasic.dir/src-gen/main.cc.o
  ../src/GetImage.hh
  ../src/RealSenseBasicCore.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/main.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasic.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicExtension.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/RealSenseBasicPortFactoryInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/main.cc
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -4595,8 +4595,8 @@ CMakeFiles/RealSenseBasic.dir/src-gen/params/ParameterUpdateHandler.cc.o
  ../src/ParameterStateStruct.hh
  ../src/RealSenseBasicCore.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src-gen/params/ParameterUpdateHandler.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -5407,8 +5407,8 @@ CMakeFiles/RealSenseBasic.dir/src/CompHandler.cc.o
  ../src/GetImage.hh
  ../src/RealSenseBasicCore.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/CompHandler.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/CompHandler.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/CompHandler.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/CompHandler.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -6219,8 +6219,8 @@ CMakeFiles/RealSenseBasic.dir/src/GetImage.cc.o
  ../src/CompHandler.hh
  ../src/RealSenseBasicCore.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/GetImage.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/GetImage.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/GetImage.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/GetImage.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -7033,8 +7033,8 @@ CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.o
  ../src/GetImage.hh
  ../src/RealSenseBasicCore.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/ParameterStateStruct.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/ParameterStateStruct.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/ParameterStateStruct.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/ParameterStateStruct.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -7836,8 +7836,8 @@ CMakeFiles/RealSenseBasic.dir/src/ParameterStateStruct.cc.o
  /usr/local/include/librealsense2/rs.h
  /usr/local/include/librealsense2/rs.hpp
 CMakeFiles/RealSenseBasic.dir/src/RealSenseBasicCore.cc.o
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasicCore.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/RealSenseBasicCore.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasicCore.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/RealSenseBasicCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartIActiveQueueInputHandlerDecorator_T.h
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartIClientPattern.h
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartICommunicationPattern.h
@@ -8361,8 +8361,8 @@ CMakeFiles/RealSenseBasic.dir/src/SmartStateChangeHandler.cc.o
  ../src/CompHandler.hh
  ../src/GetImage.hh
  ../src/RealSenseBasicCore.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/RealSenseBasic/smartsoft/src/SmartStateChangeHandler.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh

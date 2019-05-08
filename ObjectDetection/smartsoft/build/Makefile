@@ -48,35 +48,25 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -99,6 +89,17 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -110,23 +111,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
 
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/CMakeFiles /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ObjectDetection/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -155,45 +155,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named autoinstall
-
-# Build rule for target.
-autoinstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 autoinstall
-.PHONY : autoinstall
-
-# fast build rule for target.
-autoinstall/fast:
-	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/build
-.PHONY : autoinstall/fast
-
-#=============================================================================
-# Target rules for targets named ObjectDetection
-
-# Build rule for target.
-ObjectDetection: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ObjectDetection
-.PHONY : ObjectDetection
-
-# fast build rule for target.
-ObjectDetection/fast:
-	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/build
-.PHONY : ObjectDetection/fast
-
-#=============================================================================
-# Target rules for targets named DomainVisionExternal
-
-# Build rule for target.
-DomainVisionExternal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DomainVisionExternal
-.PHONY : DomainVisionExternal
-
-# fast build rule for target.
-DomainVisionExternal/fast:
-	$(MAKE) -f CMakeFiles/DomainVisionExternal.dir/build.make CMakeFiles/DomainVisionExternal.dir/build
-.PHONY : DomainVisionExternal/fast
-
-#=============================================================================
 # Target rules for targets named nodep
 
 # Build rule for target.
@@ -218,19 +179,6 @@ distclean-all: cmake_check_build_system
 distclean-all/fast:
 	$(MAKE) -f CMakeFiles/distclean-all.dir/build.make CMakeFiles/distclean-all.dir/build
 .PHONY : distclean-all/fast
-
-#=============================================================================
-# Target rules for targets named SmartPropertyExternal
-
-# Build rule for target.
-SmartPropertyExternal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SmartPropertyExternal
-.PHONY : SmartPropertyExternal
-
-# fast build rule for target.
-SmartPropertyExternal/fast:
-	$(MAKE) -f CMakeFiles/SmartPropertyExternal.dir/build.make CMakeFiles/SmartPropertyExternal.dir/build
-.PHONY : SmartPropertyExternal/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -259,69 +207,30 @@ ObjectDetection_distclean/fast:
 .PHONY : ObjectDetection_distclean/fast
 
 #=============================================================================
-# Target rules for targets named SmartXmlExternal
+# Target rules for targets named ObjectDetection
 
 # Build rule for target.
-SmartXmlExternal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SmartXmlExternal
-.PHONY : SmartXmlExternal
+ObjectDetection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ObjectDetection
+.PHONY : ObjectDetection
 
 # fast build rule for target.
-SmartXmlExternal/fast:
-	$(MAKE) -f CMakeFiles/SmartXmlExternal.dir/build.make CMakeFiles/SmartXmlExternal.dir/build
-.PHONY : SmartXmlExternal/fast
+ObjectDetection/fast:
+	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/build
+.PHONY : ObjectDetection/fast
 
 #=============================================================================
-# Target rules for targets named ArmadilloExternal
+# Target rules for targets named autoinstall
 
 # Build rule for target.
-ArmadilloExternal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ArmadilloExternal
-.PHONY : ArmadilloExternal
+autoinstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 autoinstall
+.PHONY : autoinstall
 
 # fast build rule for target.
-ArmadilloExternal/fast:
-	$(MAKE) -f CMakeFiles/ArmadilloExternal.dir/build.make CMakeFiles/ArmadilloExternal.dir/build
-.PHONY : ArmadilloExternal/fast
-
-#=============================================================================
-# Target rules for targets named TransformationMatricesExternal
-
-# Build rule for target.
-TransformationMatricesExternal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TransformationMatricesExternal
-.PHONY : TransformationMatricesExternal
-
-# fast build rule for target.
-TransformationMatricesExternal/fast:
-	$(MAKE) -f CMakeFiles/TransformationMatricesExternal.dir/build.make CMakeFiles/TransformationMatricesExternal.dir/build
-.PHONY : TransformationMatricesExternal/fast
-
-#=============================================================================
-# Target rules for targets named CommBasicObjectsExternal
-
-# Build rule for target.
-CommBasicObjectsExternal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CommBasicObjectsExternal
-.PHONY : CommBasicObjectsExternal
-
-# fast build rule for target.
-CommBasicObjectsExternal/fast:
-	$(MAKE) -f CMakeFiles/CommBasicObjectsExternal.dir/build.make CMakeFiles/CommBasicObjectsExternal.dir/build
-.PHONY : CommBasicObjectsExternal/fast
-
-#=============================================================================
-# Target rules for targets named CommObjectRecognitionObjectsExternal
-
-# Build rule for target.
-CommObjectRecognitionObjectsExternal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 CommObjectRecognitionObjectsExternal
-.PHONY : CommObjectRecognitionObjectsExternal
-
-# fast build rule for target.
-CommObjectRecognitionObjectsExternal/fast:
-	$(MAKE) -f CMakeFiles/CommObjectRecognitionObjectsExternal.dir/build.make CMakeFiles/CommObjectRecognitionObjectsExternal.dir/build
-.PHONY : CommObjectRecognitionObjectsExternal/fast
+autoinstall/fast:
+	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/build
+.PHONY : autoinstall/fast
 
 src-gen/CaptureSensorCore.o: src-gen/CaptureSensorCore.cc.o
 
@@ -734,25 +643,18 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... install/local"
-	@echo "... list_install_components"
-	@echo "... install/strip"
-	@echo "... edit_cache"
-	@echo "... autoinstall"
-	@echo "... ObjectDetection"
-	@echo "... DomainVisionExternal"
+	@echo "... install"
 	@echo "... nodep"
 	@echo "... distclean-all"
-	@echo "... SmartPropertyExternal"
 	@echo "... uninstall"
 	@echo "... ObjectDetection_distclean"
-	@echo "... SmartXmlExternal"
-	@echo "... install"
-	@echo "... ArmadilloExternal"
-	@echo "... TransformationMatricesExternal"
-	@echo "... CommBasicObjectsExternal"
-	@echo "... CommObjectRecognitionObjectsExternal"
+	@echo "... ObjectDetection"
+	@echo "... list_install_components"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... autoinstall"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... src-gen/CaptureSensorCore.o"
 	@echo "... src-gen/CaptureSensorCore.i"
 	@echo "... src-gen/CaptureSensorCore.s"

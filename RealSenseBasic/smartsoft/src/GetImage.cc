@@ -23,7 +23,15 @@ GetImage::GetImage(SmartACE::SmartComponent *comp)
 :	GetImageCore(comp)
 {
 	std::cout << "constructor GetImage\n";
-	pipe.start();
+
+    rs2::config cfg;
+
+    //Add desired streams to configuration
+    cfg.enable_stream(RS2_STREAM_COLOR, 640, 480, RS2_FORMAT_BGR8, 30);
+    cfg.enable_stream(RS2_STREAM_DEPTH, 640, 480, RS2_FORMAT_Z16, 30);
+    //Instruct pipeline to start streaming with the requested configuration
+    pipe.start(cfg);
+
 }
 GetImage::~GetImage() 
 {
@@ -94,8 +102,6 @@ int GetImage::on_execute()
 	DomainVision::CommDepthImage comm_depth_frame;
 	DomainVision::CommVideoImage comm_rgb_frame;
 	
-
-	std::cout << "Hello from GetImage " << std::endl;
 	current_frameset = pipe.wait_for_frames();
 	getrgbimage(comm_rgb_frame);
 	getdepthimage(comm_depth_frame);

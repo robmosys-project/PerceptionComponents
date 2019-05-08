@@ -11,13 +11,13 @@ CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.o
  ../src/ColorSegmentationCore.hh
  ../src/CompHandler.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/CaptureSensorCore.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -810,8 +810,8 @@ CMakeFiles/ColorSegmentation.dir/src-gen/CaptureSensorCore.cc.o
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorQueryServiceCore.cc.o
  ../src-gen/ColorQueryServiceObserverInterface.hh
  ../src/ColorQueryService.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorQueryServiceCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/BGRSpace.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/BGRSpaceCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/BGRSpaceData.hh
@@ -1354,14 +1354,14 @@ CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentation.cc.o
  ../src/ColorSegmentationCore.hh
  ../src/CompHandler.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -2163,14 +2163,14 @@ CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationAcePortFactory.cc.o
  ../src/ColorSegmentationCore.hh
  ../src/CompHandler.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationAcePortFactory.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -2971,12 +2971,12 @@ CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.o
  ../src/ColorSegmentationCore.hh
  ../src/CompHandler.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -3767,8 +3767,8 @@ CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationExtension.cc.o
  /opt/ACE_wrappers/ace/os_include/sys/os_wait.h
  /opt/ACE_wrappers/ace/streams.h
 CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.o
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationImpl.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartIActiveQueueInputHandlerDecorator_T.h
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartIClientPattern.h
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartICommunicationPattern.h
@@ -4283,9 +4283,9 @@ CMakeFiles/ColorSegmentation.dir/src-gen/ColorSegmentationImpl.cc.o
  /opt/ACE_wrappers/ace/os_include/sys/os_wait.h
  /opt/ACE_wrappers/ace/streams.h
 CMakeFiles/ColorSegmentation.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -5065,12 +5065,12 @@ CMakeFiles/ColorSegmentation.dir/src-gen/main.cc.o
  ../src/ColorSegmentationCore.hh
  ../src/CompHandler.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/main.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentation.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationExtension.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/ColorSegmentationPortFactoryInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallInterface.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/main.cc
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -5878,8 +5878,8 @@ CMakeFiles/ColorSegmentation.dir/src-gen/params/ParameterUpdateHandler.cc.o
  ../src/CompHandler.hh
  ../src/ParameterStateStruct.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src-gen/params/ParameterUpdateHandler.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -6684,8 +6684,8 @@ CMakeFiles/ColorSegmentation.dir/src/CaptureSensor.cc.o
  ../src/ColorSegmentationCore.hh
  ../src/CompHandler.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CaptureSensor.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CaptureSensor.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CaptureSensor.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CaptureSensor.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -7490,8 +7490,8 @@ CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.o
  ../src/ColorSegmentationCore.hh
  ../src/CompHandler.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorQueryService.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorQueryService.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorQueryService.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorQueryService.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -8282,8 +8282,8 @@ CMakeFiles/ColorSegmentation.dir/src/ColorQueryService.cc.o
  /opt/ACE_wrappers/ace/os_include/sys/os_wait.h
  /opt/ACE_wrappers/ace/streams.h
 CMakeFiles/ColorSegmentation.dir/src/ColorSegmentationCore.cc.o
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentationCore.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ColorSegmentationCore.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentationCore.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ColorSegmentationCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartIActiveQueueInputHandlerDecorator_T.h
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartIClientPattern.h
  /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartICommunicationPattern.h
@@ -8812,8 +8812,8 @@ CMakeFiles/ColorSegmentation.dir/src/CompHandler.cc.o
  ../src/ColorQueryService.hh
  ../src/ColorSegmentationCore.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CompHandler.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/CompHandler.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CompHandler.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/CompHandler.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -9620,8 +9620,8 @@ CMakeFiles/ColorSegmentation.dir/src/ParameterStateStruct.cc.o
  ../src/ColorSegmentationCore.hh
  ../src/CompHandler.hh
  ../src/SmartStateChangeHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ParameterStateStruct.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/ParameterStateStruct.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ParameterStateStruct.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/ParameterStateStruct.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
@@ -10426,8 +10426,8 @@ CMakeFiles/ColorSegmentation.dir/src/SmartStateChangeHandler.cc.o
  ../src/ColorQueryService.hh
  ../src/ColorSegmentationCore.hh
  ../src/CompHandler.hh
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.cc
- /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.hh
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.cc
+ /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ColorSegmentation/smartsoft/src/SmartStateChangeHandler.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePose.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseCore.hh
  /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommBasePoseData.hh
