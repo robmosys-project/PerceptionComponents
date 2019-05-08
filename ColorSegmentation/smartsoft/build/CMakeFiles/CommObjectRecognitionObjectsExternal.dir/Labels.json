@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles/CommObjectRecognitionObjectsExternal"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles/CommObjectRecognitionObjectsExternal.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles/CommObjectRecognitionObjectsExternal-complete.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-install.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-mkdir.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-download.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-update.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-patch.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-configure.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-build.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-CommObjectRecognitionObjectsStep1.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-CommObjectRecognitionObjectsStep2.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"CommObjectRecognitionObjectsExternal"
+		],
+		"name" : "CommObjectRecognitionObjectsExternal"
+	}
+}

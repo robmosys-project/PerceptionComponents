@@ -1,0 +1,14 @@
+ComponentDefinition ColorSegmentation logo "/ColorSegmentation/model/logo.png"
+{
+
+Activity CaptureSensor
+	{
+		InputPortLink RGBImagePushServiceIn { oversamplingOk undersamplingOk }
+	}
+	InputPort RGBImagePushServiceIn implements DomainVision.RGBImagePushService {
+	}
+	AnswerPort ColorQueryServiceAnsw implements CommObjectRecognitionObjects.ColorQueryService {
+	}
+	RequestHandler ColorQueryService triggeredFrom ColorQueryServiceAnsw {
+	}
+}

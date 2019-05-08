@@ -1,0 +1,15 @@
+# Target labels
+ ArmadilloExternal
+# Source files and their labels
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles/ArmadilloExternal
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles/ArmadilloExternal.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/CMakeFiles/ArmadilloExternal-complete.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-install.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-mkdir.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-download.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-update.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-patch.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-configure.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-build.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep1.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/ColorSegmentation/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep2.rule

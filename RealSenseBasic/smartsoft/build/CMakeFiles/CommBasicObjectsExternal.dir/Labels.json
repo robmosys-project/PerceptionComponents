@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles/CommBasicObjectsExternal"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles/CommBasicObjectsExternal.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles/CommBasicObjectsExternal-complete.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-install.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-mkdir.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-download.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-update.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-patch.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-build.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep1.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep2.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"CommBasicObjectsExternal"
+		],
+		"name" : "CommBasicObjectsExternal"
+	}
+}

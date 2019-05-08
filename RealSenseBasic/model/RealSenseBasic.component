@@ -1,0 +1,11 @@
+ComponentDefinition RealSenseBasic logo "/RealSenseBasic/model/logo.png"
+{
+
+Activity GetImage
+	{
+	}
+	OutputPort RGBDImagePushServiceOut implements DomainVision.RGBDImagePushService realizedBy GetImage {
+	}
+OutputPort RGBImagePushServiceOut implements DomainVision.RGBImagePushService realizedBy GetImage {
+	}
+}

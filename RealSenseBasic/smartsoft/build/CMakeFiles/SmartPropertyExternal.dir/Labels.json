@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles/SmartPropertyExternal"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles/SmartPropertyExternal.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/CMakeFiles/SmartPropertyExternal-complete.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-install.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-mkdir.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-download.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-update.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-patch.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-configure.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-build.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep1.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/perception_components/RealSenseBasic/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep2.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SmartPropertyExternal"
+		],
+		"name" : "SmartPropertyExternal"
+	}
+}
