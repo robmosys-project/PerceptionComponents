@@ -9,8 +9,8 @@ Activity CaptureSensor
 	}
 	RequestPort ColorQueryServiceReq implements CommObjectRecognitionObjects.ColorQueryService {
 	}
-	AnswerPort ObjectRecognitionQueryServiceAnsw implements CommObjectRecognitionObjects.ObjectRecognitionQueryService {
+	AnswerPort ObjectRecognitionQueryService implements CommObjectRecognitionObjects.ObjectRecognitionQueryService {
 	}
-	RequestHandler ObjectRecognitionQueryService triggeredFrom ObjectRecognitionQueryServiceAnsw {
+	RequestHandler ObjectRecognitionQueryServiceAnsw triggeredFrom ObjectRecognitionQueryService {
 	}
 }

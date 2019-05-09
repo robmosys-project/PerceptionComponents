@@ -31,18 +31,20 @@ ColorQueryService::~ColorQueryService()
 
 void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommColorDetection& request) 
 {
+	//TODO state of iamge.. if different of okey do nothing
 	CommObjectRecognitionObjects::CommPoint2d answer;
 	
-
 	std::cout<< "ColorQueryService roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
+//
+	cv::Mat image = COMP->get_Mat(COMP->newestImage);
 
-//	cv::Mat colorImage = COMP->getVideoMat();
-// sacar roi
-//segmentar
-// blob
-	//setear punto
+//	cv::Mat subImg = image(cv::Range(request.getRoi().getPoint().getX() , request.getRoi().getWidth()),
+//	cv::Range(request.getRoi().getPoint().getY(), request.getRoi().getHeight()));   //TODO
 
+	cv::Mat mask = COMP->Segmentation(image);
+	cv::Point p_object = COMP->Countour(mask);
 
-	answer.setX(12).setY(25);
+	answer.setX(p_object.x).setY(p_object.y);
+	
 	this->server->answer(id, answer);
 }

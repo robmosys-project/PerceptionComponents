@@ -29,78 +29,6 @@ CaptureSensor::~CaptureSensor()
 	std::cout << "destructor CaptureSensor\n";
 }
 
-cv::Mat CaptureSensor::get_Mat(const DomainVision::CommVideoImage input){
-
-	const unsigned char *color_frame;
-
-	color_frame = input.get_data();
-
-	const int w = input.get_width();
-	const int h = input.get_height();
-
-	cv::Mat image(cv::Size(w, h), CV_8UC3, (void*)input.get_data());
-	cv::imshow("CommVideoImage", image);
-	cv::waitKey(10);
-
-	return image;
-}
-
-cv::Mat CaptureSensor::Segmentation(cv::Mat img){
-
-//    cv::Mat segmented_image = img;
-    //Converting image from BGR to HSV color space.
-    cv::Mat hsv;
-    cv::cvtColor(img, hsv, cv::COLOR_BGR2HSV);
-
-    cv::Mat mask1,mask2;
-    // Creating masks to detect the upper and lower red color.
-    cv::inRange(hsv, cv::Scalar(0, 120, 70), cv::Scalar(10, 255, 255), mask1);
-    cv::inRange(hsv, cv::Scalar(170, 120, 70), cv::Scalar(180, 255, 255), mask2);
-
-	// Generating the final mask to detect red color
-	mask1 = mask1+mask2;
-	cv::imshow("mask1", mask1);
-	cv::waitKey(10);
-    return mask1;
-}
-
-//Entregar punto del blob mas grande encontrado
-cv::Point CaptureSensor::Countour(cv::Mat mask){
-
-    int largest_area=0;
-    int largest_contour_index=0;
-
-    std::vector< std::vector<cv::Point> > contours; // Vector for storing contour
-    std::vector<cv::Vec4i> hierarchy;
-
-    cv::findContours( mask, contours, hierarchy,CV_RETR_CCOMP, CV_CHAIN_APPROX_SIMPLE ); // Find the contours in the image
-
-    for( int i = 0; i< contours.size(); i++ ) {// iterate through each contour.
-        double a=contourArea( contours[i],false);  //  Find the area of contour
-        if(a>largest_area){
-            largest_area=a;
-            largest_contour_index=i;                //Store the index of largest contour
-            //bounding_rect=boundingRect(contours[i]); // Find the bounding rectangle for biggest contour
-        }
-    }
-
-	/// Get the center
-	cv::Moments mu;
-	cv::Point mc;
-	mu = moments( contours[largest_contour_index], false );
-	mc = cv::Point( mu.m10/mu.m00 , mu.m01/mu.m00 );
-
-//	std::cout<<"[CaptureSensor] Center biggest blob : "<<mc.x<<", "<<mc.y<<std::endl;
-//
-//    cv::Mat matImage = cv::Mat::zeros( mask.size(), CV_8UC1 );
-//    cv::drawContours( matImage, contours, largest_contour_index, cv::Scalar(255), CV_FILLED, 8, hierarchy ); // Draw the largest contour using previously stored index.
-//	 cv::circle( matImage, mc, 4, cv::Scalar(255), -1, 8, 0 );
-//	cv::imshow("mask_contour", matImage);
-//	cv::waitKey(10);
-
-    return mc;
-}
-
 
 void CaptureSensor::on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input)
 {
@@ -109,9 +37,6 @@ void CaptureSensor::on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage 
 	// - do not use longer blocking calls here since this upcall blocks the InputPort RGBDImagePushServiceIn
 	// - if you need to implement a long-running procedure, do so within the on_execute() method and in
 	//   there, use the method rGBDImagePushServiceInGetUpdate(input) to get a copy of the input object
-	this->rGBDImagePushServiceInStatus = Smart::SMART_OK;
-	this->rGBDImagePushServiceInObject = input;
-
 }
 
 int CaptureSensor::on_entry()
@@ -120,33 +45,35 @@ int CaptureSensor::on_entry()
 	// it is possible to return != 0 (e.g. when initialization fails) then the task is not executed further
 	return 0;
 }
-
 int CaptureSensor::on_execute()
 {
-	Smart::StatusCode status;
-	DomainVision::CommRGBDImage rGBDImagePushServiceInObject;
-	status = this->rGBDImagePushServiceInGetUpdate(rGBDImagePushServiceInObject);
+	// this method is called from an outside loop,
+	// hence, NEVER use an infinite loop (like "while(1)") here inside!!!
+	// also do not use blocking calls which do not result from smartsoft kernel
+	CommObjectRecognitionObjects::CommColorDetection image_information;
+	CommObjectRecognitionObjects::CommPoint2d object_information;
 
-	if(status != Smart::SMART_OK)
-		 return 0;
+	CommObjectRecognitionObjects::ROI roi;
+	CommObjectRecognitionObjects::CommPoint2d point;
+	roi.setHeight(200).setWidth(200).setPoint(point);
+	image_information.setRoi(roi);
 
-	DomainVision::CommVideoImage colorImage = rGBDImagePushServiceInObject.getColor_image();
-	COMP->setVideoImage(colorImage);
-	std::vector<unsigned char> image_date;
-	image_date = colorImage.getDataRef();
-//	std::cout << "[Image Task] on_execute data "<< image_date.size()<< std::endl;
+	Smart::StatusCode status2 = COMP->colorQueryServiceReq->query(image_information, object_information);
 
-	cv::Mat image = get_Mat(colorImage);
-	cv::Mat mask = Segmentation(image);
-	cv::Point p_object = Countour(mask);
+	if(status2 != Smart::SMART_OK) {
+		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status2)<< std::endl;
+	}
 
-//	cv::imshow("Segmentation mask", mask);
-//	cv::waitKey(10);
+	std::cout << "[Image Task] colorQueryServiceReq comeback "<< std::endl;
+	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<object_information.getX()<<", y:"<<object_information.getY()<<std::endl;
+
+	
+
+//	std::cout << "Hello from CaptureSensor " << std::endl;
 
 	// it is possible to return != 0 (e.g. when the task detects errors), then the outer loop breaks and the task stops
 	return 0;
 }
-
 int CaptureSensor::on_exit()
 {
 	// use this method to clean-up resources which are initialized in on_entry() and needs to be freed before the on_execute() can be called again

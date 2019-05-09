@@ -21,14 +21,3 @@ ObjectDetectionCore::ObjectDetectionCore()
 {
 	std::cout << "constructor ObjectDetectionCore\n";
 }
-
-void ObjectDetectionCore::setVideoImage(DomainVision::CommVideoImage input)
-{
-	newestImage = input;
-	std::cout << "constructor ObjectDetectionCore\n";
-}
-
-DomainVision::CommVideoImage ObjectDetectionCore::getVideoImage()
-{
-	return this->newestImage ;
-}

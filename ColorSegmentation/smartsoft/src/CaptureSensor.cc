@@ -22,7 +22,8 @@
 CaptureSensor::CaptureSensor(SmartACE::SmartComponent *comp) 
 :	CaptureSensorCore(comp)
 {
-	std::cout << "constructor CaptureSensor\n";
+	this->rGBImagePushServiceInStatus = Smart::SMART_NODATA;
+//	std::cout << "constructor CaptureSensor\n";
 }
 CaptureSensor::~CaptureSensor() 
 {
@@ -32,11 +33,13 @@ CaptureSensor::~CaptureSensor()
 
 void CaptureSensor::on_RGBImagePushServiceIn(const DomainVision::CommVideoImage &input)
 {
-	// upcall triggered from InputPort RGBImagePushServiceIn
-	// - use a local mutex here, because this upcal is called asynchroneously from outside of this task
-	// - do not use longer blocking calls here since this upcall blocks the InputPort RGBImagePushServiceIn
-	// - if you need to implement a long-running procedure, do so within the on_execute() method and in
-	//   there, use the method rGBImagePushServiceInGetUpdate(input) to get a copy of the input object
+
+	this->rGBImagePushServiceInObject = input;
+
+	if(this->rGBImagePushServiceInObject.getDataRef().size() != 0){
+		this->rGBImagePushServiceInStatus = Smart::SMART_OK;
+		COMP->setVideoImage(input);
+	}
 }
 
 int CaptureSensor::on_entry()
@@ -47,22 +50,30 @@ int CaptureSensor::on_entry()
 }
 int CaptureSensor::on_execute()
 {
+	if(this->rGBImagePushServiceInStatus != Smart::SMART_OK)
+		 return 0;
+
+
+//		std::vector<unsigned char> image_date;
+//		image_date = this->rGBImagePushServiceInObject.getDataRef();
+//		std::cout << "[CaptureSensor] on_execute data "<< this->rGBImagePushServiceInObject.getDataRef().size()<< std::endl;
+
 	// this method is called from an outside loop,
 	// hence, NEVER use an infinite loop (like "while(1)") here inside!!!
 	// also do not use blocking calls which do not result from smartsoft kernel
 	
-	// to get the incoming data, use this methods:
-	Smart::StatusCode status;
-	DomainVision::CommVideoImage rGBImagePushServiceInObject;
-	status = this->rGBImagePushServiceInGetUpdate(rGBImagePushServiceInObject);
-	if(status != Smart::SMART_OK) {
-		std::cerr << status << std::endl;
-		// return 0;
-	} else {
-		std::cout << "received: " << rGBImagePushServiceInObject << std::endl;
-	}
+//	// to get the incoming data, use this methods:
+//	Smart::StatusCode status;
+//	DomainVision::CommVideoImage rGBImagePushServiceInObject;
+//	status = this->rGBImagePushServiceInGetUpdate(rGBImagePushServiceInObject);
+//	if(status != Smart::SMART_OK) {
+//		std::cerr << status << std::endl;
+//		// return 0;
+//	} else {
+//		std::cout << "received: " << rGBImagePushServiceInObject << std::endl;
+//	}
 
-	std::cout << "Hello from CaptureSensor " << std::endl;
+//	std::cout << "Hello from CaptureSensor " << std::endl;
 
 	// it is possible to return != 0 (e.g. when the task detects errors), then the outer loop breaks and the task stops
 	return 0;

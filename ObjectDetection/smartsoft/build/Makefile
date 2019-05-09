@@ -56,17 +56,27 @@ CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/Percepti
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
 
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -89,17 +99,6 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -111,16 +110,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -155,6 +155,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named autoinstall
+
+# Build rule for target.
+autoinstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 autoinstall
+.PHONY : autoinstall
+
+# fast build rule for target.
+autoinstall/fast:
+	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/build
+.PHONY : autoinstall/fast
+
+#=============================================================================
+# Target rules for targets named ObjectDetection
+
+# Build rule for target.
+ObjectDetection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ObjectDetection
+.PHONY : ObjectDetection
+
+# fast build rule for target.
+ObjectDetection/fast:
+	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/build
+.PHONY : ObjectDetection/fast
+
+#=============================================================================
+# Target rules for targets named DomainVisionExternal
+
+# Build rule for target.
+DomainVisionExternal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DomainVisionExternal
+.PHONY : DomainVisionExternal
+
+# fast build rule for target.
+DomainVisionExternal/fast:
+	$(MAKE) -f CMakeFiles/DomainVisionExternal.dir/build.make CMakeFiles/DomainVisionExternal.dir/build
+.PHONY : DomainVisionExternal/fast
+
+#=============================================================================
 # Target rules for targets named nodep
 
 # Build rule for target.
@@ -179,6 +218,19 @@ distclean-all: cmake_check_build_system
 distclean-all/fast:
 	$(MAKE) -f CMakeFiles/distclean-all.dir/build.make CMakeFiles/distclean-all.dir/build
 .PHONY : distclean-all/fast
+
+#=============================================================================
+# Target rules for targets named SmartPropertyExternal
+
+# Build rule for target.
+SmartPropertyExternal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SmartPropertyExternal
+.PHONY : SmartPropertyExternal
+
+# fast build rule for target.
+SmartPropertyExternal/fast:
+	$(MAKE) -f CMakeFiles/SmartPropertyExternal.dir/build.make CMakeFiles/SmartPropertyExternal.dir/build
+.PHONY : SmartPropertyExternal/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -207,30 +259,69 @@ ObjectDetection_distclean/fast:
 .PHONY : ObjectDetection_distclean/fast
 
 #=============================================================================
-# Target rules for targets named ObjectDetection
+# Target rules for targets named SmartXmlExternal
 
 # Build rule for target.
-ObjectDetection: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ObjectDetection
-.PHONY : ObjectDetection
+SmartXmlExternal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SmartXmlExternal
+.PHONY : SmartXmlExternal
 
 # fast build rule for target.
-ObjectDetection/fast:
-	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/build
-.PHONY : ObjectDetection/fast
+SmartXmlExternal/fast:
+	$(MAKE) -f CMakeFiles/SmartXmlExternal.dir/build.make CMakeFiles/SmartXmlExternal.dir/build
+.PHONY : SmartXmlExternal/fast
 
 #=============================================================================
-# Target rules for targets named autoinstall
+# Target rules for targets named ArmadilloExternal
 
 # Build rule for target.
-autoinstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 autoinstall
-.PHONY : autoinstall
+ArmadilloExternal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ArmadilloExternal
+.PHONY : ArmadilloExternal
 
 # fast build rule for target.
-autoinstall/fast:
-	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/build
-.PHONY : autoinstall/fast
+ArmadilloExternal/fast:
+	$(MAKE) -f CMakeFiles/ArmadilloExternal.dir/build.make CMakeFiles/ArmadilloExternal.dir/build
+.PHONY : ArmadilloExternal/fast
+
+#=============================================================================
+# Target rules for targets named TransformationMatricesExternal
+
+# Build rule for target.
+TransformationMatricesExternal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TransformationMatricesExternal
+.PHONY : TransformationMatricesExternal
+
+# fast build rule for target.
+TransformationMatricesExternal/fast:
+	$(MAKE) -f CMakeFiles/TransformationMatricesExternal.dir/build.make CMakeFiles/TransformationMatricesExternal.dir/build
+.PHONY : TransformationMatricesExternal/fast
+
+#=============================================================================
+# Target rules for targets named CommBasicObjectsExternal
+
+# Build rule for target.
+CommBasicObjectsExternal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CommBasicObjectsExternal
+.PHONY : CommBasicObjectsExternal
+
+# fast build rule for target.
+CommBasicObjectsExternal/fast:
+	$(MAKE) -f CMakeFiles/CommBasicObjectsExternal.dir/build.make CMakeFiles/CommBasicObjectsExternal.dir/build
+.PHONY : CommBasicObjectsExternal/fast
+
+#=============================================================================
+# Target rules for targets named CommObjectRecognitionObjectsExternal
+
+# Build rule for target.
+CommObjectRecognitionObjectsExternal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CommObjectRecognitionObjectsExternal
+.PHONY : CommObjectRecognitionObjectsExternal
+
+# fast build rule for target.
+CommObjectRecognitionObjectsExternal/fast:
+	$(MAKE) -f CMakeFiles/CommObjectRecognitionObjectsExternal.dir/build.make CMakeFiles/CommObjectRecognitionObjectsExternal.dir/build
+.PHONY : CommObjectRecognitionObjectsExternal/fast
 
 src-gen/CaptureSensorCore.o: src-gen/CaptureSensorCore.cc.o
 
@@ -367,32 +458,32 @@ src-gen/ObjectDetectionImpl.cc.s:
 	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.s
 .PHONY : src-gen/ObjectDetectionImpl.cc.s
 
-src-gen/ObjectRecognitionQueryServiceCore.o: src-gen/ObjectRecognitionQueryServiceCore.cc.o
+src-gen/ObjectRecognitionQueryServiceAnswCore.o: src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o
 
-.PHONY : src-gen/ObjectRecognitionQueryServiceCore.o
+.PHONY : src-gen/ObjectRecognitionQueryServiceAnswCore.o
 
 # target to build an object file
-src-gen/ObjectRecognitionQueryServiceCore.cc.o:
-	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o
-.PHONY : src-gen/ObjectRecognitionQueryServiceCore.cc.o
+src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o:
+	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o
+.PHONY : src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o
 
-src-gen/ObjectRecognitionQueryServiceCore.i: src-gen/ObjectRecognitionQueryServiceCore.cc.i
+src-gen/ObjectRecognitionQueryServiceAnswCore.i: src-gen/ObjectRecognitionQueryServiceAnswCore.cc.i
 
-.PHONY : src-gen/ObjectRecognitionQueryServiceCore.i
+.PHONY : src-gen/ObjectRecognitionQueryServiceAnswCore.i
 
 # target to preprocess a source file
-src-gen/ObjectRecognitionQueryServiceCore.cc.i:
-	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.i
-.PHONY : src-gen/ObjectRecognitionQueryServiceCore.cc.i
+src-gen/ObjectRecognitionQueryServiceAnswCore.cc.i:
+	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.i
+.PHONY : src-gen/ObjectRecognitionQueryServiceAnswCore.cc.i
 
-src-gen/ObjectRecognitionQueryServiceCore.s: src-gen/ObjectRecognitionQueryServiceCore.cc.s
+src-gen/ObjectRecognitionQueryServiceAnswCore.s: src-gen/ObjectRecognitionQueryServiceAnswCore.cc.s
 
-.PHONY : src-gen/ObjectRecognitionQueryServiceCore.s
+.PHONY : src-gen/ObjectRecognitionQueryServiceAnswCore.s
 
 # target to generate assembly for a file
-src-gen/ObjectRecognitionQueryServiceCore.cc.s:
-	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.s
-.PHONY : src-gen/ObjectRecognitionQueryServiceCore.cc.s
+src-gen/ObjectRecognitionQueryServiceAnswCore.cc.s:
+	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.s
+.PHONY : src-gen/ObjectRecognitionQueryServiceAnswCore.cc.s
 
 src-gen/RGBDImagePushServiceInUpcallManager.o: src-gen/RGBDImagePushServiceInUpcallManager.cc.o
 
@@ -556,32 +647,32 @@ src/ObjectDetectionCore.cc.s:
 	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src/ObjectDetectionCore.cc.s
 .PHONY : src/ObjectDetectionCore.cc.s
 
-src/ObjectRecognitionQueryService.o: src/ObjectRecognitionQueryService.cc.o
+src/ObjectRecognitionQueryServiceAnsw.o: src/ObjectRecognitionQueryServiceAnsw.cc.o
 
-.PHONY : src/ObjectRecognitionQueryService.o
+.PHONY : src/ObjectRecognitionQueryServiceAnsw.o
 
 # target to build an object file
-src/ObjectRecognitionQueryService.cc.o:
-	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o
-.PHONY : src/ObjectRecognitionQueryService.cc.o
+src/ObjectRecognitionQueryServiceAnsw.cc.o:
+	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o
+.PHONY : src/ObjectRecognitionQueryServiceAnsw.cc.o
 
-src/ObjectRecognitionQueryService.i: src/ObjectRecognitionQueryService.cc.i
+src/ObjectRecognitionQueryServiceAnsw.i: src/ObjectRecognitionQueryServiceAnsw.cc.i
 
-.PHONY : src/ObjectRecognitionQueryService.i
+.PHONY : src/ObjectRecognitionQueryServiceAnsw.i
 
 # target to preprocess a source file
-src/ObjectRecognitionQueryService.cc.i:
-	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.i
-.PHONY : src/ObjectRecognitionQueryService.cc.i
+src/ObjectRecognitionQueryServiceAnsw.cc.i:
+	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.i
+.PHONY : src/ObjectRecognitionQueryServiceAnsw.cc.i
 
-src/ObjectRecognitionQueryService.s: src/ObjectRecognitionQueryService.cc.s
+src/ObjectRecognitionQueryServiceAnsw.s: src/ObjectRecognitionQueryServiceAnsw.cc.s
 
-.PHONY : src/ObjectRecognitionQueryService.s
+.PHONY : src/ObjectRecognitionQueryServiceAnsw.s
 
 # target to generate assembly for a file
-src/ObjectRecognitionQueryService.cc.s:
-	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.s
-.PHONY : src/ObjectRecognitionQueryService.cc.s
+src/ObjectRecognitionQueryServiceAnsw.cc.s:
+	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.s
+.PHONY : src/ObjectRecognitionQueryServiceAnsw.cc.s
 
 src/ParameterStateStruct.o: src/ParameterStateStruct.cc.o
 
@@ -643,18 +734,25 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install"
-	@echo "... nodep"
-	@echo "... distclean-all"
-	@echo "... uninstall"
-	@echo "... ObjectDetection_distclean"
-	@echo "... ObjectDetection"
+	@echo "... rebuild_cache"
+	@echo "... install/local"
 	@echo "... list_install_components"
 	@echo "... install/strip"
-	@echo "... install/local"
-	@echo "... autoinstall"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
+	@echo "... autoinstall"
+	@echo "... ObjectDetection"
+	@echo "... DomainVisionExternal"
+	@echo "... nodep"
+	@echo "... distclean-all"
+	@echo "... SmartPropertyExternal"
+	@echo "... uninstall"
+	@echo "... ObjectDetection_distclean"
+	@echo "... SmartXmlExternal"
+	@echo "... install"
+	@echo "... ArmadilloExternal"
+	@echo "... TransformationMatricesExternal"
+	@echo "... CommBasicObjectsExternal"
+	@echo "... CommObjectRecognitionObjectsExternal"
 	@echo "... src-gen/CaptureSensorCore.o"
 	@echo "... src-gen/CaptureSensorCore.i"
 	@echo "... src-gen/CaptureSensorCore.s"
@@ -670,9 +768,9 @@ help:
 	@echo "... src-gen/ObjectDetectionImpl.o"
 	@echo "... src-gen/ObjectDetectionImpl.i"
 	@echo "... src-gen/ObjectDetectionImpl.s"
-	@echo "... src-gen/ObjectRecognitionQueryServiceCore.o"
-	@echo "... src-gen/ObjectRecognitionQueryServiceCore.i"
-	@echo "... src-gen/ObjectRecognitionQueryServiceCore.s"
+	@echo "... src-gen/ObjectRecognitionQueryServiceAnswCore.o"
+	@echo "... src-gen/ObjectRecognitionQueryServiceAnswCore.i"
+	@echo "... src-gen/ObjectRecognitionQueryServiceAnswCore.s"
 	@echo "... src-gen/RGBDImagePushServiceInUpcallManager.o"
 	@echo "... src-gen/RGBDImagePushServiceInUpcallManager.i"
 	@echo "... src-gen/RGBDImagePushServiceInUpcallManager.s"
@@ -691,9 +789,9 @@ help:
 	@echo "... src/ObjectDetectionCore.o"
 	@echo "... src/ObjectDetectionCore.i"
 	@echo "... src/ObjectDetectionCore.s"
-	@echo "... src/ObjectRecognitionQueryService.o"
-	@echo "... src/ObjectRecognitionQueryService.i"
-	@echo "... src/ObjectRecognitionQueryService.s"
+	@echo "... src/ObjectRecognitionQueryServiceAnsw.o"
+	@echo "... src/ObjectRecognitionQueryServiceAnsw.i"
+	@echo "... src/ObjectRecognitionQueryServiceAnsw.s"
 	@echo "... src/ParameterStateStruct.o"
 	@echo "... src/ParameterStateStruct.i"
 	@echo "... src/ParameterStateStruct.s"

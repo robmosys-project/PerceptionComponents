@@ -22,6 +22,8 @@
 class CaptureSensor  : public CaptureSensorCore
 {
 private:
+	Smart::StatusCode rGBImagePushServiceInStatus;
+	DomainVision::CommVideoImage rGBImagePushServiceInObject;
 	virtual void on_RGBImagePushServiceIn(const DomainVision::CommVideoImage &input);
 public:
 	CaptureSensor(SmartACE::SmartComponent *comp);

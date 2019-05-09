@@ -41,7 +41,6 @@ SMART_COMPONENT_AUTOBUILD_DEPENDENCIES()
 
 # you can add additional external libraries using regular CMake commands, e.g.:
 #FIND_PACKAGE(<SomePackageName>)
-find_package( OpenCV REQUIRED )
 
 INCLUDE(${CMAKE_CURRENT_LIST_DIR}/src-gen/MixedPortIncludes.cmake)
 
@@ -74,7 +73,7 @@ INCLUDE(${CMAKE_CURRENT_LIST_DIR}/src-gen/MixedPortTargetConfigs.cmake)
 #################################################################################
 
 # SmartSoftKernel is one of the default dependencies for each component
-TARGET_LINK_LIBRARIES(${PROJECT_NAME} AceSmartSoftKernel ${OpenCV_LIBS})
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} AceSmartSoftKernel)
 
 # automatically link to all dependent CommunicationObjects
 SMART_COMPONENT_AUTOLINK_DEPENDENCIES()

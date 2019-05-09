@@ -19,19 +19,13 @@
 	
 #include "aceSmartSoft.hh"
 #include <iostream>
-#include <DomainVision/CommRGBDImage.hh>
 
 class ObjectDetectionCore
 {
 private:
-	DomainVision::CommVideoImage newestImage;
 
 public:
 	ObjectDetectionCore();
-	void setVideoImage(DomainVision::CommVideoImage input);
-	DomainVision::CommVideoImage getVideoImage();
 };
 	
 #endif
-
-

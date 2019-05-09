@@ -19,13 +19,25 @@
 	
 #include "aceSmartSoft.hh"
 #include <iostream>
+#include <opencv2/opencv.hpp>
+#include <DomainVision/CommRGBDImage.hh>
+
 
 class ColorSegmentationCore
 {
 private:
 
 public:
+	DomainVision::CommVideoImage newestImage;
+
 	ColorSegmentationCore();
+
+	void setVideoImage(DomainVision::CommVideoImage input);
+	DomainVision::CommVideoImage getVideoImage();
+	cv::Mat get_Mat(const DomainVision::CommVideoImage input);
+	cv::Mat Segmentation(cv::Mat img);
+	cv::Point Countour(cv::Mat mask);
+
 };
 	
 #endif

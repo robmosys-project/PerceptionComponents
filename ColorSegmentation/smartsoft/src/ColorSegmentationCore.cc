@@ -19,5 +19,86 @@
 // constructor
 ColorSegmentationCore::ColorSegmentationCore()
 {
-	std::cout << "constructor ColorSegmentationCore\n";
+//	std::cout << "constructor ColorSegmentationCore\n";
+}
+void ColorSegmentationCore::setVideoImage(DomainVision::CommVideoImage input)
+{
+	newestImage = input;
+}
+
+DomainVision::CommVideoImage ColorSegmentationCore::getVideoImage()
+{
+	return this->newestImage ;
+}
+
+cv::Mat ColorSegmentationCore::get_Mat(const DomainVision::CommVideoImage input){
+
+	std::cout << "[ColorSegmentationCore] get_Mat\n";
+	const unsigned char *color_frame;
+
+	color_frame = input.get_data();
+
+	const int w = input.get_width();
+	const int h = input.get_height();
+
+	cv::Mat image(cv::Size(w, h), CV_8UC3, (void*)input.get_data());
+//	cv::imshow("CommVideoImage", image);
+//	cv::waitKey(10);
+
+	return image;
+}
+
+cv::Mat ColorSegmentationCore::Segmentation(cv::Mat img){
+	std::cout << "[ColorSegmentationCore] Segmentation\n";
+//    cv::Mat segmented_image = img;
+    //Converting image from BGR to HSV color space.
+    cv::Mat hsv;
+    cv::cvtColor(img, hsv, cv::COLOR_BGR2HSV);
+
+    cv::Mat mask1,mask2;
+    // Creating masks to detect the upper and lower red color.
+    cv::inRange(hsv, cv::Scalar(0, 120, 70), cv::Scalar(10, 255, 255), mask1);
+    cv::inRange(hsv, cv::Scalar(170, 120, 70), cv::Scalar(180, 255, 255), mask2);
+
+	// Generating the final mask to detect red color
+	mask1 = mask1+mask2;
+//	cv::imshow("mask1", mask1);
+//	cv::waitKey(10);
+    return mask1;
+}
+
+cv::Point ColorSegmentationCore::Countour(cv::Mat mask){
+	std::cout << "[ColorSegmentationCore] Countour\n";
+    int largest_area=0;
+    int largest_contour_index=0;
+
+    std::vector< std::vector<cv::Point> > contours; // Vector for storing contour
+    std::vector<cv::Vec4i> hierarchy;
+
+    cv::findContours( mask, contours, hierarchy,CV_RETR_CCOMP, CV_CHAIN_APPROX_SIMPLE ); // Find the contours in the image
+
+    for( int i = 0; i< contours.size(); i++ ) {// iterate through each contour.
+        double a=contourArea( contours[i],false);  //  Find the area of contour
+        if(a>largest_area){
+            largest_area=a;
+            largest_contour_index=i;                //Store the index of largest contour
+            //bounding_rect=boundingRect(contours[i]); // Find the bounding rectangle for biggest contour
+        }
+    }
+
+	/// Get the center
+	cv::Moments mu;
+	cv::Point mc;
+	mu = moments( contours[largest_contour_index], false );
+	mc = cv::Point( mu.m10/mu.m00 , mu.m01/mu.m00 );
+
+//	std::cout<<"[CaptureSensor] Center biggest blob : "<<mc.x<<", "<<mc.y<<std::endl;
+//
+//    cv::Mat matImage = cv::Mat::zeros( mask.size(), CV_8UC1 );
+//    cv::drawContours( matImage, contours, largest_contour_index, cv::Scalar(255), CV_FILLED, 8, hierarchy ); // Draw the largest contour using previously stored index.
+//	 cv::circle( matImage, mc, 4, cv::Scalar(255), -1, 8, 0 );
+//	cv::imshow("mask_contour", matImage);
+//	cv::waitKey(10);
+
+    return mc;
 }

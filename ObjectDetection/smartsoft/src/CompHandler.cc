@@ -27,24 +27,23 @@ void CompHandler::onStartup()
 	std::cout << "startup - put your startupCode in CompHandler::onStartup()!!!\n";
 
 	Smart::StatusCode status;
-	std::cout << "startup - begin /connectAndStartAllServices!!!\n";
+
 	// Start all services. If you need manual control, use the content of this function to
 	// connect and start each service individually, e.g:
 	// COMP->connectMyPortName("SmartExampleComponent", "examplePort");
 	status = COMP->connectAndStartAllServices();
-	std::cout << "startup - connectAndStartAllServices!!!\n";
+	
 	// Start all tasks. If you need manual control, use the content of this function to
 	// start each task individually.
 	COMP->startAllTasks();
-	std::cout << "startup - startAllTasks!!!\n";
+	
 	// Start all timers. If you need manual control, use the content of this function to
 	// start each timer individually.
 	COMP->startAllTimers();
-	std::cout << "startup - startAllTimers!!!\n";
+	
 	// Notify the component that setup/initialization is finished.
 	// You may move this function to any other place.
 	COMP->setStartupFinished(); 
-	std::cout << "startup - setStartupFinished!!!\n";
 }
 
 void CompHandler::onShutdown() 

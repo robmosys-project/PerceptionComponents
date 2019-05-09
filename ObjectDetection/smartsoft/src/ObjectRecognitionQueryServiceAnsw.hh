@@ -14,17 +14,17 @@
 // If you want the toolchain to re-generate this file, please 
 // delete it before running the code generator.
 //--------------------------------------------------------------------------
-#ifndef _OBJECTRECOGNITIONQUERYSERVICE_USER_HH
-#define _OBJECTRECOGNITIONQUERYSERVICE_USER_HH
+#ifndef _OBJECTRECOGNITIONQUERYSERVICEANSW_USER_HH
+#define _OBJECTRECOGNITIONQUERYSERVICEANSW_USER_HH
 		
-#include "ObjectRecognitionQueryServiceCore.hh"
+#include "ObjectRecognitionQueryServiceAnswCore.hh"
 
-class ObjectRecognitionQueryService : public ObjectRecognitionQueryServiceCore
+class ObjectRecognitionQueryServiceAnsw : public ObjectRecognitionQueryServiceAnswCore
 {
 protected:
 public:
-	ObjectRecognitionQueryService(Smart::IQueryServerPattern<CommObjectRecognitionObjects::CommObjectRecognitionInformation, CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties, SmartACE::QueryId>* server);
-	virtual ~ObjectRecognitionQueryService();
+	ObjectRecognitionQueryServiceAnsw(Smart::IQueryServerPattern<CommObjectRecognitionObjects::CommObjectRecognitionInformation, CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties, SmartACE::QueryId>* server);
+	virtual ~ObjectRecognitionQueryServiceAnsw();
 	virtual void handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommObjectRecognitionInformation& request);
 };
 #endif

@@ -18,18 +18,11 @@
 #define _CAPTURESENSOR_HH
 
 #include "CaptureSensorCore.hh"
-#include <opencv2/opencv.hpp>
 
 class CaptureSensor  : public CaptureSensorCore
 {
 private:
-	Smart::StatusCode rGBDImagePushServiceInStatus;
-	DomainVision::CommRGBDImage rGBDImagePushServiceInObject;
 	virtual void on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input);
-	cv::Mat get_Mat(const DomainVision::CommVideoImage input);
-	cv::Mat Segmentation(cv::Mat img);
-	cv::Point Countour(cv::Mat mask);
-
 public:
 	CaptureSensor(SmartACE::SmartComponent *comp);
 	virtual ~CaptureSensor();

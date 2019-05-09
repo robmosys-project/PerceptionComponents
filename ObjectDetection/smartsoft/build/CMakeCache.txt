@@ -195,9 +195,6 @@ ObjectDetection_BINARY_DIR:STATIC=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3
 //Value Computed by CMake
 ObjectDetection_SOURCE_DIR:STATIC=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft
 
-//The directory containing a CMake configuration file for OpenCV.
-OpenCV_DIR:PATH=/opt/ros/kinetic/share/OpenCV-3.3.1-dev
-
 //Value Computed by CMake
 Project_BINARY_DIR:STATIC=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build
 
@@ -351,6 +348,4 @@ DOXYGEN_DOT_EXECUTABLE-ADVANCED:INTERNAL=1
 DOXYGEN_EXECUTABLE-ADVANCED:INTERNAL=1
 //Details about finding Doxygen
 FIND_PACKAGE_MESSAGE_DETAILS_Doxygen:INTERNAL=[/usr/bin/doxygen][v1.8.11()]
-//Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/opt/ros/kinetic][v3.3.1()]
 

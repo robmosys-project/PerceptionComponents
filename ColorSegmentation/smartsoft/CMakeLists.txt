@@ -17,15 +17,6 @@
 
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
 
-
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
-
-SET(OpenCV_DIR /usr/local/lib/cmake/opencv4)
-find_package( OpenCV REQUIRED )
-
-
-
 # find the SmartSoft CMake Macros (version 2 that uses CMake v3)
 FIND_FILE(SMART_MACROS SmartMacros2.cmake PATHS $ENV{SMART_ROOT_ACE}/CMakeMacros /opt/smartSoftAce/CMakeMacros/)
 INCLUDE(${SMART_MACROS})
@@ -44,12 +35,8 @@ SMART_COMPONENT_GENERATE_DOC()
 # automatically build CommunicationObject dependencies
 SMART_COMPONENT_AUTOBUILD_DEPENDENCIES()
 
-#################################################################################
-## here you can put all your project-specific compiler configurations          ##
-## using regular CMake commands (like FIND_PACKAGE, INCLUDE_DIRECTORIES, etc.) ##
 
-# you can add additional external libraries using regular CMake commands, e.g.:
-#FIND_PACKAGE(<SomePackageName>)
+find_package( OpenCV REQUIRED )
 
 INCLUDE(${CMAKE_CURRENT_LIST_DIR}/src-gen/MixedPortIncludes.cmake)
 

@@ -57,28 +57,28 @@ include CMakeFiles/ObjectDetection.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ObjectDetection.dir/flags.make
 
-CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
-CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o: ../src/ObjectRecognitionQueryService.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src/ObjectRecognitionQueryService.cc
+CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
+CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o: ../src/ObjectRecognitionQueryServiceAnsw.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src/ObjectRecognitionQueryServiceAnsw.cc
 
-CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src/ObjectRecognitionQueryService.cc > CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.i
+CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src/ObjectRecognitionQueryServiceAnsw.cc > CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.i
 
-CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src/ObjectRecognitionQueryService.cc -o CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.s
+CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src/ObjectRecognitionQueryServiceAnsw.cc -o CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.s
 
-CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o.requires:
+CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o.requires:
 
-.PHONY : CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o.requires
+.PHONY : CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o.requires
 
-CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o.provides: CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o.requires
-	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o.provides.build
-.PHONY : CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o.provides
+CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o.provides: CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o.requires
+	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o.provides.build
+.PHONY : CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o.provides
 
-CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o.provides.build: CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o
+CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o.provides.build: CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o
 
 
 CMakeFiles/ObjectDetection.dir/src/ObjectDetectionCore.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
@@ -201,9 +201,33 @@ CMakeFiles/ObjectDetection.dir/src/CaptureSensor.cc.o.provides: CMakeFiles/Objec
 CMakeFiles/ObjectDetection.dir/src/CaptureSensor.cc.o.provides.build: CMakeFiles/ObjectDetection.dir/src/CaptureSensor.cc.o
 
 
+CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
+CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o: ../src-gen/ObjectRecognitionQueryServiceAnswCore.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/ObjectRecognitionQueryServiceAnswCore.cc
+
+CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/ObjectRecognitionQueryServiceAnswCore.cc > CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.i
+
+CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/ObjectRecognitionQueryServiceAnswCore.cc -o CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.s
+
+CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o.requires:
+
+.PHONY : CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o.requires
+
+CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o.provides: CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o.requires
+	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o.provides.build
+.PHONY : CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o.provides
+
+CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o.provides.build: CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o
+
+
 CMakeFiles/ObjectDetection.dir/src-gen/params/ParameterUpdateHandler.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
 CMakeFiles/ObjectDetection.dir/src-gen/params/ParameterUpdateHandler.cc.o: ../src-gen/params/ParameterUpdateHandler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/params/ParameterUpdateHandler.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/params/ParameterUpdateHandler.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ObjectDetection.dir/src-gen/params/ParameterUpdateHandler.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/params/ParameterUpdateHandler.cc
 
 CMakeFiles/ObjectDetection.dir/src-gen/params/ParameterUpdateHandler.cc.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/ObjectDetection.dir/src-gen/params/ParameterUpdateHandler.cc.o.provid
 
 CMakeFiles/ObjectDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
 CMakeFiles/ObjectDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o: ../src-gen/RGBDImagePushServiceInUpcallManager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ObjectDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/RGBDImagePushServiceInUpcallManager.cc
 
 CMakeFiles/ObjectDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.i: cmake_force
@@ -251,7 +275,7 @@ CMakeFiles/ObjectDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o.
 
 CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionExtension.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
 CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionExtension.cc.o: ../src-gen/ObjectDetectionExtension.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionExtension.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionExtension.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionExtension.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/ObjectDetectionExtension.cc
 
 CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionExtension.cc.i: cmake_force
@@ -275,7 +299,7 @@ CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionExtension.cc.o.provides.bu
 
 CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
 CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.o: ../src-gen/ObjectDetectionImpl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/ObjectDetectionImpl.cc
 
 CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.i: cmake_force
@@ -299,7 +323,7 @@ CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.o.provides.build: 
 
 CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
 CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o: ../src-gen/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/main.cc
 
 CMakeFiles/ObjectDetection.dir/src-gen/main.cc.i: cmake_force
@@ -319,30 +343,6 @@ CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o.provides: CMakeFiles/ObjectDete
 .PHONY : CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o.provides
 
 CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o.provides.build: CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o
-
-
-CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
-CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o: ../src-gen/ObjectRecognitionQueryServiceCore.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o -c /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/ObjectRecognitionQueryServiceCore.cc
-
-CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/ObjectRecognitionQueryServiceCore.cc > CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.i
-
-CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ObjectDetection/smartsoft/src-gen/ObjectRecognitionQueryServiceCore.cc -o CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.s
-
-CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o.requires:
-
-.PHONY : CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o.requires
-
-CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o.provides: CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o.requires
-	$(MAKE) -f CMakeFiles/ObjectDetection.dir/build.make CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o.provides.build
-.PHONY : CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o.provides
-
-CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o.provides.build: CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o
 
 
 CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetection.cc.o: CMakeFiles/ObjectDetection.dir/flags.make
@@ -419,18 +419,18 @@ CMakeFiles/ObjectDetection.dir/src-gen/CaptureSensorCore.cc.o.provides.build: CM
 
 # Object files for target ObjectDetection
 ObjectDetection_OBJECTS = \
-"CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o" \
+"CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src/ObjectDetectionCore.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src/CompHandler.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src/SmartStateChangeHandler.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src/ParameterStateStruct.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src/CaptureSensor.cc.o" \
+"CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src-gen/params/ParameterUpdateHandler.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionExtension.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o" \
-"CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetection.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionAcePortFactory.cc.o" \
 "CMakeFiles/ObjectDetection.dir/src-gen/CaptureSensorCore.cc.o"
@@ -438,70 +438,25 @@ ObjectDetection_OBJECTS = \
 # External object files for target ObjectDetection
 ObjectDetection_EXTERNAL_OBJECTS =
 
-ObjectDetection: CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o
+ObjectDetection: CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src/ObjectDetectionCore.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src/CompHandler.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src/SmartStateChangeHandler.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src/ParameterStateStruct.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src/CaptureSensor.cc.o
+ObjectDetection: CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src-gen/params/ParameterUpdateHandler.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionExtension.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o
-ObjectDetection: CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetection.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionAcePortFactory.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/src-gen/CaptureSensorCore.cc.o
 ObjectDetection: CMakeFiles/ObjectDetection.dir/build.make
 ObjectDetection: /home/lmartinez/SOFTWARE/smartsoft/repos/AceSmartSoftFramework/build/AceSmartSoftKernel/libAceSmartSoftKernel.so
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
 ObjectDetection: /home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommObjectRecognitionObjects/smartsoft/build/libCommObjectRecognitionObjects.so.1.0.0
 ObjectDetection: /home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build/libDomainVision.so.1.0.0
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
-ObjectDetection: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
 ObjectDetection: /home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/libCommBasicObjects.so.1.0.0
 ObjectDetection: /opt/ACE_wrappers/lib/libACE.so
 ObjectDetection: /home/lmartinez/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build/libSmartXml.so.1.0.0
@@ -515,18 +470,18 @@ CMakeFiles/ObjectDetection.dir/build: ObjectDetection
 
 .PHONY : CMakeFiles/ObjectDetection.dir/build
 
-CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryService.cc.o.requires
+CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src/ObjectRecognitionQueryServiceAnsw.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src/ObjectDetectionCore.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src/CompHandler.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src/SmartStateChangeHandler.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src/ParameterStateStruct.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src/CaptureSensor.cc.o.requires
+CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceAnswCore.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src-gen/params/ParameterUpdateHandler.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionExtension.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionImpl.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src-gen/main.cc.o.requires
-CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src-gen/ObjectRecognitionQueryServiceCore.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetection.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src-gen/ObjectDetectionAcePortFactory.cc.o.requires
 CMakeFiles/ObjectDetection.dir/requires: CMakeFiles/ObjectDetection.dir/src-gen/CaptureSensorCore.cc.o.requires
