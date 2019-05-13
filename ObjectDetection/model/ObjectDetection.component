@@ -12,6 +12,10 @@ Activity CaptureSensor
 	AnswerPort ObjectRecognitionQueryService implements CommObjectRecognitionObjects.ObjectRecognitionQueryService {
 	}
 	RequestHandler ObjectRecognitionQueryServiceAnsw triggeredFrom ObjectRecognitionQueryService {
-	RequestPortLink ColorQueryServiceReq
+	}
+	Activity Mediator
+	{
+		Observe ObjectRecognitionQueryServiceAnsw
+		RequestPortLink ColorQueryServiceReq
 	}
 }

@@ -78,17 +78,6 @@
             <styles xmi:type="notation:ShapeStyle" xmi:id="_zCX4EXI-EemtE9imTG4vRw" fontName="Ubuntu" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zCX4EnI-EemtE9imTG4vRw" x="245" y="163" width="30" height="30"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_4fwfMHMtEembNqgva4_9VA" type="3012" element="_4e_DIHMtEembNqgva4_9VA">
-            <children xmi:type="notation:Node" xmi:id="_4fxGQHMtEembNqgva4_9VA" type="5010">
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_4fxGQXMtEembNqgva4_9VA" x="31" y="5"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_4fxGQnMtEembNqgva4_9VA" type="3014" element="_4fHmAHMtEembNqgva4_9VA">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_4fxGQ3MtEembNqgva4_9VA" fontName="Ubuntu"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4fxGRHMtEembNqgva4_9VA"/>
-            </children>
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_4fwfMXMtEembNqgva4_9VA" fontName="Ubuntu" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4fwfMnMtEembNqgva4_9VA" x="245" y="108" width="30" height="30"/>
-          </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_oPs_sXI-EemtE9imTG4vRw" fontName="Ubuntu" fontHeight="10" bold="true"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oPs_snI-EemtE9imTG4vRw" x="240" y="144" width="255" height="255"/>
         </children>
@@ -149,17 +138,6 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='AnswerPortNode']"/>
       </ownedBorderedNodes>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_4e_DIHMtEembNqgva4_9VA" name="ObjectRecognitionQueryServiceReq" tooltipText="RequestPort" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="ComponentDefinition:RequestPort" href="model/ColorSegmentation.component#//@component/@elements.4"/>
-        <semanticElements xmi:type="ComponentDefinition:RequestPort" href="model/ColorSegmentation.component#//@component/@elements.4"/>
-        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
-        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
-        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:CustomStyle" uid="_4fHmAHMtEembNqgva4_9VA" showIcon="false" id="request">
-          <description xmi:type="style:CustomStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='RequestPortNode']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='RequestPortNode']"/>
-      </ownedBorderedNodes>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -183,6 +161,9 @@
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_zBg8cHI-EemtE9imTG4vRw" name="ColorQueryService" tooltipText="RequestHandler" incomingEdges="_zCNgAHI-EemtE9imTG4vRw">
         <target xmi:type="ComponentDefinition:RequestHandler" href="model/ColorSegmentation.component#//@component/@elements.3"/>
         <semanticElements xmi:type="ComponentDefinition:RequestHandler" href="model/ColorSegmentation.component#//@component/@elements.3"/>
+        <decorations xmi:type="viewpoint:Decoration" uid="_cKhqcHVbEemAHIpDqS7j_w">
+          <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='ActiveQueueDeco']"/>
+        </decorations>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>

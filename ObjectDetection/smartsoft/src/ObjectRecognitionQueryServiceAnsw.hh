@@ -21,10 +21,14 @@
 
 class ObjectRecognitionQueryServiceAnsw : public ObjectRecognitionQueryServiceAnswCore
 {
+private :
+
 protected:
 public:
 	ObjectRecognitionQueryServiceAnsw(Smart::IQueryServerPattern<CommObjectRecognitionObjects::CommObjectRecognitionInformation, CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties, SmartACE::QueryId>* server);
 	virtual ~ObjectRecognitionQueryServiceAnsw();
 	virtual void handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommObjectRecognitionInformation& request);
+	CommObjectRecognitionObjects::CommPoint2d serviceAnswer;
+	void setAnswer(CommObjectRecognitionObjects::CommPoint2d input);
 };
 #endif

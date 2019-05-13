@@ -18,18 +18,24 @@
 #define _CAPTURESENSOR_HH
 
 #include "CaptureSensorCore.hh"
+#include <DomainVision/CommRGBDImage.hh>
+#include <CommObjectRecognitionObjects/CommPoint2d.hh>
 
 class CaptureSensor  : public CaptureSensorCore
 {
 private:
 //	virtual void on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input);
 public:
+	bool evaluateColorSegmentation;
+	CommObjectRecognitionObjects::CommPoint2d colorSegmentation_point;
 	CaptureSensor(SmartACE::SmartComponent *comp);
 	virtual ~CaptureSensor();
 	
 	virtual int on_entry();
 	virtual int on_execute();
 	virtual int on_exit();
+
+	void ColorSegmentation();
 };
 
 #endif

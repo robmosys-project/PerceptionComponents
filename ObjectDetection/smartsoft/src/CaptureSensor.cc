@@ -23,6 +23,7 @@ CaptureSensor::CaptureSensor(SmartACE::SmartComponent *comp)
 :	CaptureSensorCore(comp)
 {
 	std::cout << "constructor CaptureSensor\n";
+
 }
 CaptureSensor::~CaptureSensor() 
 {
@@ -39,6 +40,29 @@ CaptureSensor::~CaptureSensor()
 //	//   there, use the method rGBDImagePushServiceInGetUpdate(input) to get a copy of the input object
 //}
 //
+void CaptureSensor::ColorSegmentation()
+{
+	SmartACE::QueryId colorQueryId = 12;
+	CommObjectRecognitionObjects::CommColorDetection imageInformation;
+	imageInformation.setRoi(COMP->roiObject );
+
+	CommObjectRecognitionObjects::CommPoint2d objectInformation;
+
+
+	Smart::StatusCode status2 = COMP->colorQueryServiceReq->query(imageInformation, objectInformation);
+
+	if(status2 != Smart::SMART_OK) {
+		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status2)<< std::endl;
+	}
+
+	colorSegmentation_point = objectInformation;
+//	status2 = COMP->colorQueryServiceReq->queryReceive(colorQueryId, objectInformation);
+//	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer_update;
+	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<objectInformation.getX()<<", y:"<<objectInformation.getY()<<std::endl;
+//	objectRecognitionQueryServiceAnsw-> = objectInformation;
+}
+
+
 int CaptureSensor::on_entry()
 {
 	// do initialization procedures here, which are called once, each time the task is started
@@ -48,6 +72,10 @@ int CaptureSensor::on_entry()
 int CaptureSensor::on_execute()
 {
 
+		if(COMP->evaluateColorSegmentation){
+			ColorSegmentation();
+			COMP->evaluateColorSegmentation = false;
+		}
 //	std::cout << "Hello from CaptureSensor " << std::endl;
 
 	// it is possible to return != 0 (e.g. when the task detects errors), then the outer loop breaks and the task stops

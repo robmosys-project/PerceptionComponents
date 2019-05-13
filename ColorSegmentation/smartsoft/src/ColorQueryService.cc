@@ -32,29 +32,31 @@ ColorQueryService::~ColorQueryService()
 void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommColorDetection& request) 
 {
 	CommObjectRecognitionObjects::CommPoint2d answer;
-//	answer.setX(10);
-//	std::cout<< "[ColorQueryService] roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
-	
-//	if(COMP->newestImageStatus == Smart::SMART_OK){
-//
-//		cv::Mat image = COMP->get_Mat(COMP->newestImage);
-//
-//	//	cv::Mat subImg = image(cv::Range(request.getRoi().getPoint().getX() , request.getRoi().getWidth()),
-//	//	cv::Range(request.getRoi().getPoint().getY(), request.getRoi().getHeight()));   //TODO
-//
-//		cv::Mat mask = COMP->Segmentation(image);
-//		cv::Point p_object = COMP->Countour(mask);
-//
-//		answer.setX(p_object.x);
-//	//	answer.setY(p_object.y);
-//		std::cout<< "[ColorQueryService] finish process "<<std::endl;
-//	}
 
+	if(COMP->newestImageStatus == Smart::SMART_OK){
 
-	Smart::StatusCode  status2 = this->server->answer(id, answer);
-		if(status2 != Smart::SMART_OK) {
-			std::cerr << "[ColorQueryService] error : " << Smart::StatusCodeConversion(status2)<< std::endl;
+		cv::Mat image = COMP->get_Mat(COMP->newestImage), subImg;
+//		cv::imwrite("completeiamge.png", image);
+
+		if(request.getRoi().getWidth() *request.getRoi().getHeight() == 0 )
+			subImg = image;
+		else{
+			subImg = image(cv::Range(request.getRoi().getPoint().getX() , request.getRoi().getWidth()),
+			cv::Range(request.getRoi().getPoint().getY(), request.getRoi().getHeight()));   //TODO
+//			cv::imwrite("subimage.png", subImg);
 		}
 
-	std::cout<< "[ColorQueryService] finish process "<<std::endl;
+		cv::Mat mask = COMP->Segmentation(subImg);
+//		cv::imwrite("maskimage.png", mask);
+
+		cv::Point p_object = COMP->Countour(mask);
+
+		answer.setX(p_object.x);
+		answer.setY(p_object.y);
+		std::cout<< "[ColorQueryService] finish process "<<std::endl;
+	}
+
+	this->server->answer(id, answer);
+
+
 }

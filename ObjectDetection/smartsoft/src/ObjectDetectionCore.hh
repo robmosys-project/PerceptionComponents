@@ -21,12 +21,16 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 #include <DomainVision/CommRGBDImage.hh>
+#include <CommObjectRecognitionObjects/ROI.hh>
 
 class ObjectDetectionCore
 {
 private:
 
 public:
+	bool evaluateColorSegmentation;
+	CommObjectRecognitionObjects::ROI roiObject;
+
 	ObjectDetectionCore();
 };
 	

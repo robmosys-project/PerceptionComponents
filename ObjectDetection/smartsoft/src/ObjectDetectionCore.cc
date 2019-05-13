@@ -15,9 +15,10 @@
 // delete it before running the code generator.
 //--------------------------------------------------------------------------
 #include "ObjectDetectionCore.hh"
-
+#include <DomainVision/CommRGBDImage.hh>
 // constructor
 ObjectDetectionCore::ObjectDetectionCore()
 {
 	std::cout << "constructor ObjectDetectionCore\n";
+	evaluateColorSegmentation = false;
 }
