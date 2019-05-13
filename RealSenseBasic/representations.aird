@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ComponentDefinition="http://www.ecore.org/component/ComponentDefinition" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ComponentDefinition="http://www.ecore.org/component/ComponentDefinition" xmlns:PerformanceExtension="http://www.ecore.org/component/PerformanceExtension" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis uid="_Q2PpcHDfEem95KcNNbuaLw" selectedViews="_RJKlcHDfEem95KcNNbuaLw" version="14.1.0.201810161215">
     <semanticResources>model/RealSenseBasic.component</semanticResources>
     <semanticResources>model/RealSenseBasic.componentDocumentation</semanticResources>
@@ -16,6 +16,8 @@
     <semanticResources>platform:/resource/DomainVision/model/DomainVision.services</semanticResources>
     <semanticResources>platform:/resource/DomainVision/model/DomainVision.types</semanticResources>
     <semanticResources>platform:/resource/DomainVision/model/DomainVision.modes</semanticResources>
+    <semanticResources>platform:/resource/CommBasicObjects/model/CommBasicObjects.parameters</semanticResources>
+    <semanticResources>platform:/resource/CommManipulatorObjects/model/CommManipulatorObjects.types</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_RJKlcHDfEem95KcNNbuaLw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_RJjnAHDfEem95KcNNbuaLw" name="RealSenseBasic" repPath="#_RJNowHDfEem95KcNNbuaLw">
@@ -36,6 +38,15 @@
             <children xmi:type="notation:Node" xmi:id="_TaThoHDfEem95KcNNbuaLw" type="3008" element="_TaBNwHDfEem95KcNNbuaLw">
               <children xmi:type="notation:Node" xmi:id="_TaUIsHDfEem95KcNNbuaLw" type="5005"/>
               <children xmi:type="notation:Node" xmi:id="_TaUvwHDfEem95KcNNbuaLw" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_BdGC4HMIEembNqgva4_9VA" type="3008" element="_BcPHQHMIEembNqgva4_9VA">
+                  <children xmi:type="notation:Node" xmi:id="_BdGp8HMIEembNqgva4_9VA" type="5005"/>
+                  <children xmi:type="notation:Node" xmi:id="_BdHRAHMIEembNqgva4_9VA" type="7002">
+                    <styles xmi:type="notation:SortingStyle" xmi:id="_BdHRAXMIEembNqgva4_9VA"/>
+                    <styles xmi:type="notation:FilteringStyle" xmi:id="_BdHRAnMIEembNqgva4_9VA"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_BdGC4XMIEembNqgva4_9VA" fontName="Ubuntu" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BdGC4nMIEembNqgva4_9VA" x="79" y="66" width="138" height="34"/>
+                </children>
                 <styles xmi:type="notation:SortingStyle" xmi:id="_TaUvwXDfEem95KcNNbuaLw"/>
                 <styles xmi:type="notation:FilteringStyle" xmi:id="_TaUvwnDfEem95KcNNbuaLw"/>
               </children>
@@ -143,6 +154,14 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ActivityContainer']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ActivityContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_BcPHQHMIEembNqgva4_9VA" name="PeriodicTimer" tooltipText="DefaultTrigger">
+          <target xmi:type="PerformanceExtension:DefaultPeriodicTimer" href="model/RealSenseBasic.component#//@component/@elements.0/@extensions.0"/>
+          <semanticElements xmi:type="PerformanceExtension:DefaultPeriodicTimer" href="model/RealSenseBasic.component#//@component/@elements.0/@extensions.0"/>
+          <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_BcYRMHMIEembNqgva4_9VA" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+            <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ActivityContainer']/@subContainerMappings[name='DefaultPeriodicTimerContainer']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ActivityContainer']/@subContainerMappings[name='DefaultPeriodicTimerContainer']"/>
+        </ownedDiagramElements>
       </ownedDiagramElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_ZjBMUHDfEem95KcNNbuaLw" sourceNode="_TaBNwHDfEem95KcNNbuaLw" targetNode="_Zi3bUHDfEem95KcNNbuaLw">

@@ -3,6 +3,7 @@ ComponentDefinition RealSenseBasic logo "/RealSenseBasic/model/logo.png"
 
 Activity GetImage
 	{
+	DefaultTrigger PeriodicTimer 1.0 Hz
 	}
 	OutputPort RGBDImagePushServiceOut implements DomainVision.RGBDImagePushService realizedBy GetImage {
 	}

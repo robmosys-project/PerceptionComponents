@@ -22,7 +22,7 @@
 class CaptureSensor  : public CaptureSensorCore
 {
 private:
-	virtual void on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input);
+//	virtual void on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input);
 public:
 	CaptureSensor(SmartACE::SmartComponent *comp);
 	virtual ~CaptureSensor();

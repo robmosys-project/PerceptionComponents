@@ -19,11 +19,14 @@
 // constructor
 ColorSegmentationCore::ColorSegmentationCore()
 {
+	newestImageStatus = Smart::SMART_NODATA;
+
 //	std::cout << "constructor ColorSegmentationCore\n";
 }
-void ColorSegmentationCore::setVideoImage(DomainVision::CommVideoImage input)
+void ColorSegmentationCore::setVideoImage(DomainVision::CommVideoImage input, Smart::StatusCode status)
 {
 	newestImage = input;
+	newestImageStatus = status;
 }
 
 DomainVision::CommVideoImage ColorSegmentationCore::getVideoImage()

@@ -30,15 +30,15 @@ CaptureSensor::~CaptureSensor()
 }
 
 
-void CaptureSensor::on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input)
-{
-	// upcall triggered from InputPort RGBDImagePushServiceIn
-	// - use a local mutex here, because this upcal is called asynchroneously from outside of this task
-	// - do not use longer blocking calls here since this upcall blocks the InputPort RGBDImagePushServiceIn
-	// - if you need to implement a long-running procedure, do so within the on_execute() method and in
-	//   there, use the method rGBDImagePushServiceInGetUpdate(input) to get a copy of the input object
-}
-
+//void CaptureSensor::on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input)
+//{
+//	// upcall triggered from InputPort RGBDImagePushServiceIn
+//	// - use a local mutex here, because this upcal is called asynchroneously from outside of this task
+//	// - do not use longer blocking calls here since this upcall blocks the InputPort RGBDImagePushServiceIn
+//	// - if you need to implement a long-running procedure, do so within the on_execute() method and in
+//	//   there, use the method rGBDImagePushServiceInGetUpdate(input) to get a copy of the input object
+//}
+//
 int CaptureSensor::on_entry()
 {
 	// do initialization procedures here, which are called once, each time the task is started
@@ -47,27 +47,6 @@ int CaptureSensor::on_entry()
 }
 int CaptureSensor::on_execute()
 {
-	// this method is called from an outside loop,
-	// hence, NEVER use an infinite loop (like "while(1)") here inside!!!
-	// also do not use blocking calls which do not result from smartsoft kernel
-	CommObjectRecognitionObjects::CommColorDetection image_information;
-	CommObjectRecognitionObjects::CommPoint2d object_information;
-
-	CommObjectRecognitionObjects::ROI roi;
-	CommObjectRecognitionObjects::CommPoint2d point;
-	roi.setHeight(200).setWidth(200).setPoint(point);
-	image_information.setRoi(roi);
-
-	Smart::StatusCode status2 = COMP->colorQueryServiceReq->query(image_information, object_information);
-
-	if(status2 != Smart::SMART_OK) {
-		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status2)<< std::endl;
-	}
-
-	std::cout << "[Image Task] colorQueryServiceReq comeback "<< std::endl;
-	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<object_information.getX()<<", y:"<<object_information.getY()<<std::endl;
-
-	
 
 //	std::cout << "Hello from CaptureSensor " << std::endl;
 

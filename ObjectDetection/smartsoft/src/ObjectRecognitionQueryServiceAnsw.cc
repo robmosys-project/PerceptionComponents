@@ -20,7 +20,12 @@
 ObjectRecognitionQueryServiceAnsw::ObjectRecognitionQueryServiceAnsw(Smart::IQueryServerPattern<CommObjectRecognitionObjects::CommObjectRecognitionInformation, CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties, SmartACE::QueryId>* server)
 :	ObjectRecognitionQueryServiceAnswCore(server)
 {
-	
+	Smart::StatusCode status = COMP->colorQueryServiceReq->connect("ColorSegmentation", "ColorQueryServiceAnsw");
+
+	if(status != Smart::SMART_OK) {
+		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status);
+	}
+
 }
 
 ObjectRecognitionQueryServiceAnsw::~ObjectRecognitionQueryServiceAnsw()
@@ -29,11 +34,56 @@ ObjectRecognitionQueryServiceAnsw::~ObjectRecognitionQueryServiceAnsw()
 }
 
 
+#include <thread>
+#include <chrono>
+
 void ObjectRecognitionQueryServiceAnsw::handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommObjectRecognitionInformation& request) 
 {
+	std::cout<< "[ObjectRecognitionQuery] start query"<<std::endl;
+	std::cout<< "[ObjectRecognitionQuery] roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
+
 	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer;
 	
-	// implement your query handling logic here and fill in the answer object
+
+	SmartACE::QueryId colorQueryId = 12;
+	CommObjectRecognitionObjects::CommColorDetection imageInformation;
+	imageInformation.setRoi(request.getRoi());
+
+	CommObjectRecognitionObjects::CommPoint2d objectInformation;
+
+
+	Smart::StatusCode status2 = COMP->colorQueryServiceReq->query(imageInformation, objectInformation);
+
+	if(status2 != Smart::SMART_OK) {
+		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status2)<< std::endl;
+	}
+
+
+//
+//	Smart::StatusCode status2 = COMP->colorQueryServiceReq->queryRequest(imageInformation, colorQueryId);
+////	cv::waitKey(0);
+//	if(status2 != Smart::SMART_OK) {
+//		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status2)<< std::endl;
+//	}
+//	std::this_thread::sleep_for (std::chrono::seconds(3));
+//			//(image_information, object_information);
+//	status2 = COMP->colorQueryServiceReq->queryReceive(colorQueryId, objectInformation);
+//	if(status2 != Smart::SMART_OK) {
+//		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status2)<< std::endl;
+//	}
+
+//	status2 = COMP->colorQueryServiceReq->queryReceive(colorQueryId, objectInformation);
+//
+//	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<objectInformation.getX()<<", y:"<<objectInformation.getY()<<std::endl;
+
+	//	TODO Pasar de 2d a 3d con object_information
+	CommBasicObjects::CommPose3d p_object;
+	p_object.set_x(12);
+	p_object.set_y(52),
+	p_object.set_z(142);
+
+	answer.setPose(p_object);
+
 	
 	this->server->answer(id, answer);
 }

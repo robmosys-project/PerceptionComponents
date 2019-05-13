@@ -19,6 +19,8 @@
 	
 #include "aceSmartSoft.hh"
 #include <iostream>
+#include <opencv2/opencv.hpp>
+#include <DomainVision/CommRGBDImage.hh>
 
 class ObjectDetectionCore
 {

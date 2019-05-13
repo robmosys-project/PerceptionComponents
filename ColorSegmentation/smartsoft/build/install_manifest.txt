@@ -1,1 +1,0 @@
-/home/lmartinez/SOFTWARE/smartsoft/bin/ColorSegmentation

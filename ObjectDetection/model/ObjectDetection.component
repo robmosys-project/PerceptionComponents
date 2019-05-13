@@ -3,7 +3,7 @@ ComponentDefinition ObjectDetection logo "/ObjectDetection/model/logo.png"
 
 Activity CaptureSensor
 	{
-		InputPortLink RGBDImagePushServiceIn { oversamplingOk undersamplingOk }
+		InputPortLink  RGBDImagePushServiceIn { oversamplingOk undersamplingOk }
 	}
 	InputPort RGBDImagePushServiceIn implements DomainVision.RGBDImagePushService {
 	}
@@ -12,5 +12,6 @@ Activity CaptureSensor
 	AnswerPort ObjectRecognitionQueryService implements CommObjectRecognitionObjects.ObjectRecognitionQueryService {
 	}
 	RequestHandler ObjectRecognitionQueryServiceAnsw triggeredFrom ObjectRecognitionQueryService {
+	RequestPortLink ColorQueryServiceReq
 	}
 }

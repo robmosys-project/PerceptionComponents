@@ -38,7 +38,7 @@ void CaptureSensor::on_RGBImagePushServiceIn(const DomainVision::CommVideoImage 
 
 	if(this->rGBImagePushServiceInObject.getDataRef().size() != 0){
 		this->rGBImagePushServiceInStatus = Smart::SMART_OK;
-		COMP->setVideoImage(input);
+		COMP->setVideoImage(input, Smart::SMART_OK);
 	}
 }
 

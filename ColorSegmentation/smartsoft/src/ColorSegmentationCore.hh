@@ -28,11 +28,12 @@ class ColorSegmentationCore
 private:
 
 public:
+	Smart::StatusCode newestImageStatus;
 	DomainVision::CommVideoImage newestImage;
 
 	ColorSegmentationCore();
 
-	void setVideoImage(DomainVision::CommVideoImage input);
+	void setVideoImage(DomainVision::CommVideoImage input, Smart::StatusCode status);
 	DomainVision::CommVideoImage getVideoImage();
 	cv::Mat get_Mat(const DomainVision::CommVideoImage input);
 	cv::Mat Segmentation(cv::Mat img);

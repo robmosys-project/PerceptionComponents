@@ -11,4 +11,6 @@ Activity CaptureSensor
 	}
 	RequestHandler ColorQueryService triggeredFrom ColorQueryServiceAnsw {
 	}
+RequestPort ObjectRecognitionQueryServiceReq implements CommObjectRecognitionObjects.ObjectRecognitionQueryService {
+	}
 }
