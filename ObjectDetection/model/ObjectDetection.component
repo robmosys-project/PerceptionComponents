@@ -13,9 +13,4 @@ Activity CaptureSensor
 	}
 	RequestHandler ObjectRecognitionQueryServiceAnsw triggeredFrom ObjectRecognitionQueryService {
 	}
-	Activity Mediator
-	{
-		Observe ObjectRecognitionQueryServiceAnsw
-		RequestPortLink ColorQueryServiceReq
-	}
 }

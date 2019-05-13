@@ -45,8 +45,7 @@ cv::Mat ColorSegmentationCore::get_Mat(const DomainVision::CommVideoImage input)
 	const int h = input.get_height();
 
 	cv::Mat image(cv::Size(w, h), CV_8UC3, (void*)input.get_data());
-//	cv::imshow("CommVideoImage", image);
-//	cv::waitKey(10);
+
 
 	return image;
 }
@@ -60,8 +59,12 @@ cv::Mat ColorSegmentationCore::Segmentation(cv::Mat img){
 
     cv::Mat mask1,mask2;
     // Creating masks to detect the upper and lower red color.
-    cv::inRange(hsv, cv::Scalar(0, 120, 70), cv::Scalar(10, 255, 255), mask1);
-    cv::inRange(hsv, cv::Scalar(170, 120, 70), cv::Scalar(180, 255, 255), mask2);
+//    cv::inRange(hsv, cv::Scalar(0, 120, 70), cv::Scalar(10, 255, 255), mask1);
+//    cv::inRange(hsv, cv::Scalar(170, 120, 70), cv::Scalar(180, 255, 255), mask2);
+
+    // Creating masks to detect the upper and lower gray color. 45 - 70
+    cv::inRange(hsv, cv::Scalar(0, 0, 115), cv::Scalar(0, 0, 178), mask1); //45 - 70  -->115 - 178
+//    cv::inRange(hsv, cv::Scalar(170, 120, 70), cv::Scalar(180, 255, 255), mask2);
 
 	// Generating the final mask to detect red color
 	mask1 = mask1+mask2;

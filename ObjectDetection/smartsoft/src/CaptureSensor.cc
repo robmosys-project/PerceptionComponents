@@ -44,7 +44,7 @@ void CaptureSensor::ColorSegmentation()
 {
 	SmartACE::QueryId colorQueryId = 12;
 	CommObjectRecognitionObjects::CommColorDetection imageInformation;
-	imageInformation.setRoi(COMP->roiObject );
+	imageInformation.setRoi(COMP->roiObject);
 
 	CommObjectRecognitionObjects::CommPoint2d objectInformation;
 

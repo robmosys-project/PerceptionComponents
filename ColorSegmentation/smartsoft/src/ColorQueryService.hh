@@ -26,5 +26,8 @@ public:
 	ColorQueryService(Smart::IQueryServerPattern<CommObjectRecognitionObjects::CommColorDetection, CommObjectRecognitionObjects::CommPoint2d, SmartACE::QueryId>* server);
 	virtual ~ColorQueryService();
 	virtual void handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommColorDetection& request);
+
+	CommObjectRecognitionObjects::ROI fixROI(CommObjectRecognitionObjects::ROI input, int imagewidth, int imageheight );
+
 };
 #endif
