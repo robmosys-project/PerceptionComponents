@@ -19,6 +19,7 @@
 	
 #include "aceSmartSoft.hh"
 #include <iostream>
+#include "armadillo.hh"
 #include <opencv2/opencv.hpp>
 #include <DomainVision/CommRGBDImage.hh>
 #include <CommObjectRecognitionObjects/ROI.hh>
@@ -29,9 +30,24 @@ private:
 
 public:
 	bool evaluateColorSegmentation;
+	CommObjectRecognitionObjects::CommPoint2d colorSegmentation_point;
 	CommObjectRecognitionObjects::ROI roiObject;
 
+	DomainVision::CommVideoImage rGBImageObject;
+	DomainVision::CommDepthImage depthImageObject;
+	Smart::StatusCode rGBImageObjectStatus;
+	Smart::StatusCode depthImageObjectStatus;
+
+
 	ObjectDetectionCore();
+	void setVideoImage(DomainVision::CommVideoImage input, Smart::StatusCode status);
+	DomainVision::CommVideoImage getVideoImage();
+	void setDepthImage(DomainVision::CommDepthImage input, Smart::StatusCode status);
+	DomainVision::CommDepthImage getDepthImage();
+//	cv::Mat getDepthMat(const DomainVision::CommDepthImage input);
+	cv::Mat getImageMat(const DomainVision::CommVideoImage input);
+	CommBasicObjects::CommPose3d  get3dPoint (CommObjectRecognitionObjects::CommPoint2d colorSegmentation_point, DomainVision::CommDepthImage depthImage);
 };
-	
+
+
 #endif

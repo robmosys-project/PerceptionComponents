@@ -31,15 +31,25 @@ CaptureSensor::~CaptureSensor()
 }
 
 
-//void CaptureSensor::on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input)
-//{
-//	// upcall triggered from InputPort RGBDImagePushServiceIn
-//	// - use a local mutex here, because this upcal is called asynchroneously from outside of this task
-//	// - do not use longer blocking calls here since this upcall blocks the InputPort RGBDImagePushServiceIn
-//	// - if you need to implement a long-running procedure, do so within the on_execute() method and in
-//	//   there, use the method rGBDImagePushServiceInGetUpdate(input) to get a copy of the input object
-//}
-//
+void CaptureSensor::on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input)
+{
+	// upcall triggered from InputPort RGBDImagePushServiceIn
+	// - use a local mutex here, because this upcal is called asynchroneously from outside of this task
+	// - do not use longer blocking calls here since this upcall blocks the InputPort RGBDImagePushServiceIn
+	// - if you need to implement a long-running procedure, do so within the on_execute() method and in
+	//   there, use the method rGBDImagePushServiceInGetUpdate(input) to get a copy of the input object
+
+	this->rGBDImageObject = input;
+
+	if(this->rGBDImageObject.getColor_image().getDataSize() != 0){
+		this->rGBDImageObjectStatus = Smart::SMART_OK;
+		COMP->setVideoImage(this->rGBDImageObject.getColor_image(), Smart::SMART_OK);
+	}
+	if(this->rGBDImageObject.getDepth_image().getDataSize() != 0){
+		COMP->setDepthImage(this->rGBDImageObject.getDepth_image(), Smart::SMART_OK);
+	}
+}
+
 void CaptureSensor::ColorSegmentation()
 {
 	SmartACE::QueryId colorQueryId = 12;
@@ -55,7 +65,7 @@ void CaptureSensor::ColorSegmentation()
 		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status2)<< std::endl;
 	}
 
-	colorSegmentation_point = objectInformation;
+	COMP->colorSegmentation_point = objectInformation;
 //	status2 = COMP->colorQueryServiceReq->queryReceive(colorQueryId, objectInformation);
 //	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer_update;
 	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<objectInformation.getX()<<", y:"<<objectInformation.getY()<<std::endl;

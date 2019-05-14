@@ -45,18 +45,24 @@ void ObjectRecognitionQueryServiceAnsw::setAnswer(CommObjectRecognitionObjects::
 void ObjectRecognitionQueryServiceAnsw::handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommObjectRecognitionInformation& request) 
 {
 
-	std::cout<< "[ObjectRecognitionQuery] roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
-
-	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer;
-	
 	COMP->evaluateColorSegmentation = true;
 	COMP->roiObject = request.getRoi();
 
-	//	TODO Pasar de 2d a 3d con object_information
+//	std::cout<< "[ObjectRecognitionQuery] roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
+
+	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer;
 	CommBasicObjects::CommPose3d p_object;
-	p_object.set_x(12);
-	p_object.set_y(52),
-	p_object.set_z(142);
+	p_object.set_x(-1);
+	p_object.set_y(-1);
+	p_object.set_z(-1);
+	
+	//	TODO Pasar de 2d a 3d con object_information
+
+	if (COMP->colorSegmentation_point.getX() > 0 && COMP->colorSegmentation_point.getY() )
+		if(COMP->depthImageObjectStatus == Smart::SMART_OK)
+			p_object = COMP->get3dPoint (COMP->colorSegmentation_point, COMP->getDepthImage());
+		else
+			std::cout<< "Depth iamge not available"<<std::endl;
 
 	answer.setPose(p_object);
 

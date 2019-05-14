@@ -21,4 +21,99 @@ ObjectDetectionCore::ObjectDetectionCore()
 {
 	std::cout << "constructor ObjectDetectionCore\n";
 	evaluateColorSegmentation = false;
+	colorSegmentation_point.setX(-1).setY(-1);
+}
+
+void ObjectDetectionCore::setVideoImage(DomainVision::CommVideoImage input, Smart::StatusCode status)
+{
+	rGBImageObject = input;
+	rGBImageObjectStatus = status;
+}
+
+DomainVision::CommVideoImage ObjectDetectionCore::getVideoImage()
+{
+	return this->rGBImageObject ;
+}
+
+void ObjectDetectionCore::setDepthImage(DomainVision::CommDepthImage input, Smart::StatusCode status)
+{
+	depthImageObject = input;
+	depthImageObjectStatus = status;
+}
+
+DomainVision::CommDepthImage ObjectDetectionCore::getDepthImage()
+{
+	return this->depthImageObject ;
+}
+cv::Mat ObjectDetectionCore::getImageMat(const DomainVision::CommVideoImage input)
+{
+
+	std::cout << "[ColorSegmentationCore] get_Mat\n";
+	const unsigned char *color_frame;
+
+	color_frame = input.get_data();
+
+	const int w = input.get_width();
+	const int h = input.get_height();
+
+	cv::Mat image(cv::Size(w, h), CV_8UC3, (void*)input.get_data());
+
+	return image;
+}
+//cv::Mat ObjectDetectionCore::getDepthMat(const DomainVision::CommDepthImage input)
+//{
+//
+//	std::cout << "[ColorSegmentationCore] get_Mat\n";
+//	const unsigned char *color_frame;
+//
+//	color_frame = input.g .get_data();
+//
+//	const int w = input.get_width();
+//	const int h = input.get_height();
+//
+//	cv::Mat image(cv::Size(w, h), CV_8UC3, (void*)input.get_data());
+//
+//	return image;
+//}
+
+#include <string>
+
+CommBasicObjects::CommPose3d  ObjectDetectionCore::get3dPoint (CommObjectRecognitionObjects::CommPoint2d input, DomainVision::CommDepthImage depthImage)
+{
+	CommBasicObjects::CommPose3d point;
+	unsigned int  x = input.getX(), y = input.getY();
+//	uint16_t *z_raw = depthImage.get_distance(x, y);
+
+	uint16_t f = (const uint16_t)depthImage.getDataElemAtPos(y*640 + x);
+
+
+	float z_raw = (float)f;
+	//z_raw = reinterpret_cast<const float>(depthImage.getDataElemAtPos(y*640 + x);
+	//depth camera info
+	/*     |	fx	 0	  cx	0	|
+	 * M = |	0	 fy	  cy	0	|
+	 * 	   |	0	 0	  1		0 	|
+	 * 	   |	0	 0	  0		1 	|
+	 */
+//	arma::mat cameraInfo = depthImage.get_intrinsic();
+	float fx = 1;//depth_info->K[0];
+	float fy = 1;//depth_info->K[4];
+	float cx = 320;// depth_info->K[2];
+	float cy = 240;//depth_info->K[5];
+
+	float z_mean = z_raw * 0.001;
+
+
+	point.set_x(((input.getX() - cx)/ fx) * z_raw  * 0.001);
+	point.set_y(((input.getY() - cy)/ fy) * z_raw * 0.001);
+	point.set_z(z_mean);
+
+	std::cout<< "[ObjectDetectionCore-get3dPoint] point 2d x:"<<input.getX() <<", y:"<<input.getY()<<std::endl;
+	std::cout<< "[ObjectDetectionCore-get3dPoint] point 3d size: "<<depthImage.getDataSize()<<\
+			", width:"<<depthImage.getWidth()<<", height:"<<depthImage.getHeight()<<
+			", x:"<<point.get_x()<< \
+			", y:"<<point.get_y()<<", z:"<<point.get_z()<<" - "<<f<<" - "<<z_raw<<std::endl;
+
+
+	return point;
 }

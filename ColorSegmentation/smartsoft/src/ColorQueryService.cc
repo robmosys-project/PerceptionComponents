@@ -83,17 +83,26 @@ void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjec
 		cv::Mat mask = COMP->Segmentation(subImg);
 		cv::imwrite("maskimage.png", mask);
 
-		cv::Point p_object = COMP->Countour(mask);
-		if(request.getRoi().getWidth() *request.getRoi().getHeight() != 0 ){
-			p_object.x += roiFixed.getPoint().getX() ;
-			p_object.y += roiFixed.getPoint().getY() ;
-		}
+		double min, max;
+		cv::minMaxLoc(mask, &min, &max);
+		if (max > 0)
+		{
 
-		answer.setX(p_object.x);
-		answer.setY(p_object.y);
+			cv::Point p_object = COMP->Countour(mask);
+			if(request.getRoi().getWidth() *request.getRoi().getHeight() != 0 ){
+				p_object.x += roiFixed.getPoint().getX() ;
+				p_object.y += roiFixed.getPoint().getY() ;
+			}
+
+			answer.setX(p_object.x);
+			answer.setY(p_object.y);
+		}
+		else
+			std::cout<< "[ColorQueryService] Object not detected "<<std::endl;
 		std::cout<< "[ColorQueryService] finish process "<<std::endl;
 	}
-
+	answer.setX(325);
+	answer.setY(400);
 	this->server->answer(id, answer);
 
 

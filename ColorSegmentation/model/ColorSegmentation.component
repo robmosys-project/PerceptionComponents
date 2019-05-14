@@ -9,6 +9,6 @@ Activity CaptureSensor
 	}
 	AnswerPort ColorQueryServiceAnsw implements CommObjectRecognitionObjects.ColorQueryService {
 	}
-	RequestHandler ColorQueryService triggeredFrom ColorQueryServiceAnsw activeQueue {
+	RequestHandler ColorQueryService triggeredFrom ColorQueryServiceAnsw {
 	}
 }

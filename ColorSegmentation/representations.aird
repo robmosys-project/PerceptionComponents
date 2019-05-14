@@ -161,9 +161,6 @@
       <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_zBg8cHI-EemtE9imTG4vRw" name="ColorQueryService" tooltipText="RequestHandler" incomingEdges="_zCNgAHI-EemtE9imTG4vRw">
         <target xmi:type="ComponentDefinition:RequestHandler" href="model/ColorSegmentation.component#//@component/@elements.3"/>
         <semanticElements xmi:type="ComponentDefinition:RequestHandler" href="model/ColorSegmentation.component#//@component/@elements.3"/>
-        <decorations xmi:type="viewpoint:Decoration" uid="_cKhqcHVbEemAHIpDqS7j_w">
-          <description xmi:type="description_1:MappingBasedDecoration" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@decorationDescriptionsSet/@decorationDescriptions[name='ActiveQueueDeco']"/>
-        </decorations>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>

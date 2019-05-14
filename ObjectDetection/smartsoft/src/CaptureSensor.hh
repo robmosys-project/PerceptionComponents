@@ -24,10 +24,10 @@
 class CaptureSensor  : public CaptureSensorCore
 {
 private:
-//	virtual void on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input);
+	DomainVision::CommRGBDImage rGBDImageObject;
+	Smart::StatusCode rGBDImageObjectStatus;
+	virtual void on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input);
 public:
-	bool evaluateColorSegmentation;
-	CommObjectRecognitionObjects::CommPoint2d colorSegmentation_point;
 	CaptureSensor(SmartACE::SmartComponent *comp);
 	virtual ~CaptureSensor();
 	
