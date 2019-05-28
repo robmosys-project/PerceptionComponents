@@ -64,23 +64,39 @@ CommObjectRecognitionObjects::ROI ColorQueryService::fixROI(CommObjectRecognitio
 void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommColorDetection& request) 
 {
 	CommObjectRecognitionObjects::CommPoint2d answer;
+	answer.setX(-1);
+	answer.setY(-1);
 
 	if(COMP->newestImageStatus == Smart::SMART_OK){
 
 		CommObjectRecognitionObjects::ROI roiFixed;
-		cv::Mat image = COMP->get_Mat(COMP->newestImage), subImg;
+		cv::Mat image = COMP->getMat(COMP->newestImage), subImg;
 		cv::imwrite("completeiamge.png", image);
 
-		if(request.getRoi().getWidth() *request.getRoi().getHeight() == 0 )
+		if(request.getRoi().getWidth() * request.getRoi().getHeight() == 0 ){
 			subImg = image;
-		else{
+			std::cout<< "[ColorQueryService] ROI not available "<<std::endl;
+		}else{
+			std::cout<< "[ColorQueryService] using ROI : "<<request.getRoi().getWidth() <<" - "<<request.getRoi().getHeight() <<std::endl;
 			roiFixed = fixROI(request.getRoi(), image.size().width, image.size().height);
 			subImg = image(cv::Range(roiFixed.getPoint().getY(), roiFixed.getPoint().getY() + roiFixed.getHeight()),
 					cv::Range(roiFixed.getPoint().getX() , roiFixed.getPoint().getX() + roiFixed.getWidth()));   //TODO
 			cv::imwrite("subimage.png", subImg);
 		}
 
-		cv::Mat mask = COMP->Segmentation(subImg);
+		//Check color
+		CommObjectRecognitionObjects::Color color;
+		CommObjectRecognitionObjects::HSVSpace min_range = request.getColor().getMin_range(), max_range = request.getColor().getMax_range();
+		if(min_range.getH() == 0 && min_range.getS() == 0 && min_range.getV() == 0 ){
+			if(max_range.getH() == 0 && max_range.getS() == 0 && max_range.getV() == 0 ){
+				color = COMP->getColor(request.getColor().getName());
+				std::cout<< "[ColorQueryService] using default values of color : "<<request.getColor().getName()<<std::endl;
+			}
+		}
+		else
+			color = request.getColor();
+
+		cv::Mat mask = COMP->segmentation(subImg, color);
 		cv::imwrite("maskimage.png", mask);
 
 		double min, max;
@@ -88,7 +104,7 @@ void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjec
 		if (max > 0)
 		{
 
-			cv::Point p_object = COMP->Countour(mask);
+			cv::Point p_object = COMP->countour(mask);
 			if(request.getRoi().getWidth() *request.getRoi().getHeight() != 0 ){
 				p_object.x += roiFixed.getPoint().getX() ;
 				p_object.y += roiFixed.getPoint().getY() ;
@@ -99,10 +115,10 @@ void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjec
 		}
 		else
 			std::cout<< "[ColorQueryService] Object not detected "<<std::endl;
-		std::cout<< "[ColorQueryService] finish process "<<std::endl;
 	}
-	answer.setX(325);
-	answer.setY(400);
+	else
+		std::cout<< "[ColorQueryService] Failed attempt, no images of the sensor were received"<<std::endl;
+
 	this->server->answer(id, answer);
 
 

@@ -34,7 +34,7 @@ DomainVision::CommVideoImage ColorSegmentationCore::getVideoImage()
 	return this->newestImage ;
 }
 
-cv::Mat ColorSegmentationCore::get_Mat(const DomainVision::CommVideoImage input){
+cv::Mat ColorSegmentationCore::getMat(const DomainVision::CommVideoImage input){
 
 	std::cout << "[ColorSegmentationCore] get_Mat\n";
 	const unsigned char *color_frame;
@@ -50,9 +50,42 @@ cv::Mat ColorSegmentationCore::get_Mat(const DomainVision::CommVideoImage input)
 	return image;
 }
 
-cv::Mat ColorSegmentationCore::Segmentation(cv::Mat img){
-	std::cout << "[ColorSegmentationCore] Segmentation\n";
-//    cv::Mat segmented_image = img;
+
+
+CommObjectRecognitionObjects::Color ColorSegmentationCore::getColor(CommObjectRecognitionObjects::Colors color_name){
+
+	CommObjectRecognitionObjects::Color c;
+	c.setName(color_name);
+	CommObjectRecognitionObjects::HSVSpace min_range, max_range;
+
+	switch(color_name) {
+	    case CommObjectRecognitionObjects::Colors::RED :
+	    	min_range.setH(0).setS(120).setV(70);
+	    	max_range.setH(10).setS(255).setV(255);
+	        break;
+	    case CommObjectRecognitionObjects::Colors::BLUE : //TODO
+	    	min_range.setH(0).setS(0).setV(115);
+	    	max_range.setH(0).setS(0).setV(178);
+	        break;
+	    case CommObjectRecognitionObjects::Colors::WHITE : //TODO
+	    	min_range.setH(0).setS(0).setV(115);
+	    	max_range.setH(0).setS(0).setV(178);
+	        break;
+	    case CommObjectRecognitionObjects::Colors::GRAY :
+	    	min_range.setH(0).setS(0).setV(90);
+	    	max_range.setH(180).setS(10).setV(178);
+	        break;
+	}
+
+	c.setMin_range(min_range);
+	c.setMax_range(max_range);
+	return c;
+}
+
+
+cv::Mat ColorSegmentationCore::segmentation(cv::Mat img, CommObjectRecognitionObjects::Color color){
+	std::cout << "[ColorSegmentationCore] Segmentation node\n";
+
     //Converting image from BGR to HSV color space.
     cv::Mat hsv;
     cv::cvtColor(img, hsv, cv::COLOR_BGR2HSV);
@@ -63,17 +96,19 @@ cv::Mat ColorSegmentationCore::Segmentation(cv::Mat img){
 //    cv::inRange(hsv, cv::Scalar(170, 120, 70), cv::Scalar(180, 255, 255), mask2);
 
     // Creating masks to detect the upper and lower gray color. 45 - 70
-    cv::inRange(hsv, cv::Scalar(0, 0, 115), cv::Scalar(0, 0, 178), mask1); //45 - 70  -->115 - 178
-//    cv::inRange(hsv, cv::Scalar(170, 120, 70), cv::Scalar(180, 255, 255), mask2);
+    CommObjectRecognitionObjects::HSVSpace min_range, max_range;
+    min_range = color.getMin_range();
+    cv::inRange(hsv, cv::Scalar(min_range.getH(), min_range.getS(), min_range.getV()), cv::Scalar(max_range.getH(), max_range.getS(), max_range.getV()), mask1); //45 - 70  -->115 - 178
+    //cv::inRange(hsv, cv::Scalar(0, 0, 115), cv::Scalar(0, 0, 178), mask1);
 
-	// Generating the final mask to detect red color
+	// Generating the final mask to detect color
 	mask1 = mask1+mask2;
 //	cv::imshow("mask1", mask1);
 //	cv::waitKey(10);
     return mask1;
 }
 
-cv::Point ColorSegmentationCore::Countour(cv::Mat mask){
+cv::Point ColorSegmentationCore::countour(cv::Mat mask){
 	std::cout << "[ColorSegmentationCore] Countour\n";
     int largest_area=0;
     int largest_contour_index=0;

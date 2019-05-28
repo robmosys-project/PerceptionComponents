@@ -23,6 +23,7 @@
 #include <opencv2/opencv.hpp>
 #include <DomainVision/CommRGBDImage.hh>
 #include <CommObjectRecognitionObjects/ROI.hh>
+#include <CommObjectRecognitionObjects/Color.hh>
 
 class ObjectDetectionCore
 {
@@ -32,6 +33,7 @@ public:
 	bool evaluateColorSegmentation;
 	CommObjectRecognitionObjects::CommPoint2d colorSegmentation_point;
 	CommObjectRecognitionObjects::ROI roiObject;
+	CommObjectRecognitionObjects::Color colorObject;
 
 	DomainVision::CommVideoImage rGBImageObject;
 	DomainVision::CommDepthImage depthImageObject;

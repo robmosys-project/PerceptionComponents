@@ -47,6 +47,7 @@ void ObjectRecognitionQueryServiceAnsw::handleQuery(const SmartACE::QueryId &id,
 
 	COMP->evaluateColorSegmentation = true;
 	COMP->roiObject = request.getRoi();
+	COMP->colorObject = request.getColor();
 
 //	std::cout<< "[ObjectRecognitionQuery] roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
 
@@ -56,13 +57,12 @@ void ObjectRecognitionQueryServiceAnsw::handleQuery(const SmartACE::QueryId &id,
 	p_object.set_y(-1);
 	p_object.set_z(-1);
 	
-	//	TODO Pasar de 2d a 3d con object_information
 
 	if (COMP->colorSegmentation_point.getX() > 0 && COMP->colorSegmentation_point.getY() )
 		if(COMP->depthImageObjectStatus == Smart::SMART_OK)
 			p_object = COMP->get3dPoint (COMP->colorSegmentation_point, COMP->getDepthImage());
 		else
-			std::cout<< "Depth iamge not available"<<std::endl;
+			std::cout<< "Depth image not available"<<std::endl;
 
 	answer.setPose(p_object);
 
