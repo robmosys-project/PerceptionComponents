@@ -69,21 +69,6 @@ void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjec
 
 	if(COMP->newestImageStatus == Smart::SMART_OK){
 
-		CommObjectRecognitionObjects::ROI roiFixed;
-		cv::Mat image = COMP->getMat(COMP->newestImage), subImg;
-		cv::imwrite("completeiamge.png", image);
-
-		if(request.getRoi().getWidth() * request.getRoi().getHeight() == 0 ){
-			subImg = image;
-			std::cout<< "[ColorQueryService] ROI not available "<<std::endl;
-		}else{
-			std::cout<< "[ColorQueryService] using ROI : "<<request.getRoi().getWidth() <<" - "<<request.getRoi().getHeight() <<std::endl;
-			roiFixed = fixROI(request.getRoi(), image.size().width, image.size().height);
-			subImg = image(cv::Range(roiFixed.getPoint().getY(), roiFixed.getPoint().getY() + roiFixed.getHeight()),
-					cv::Range(roiFixed.getPoint().getX() , roiFixed.getPoint().getX() + roiFixed.getWidth()));   //TODO
-			cv::imwrite("subimage.png", subImg);
-		}
-
 		//Check color
 		CommObjectRecognitionObjects::Color color;
 		CommObjectRecognitionObjects::HSVSpace min_range = request.getColor().getMin_range(), max_range = request.getColor().getMax_range();
@@ -96,8 +81,23 @@ void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjec
 		else
 			color = request.getColor();
 
+		CommObjectRecognitionObjects::ROI roiFixed;
+		cv::Mat image = COMP->getMat(COMP->newestImage), subImg;
+//		cv::imwrite("completeiamge.png", image);
+
+		if(request.getRoi().getWidth() * request.getRoi().getHeight() == 0 ){
+			subImg = image;
+			std::cout<< "[ColorQueryService] ROI not available "<<std::endl;
+		}else{
+			std::cout<< "[ColorQueryService] using ROI : "<<request.getRoi().getWidth() <<" - "<<request.getRoi().getHeight() <<std::endl;
+			roiFixed = fixROI(request.getRoi(), image.size().width, image.size().height);
+			subImg = image(cv::Range(roiFixed.getPoint().getY(), roiFixed.getPoint().getY() + roiFixed.getHeight()),
+					cv::Range(roiFixed.getPoint().getX() , roiFixed.getPoint().getX() + roiFixed.getWidth()));   //TODO
+		}
+//		cv::imwrite("subimage.png", subImg);
+
 		cv::Mat mask = COMP->segmentation(subImg, color);
-		cv::imwrite("maskimage.png", mask);
+//		cv::imwrite("maskimage.png", mask);
 
 		double min, max;
 		cv::minMaxLoc(mask, &min, &max);

@@ -59,7 +59,7 @@ CommObjectRecognitionObjects::Color ColorSegmentationCore::getColor(CommObjectRe
 	CommObjectRecognitionObjects::HSVSpace min_range, max_range;
 
 	switch(color_name) {
-	    case CommObjectRecognitionObjects::Colors::RED :
+	    case CommObjectRecognitionObjects::Colors::RED : // TODO add other (170, 120, 70) - (180, 255, 255)
 	    	min_range.setH(0).setS(120).setV(70);
 	    	max_range.setH(10).setS(255).setV(255);
 	        break;
@@ -79,6 +79,7 @@ CommObjectRecognitionObjects::Color ColorSegmentationCore::getColor(CommObjectRe
 
 	c.setMin_range(min_range);
 	c.setMax_range(max_range);
+
 	return c;
 }
 
@@ -87,24 +88,20 @@ cv::Mat ColorSegmentationCore::segmentation(cv::Mat img, CommObjectRecognitionOb
 	std::cout << "[ColorSegmentationCore] Segmentation node\n";
 
     //Converting image from BGR to HSV color space.
-    cv::Mat hsv;
+    cv::Mat mask1,mask2,hsv;
     cv::cvtColor(img, hsv, cv::COLOR_BGR2HSV);
 
-    cv::Mat mask1,mask2;
-    // Creating masks to detect the upper and lower red color.
-//    cv::inRange(hsv, cv::Scalar(0, 120, 70), cv::Scalar(10, 255, 255), mask1);
-//    cv::inRange(hsv, cv::Scalar(170, 120, 70), cv::Scalar(180, 255, 255), mask2);
-
-    // Creating masks to detect the upper and lower gray color. 45 - 70
+    // Creating masks to detect the upper and lower color.
     CommObjectRecognitionObjects::HSVSpace min_range, max_range;
     min_range = color.getMin_range();
-    cv::inRange(hsv, cv::Scalar(min_range.getH(), min_range.getS(), min_range.getV()), cv::Scalar(max_range.getH(), max_range.getS(), max_range.getV()), mask1); //45 - 70  -->115 - 178
-    //cv::inRange(hsv, cv::Scalar(0, 0, 115), cv::Scalar(0, 0, 178), mask1);
-
+    max_range = color.getMax_range();
+    cv::inRange(hsv, cv::Scalar(min_range.getH(), min_range.getS(), min_range.getV()), cv::Scalar(max_range.getH(), max_range.getS(), max_range.getV()), mask1);
+//	std::cout<< "[ColorSegmentationCore-segmentation] HSVSpace"<<\
+//			", min_range h:"<<min_range.getH()<<", min_range s:"<<min_range.getS()<<", min_range v:"<<min_range.getV()<<std::endl<<\
+//			", max_range h:"<<max_range.getH()<<", max_range s:"<<max_range.getS()<<", max_range v:"<<max_range.getV()<<std::endl;
 	// Generating the final mask to detect color
-	mask1 = mask1+mask2;
-//	cv::imshow("mask1", mask1);
-//	cv::waitKey(10);
+	//mask1 = mask1+mask2;
+
     return mask1;
 }
 
