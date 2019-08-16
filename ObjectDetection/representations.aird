@@ -76,7 +76,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AF-b0nJAEemtE9imTG4vRw"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_AF90wXJAEemtE9imTG4vRw" fontName="Ubuntu" fontHeight="8"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AF90wnJAEemtE9imTG4vRw" x="329" y="144" width="30" height="30"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AF90wnJAEemtE9imTG4vRw" x="329" y="84" width="30" height="30"/>
           </children>
           <children xmi:type="notation:Node" xmi:id="_Ch-kMHJAEemtE9imTG4vRw" type="3012" element="_ChVD8HJAEemtE9imTG4vRw">
             <children xmi:type="notation:Node" xmi:id="_Ch_LQHJAEemtE9imTG4vRw" type="5010">
@@ -88,6 +88,17 @@
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_Ch-kMXJAEemtE9imTG4vRw" fontName="Ubuntu" fontHeight="8"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ch-kMnJAEemtE9imTG4vRw" x="-22" y="199" width="30" height="30"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_5_3E4MAtEemd39WxO_EUcA" type="3012" element="_5_BXYMAtEemd39WxO_EUcA">
+            <children xmi:type="notation:Node" xmi:id="_5_46EMAtEemd39WxO_EUcA" type="5010">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_5_46EcAtEemd39WxO_EUcA" x="31" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_5_79YMAtEemd39WxO_EUcA" type="3014" element="_5_ClgMAtEemd39WxO_EUcA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_5_79YcAtEemd39WxO_EUcA" fontName="Ubuntu"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5_79YsAtEemd39WxO_EUcA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_5_3E4cAtEemd39WxO_EUcA" fontName="Ubuntu" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5_3E4sAtEemd39WxO_EUcA" x="329" y="192" width="30" height="30"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_F4MulHI_EemtE9imTG4vRw" fontName="Ubuntu" fontHeight="10" bold="true"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_F4MulXI_EemtE9imTG4vRw" x="276" y="180" width="339" height="291"/>
@@ -162,6 +173,14 @@
           <description xmi:type="style:CustomStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='AnswerPortNode']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='AnswerPortNode']"/>
+      </ownedBorderedNodes>
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_5_BXYMAtEemd39WxO_EUcA" name="ShapeQueryServiceReq" tooltipText="RequestPort" width="3" height="3" resizeKind="NSEW">
+        <target xmi:type="ComponentDefinition:RequestPort" href="model/ObjectDetection.component#//@component/@elements.5"/>
+        <semanticElements xmi:type="ComponentDefinition:RequestPort" href="model/ObjectDetection.component#//@component/@elements.5"/>
+        <ownedStyle xmi:type="diagram:CustomStyle" uid="_5_ClgMAtEemd39WxO_EUcA" showIcon="false" id="request">
+          <description xmi:type="style:CustomStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='RequestPortNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@borderedNodeMappings[name='RequestPortNode']"/>
       </ownedBorderedNodes>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>

@@ -36,6 +36,7 @@ public:
 	virtual int on_exit();
 
 	void ColorSegmentation();
+	void ShapeRecognition();
 };
 
 #endif

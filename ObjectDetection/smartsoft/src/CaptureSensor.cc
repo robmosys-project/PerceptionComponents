@@ -73,6 +73,26 @@ void CaptureSensor::ColorSegmentation()
 //	objectRecognitionQueryServiceAnsw-> = objectInformation;
 }
 
+void CaptureSensor::ShapeRecognition()
+{
+	CommObjectRecognitionObjects::CommInfDetection objectinf_in;
+	objectinf_in.setShape(COMP->shapeObject);
+
+	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties objectinf_out;
+
+
+	Smart::StatusCode status2 = COMP->shapeQueryServiceReq->query(objectinf_in, objectinf_out);
+
+	if(status2 != Smart::SMART_OK) {
+		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status2)<< std::endl;
+	}
+
+//	COMP->colorSegmentation_point = objectinf_out;
+
+//	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<objectinf_out.getX()<<", y:"<<objectinf_out.getY()<<std::endl;
+
+}
+
 
 int CaptureSensor::on_entry()
 {
@@ -83,12 +103,15 @@ int CaptureSensor::on_entry()
 int CaptureSensor::on_execute()
 {
 
-		if(COMP->evaluateColorSegmentation){
-			ColorSegmentation();
-			COMP->evaluateColorSegmentation = false;
-		}
-//	std::cout << "Hello from CaptureSensor " << std::endl;
+	if(COMP->evaluateColorSegmentation){
+		ColorSegmentation();
+		COMP->evaluateColorSegmentation = false;
+	}
 
+	if(COMP->evaluateShape){
+		ShapeRecognition();
+		COMP->evaluateShape = false;
+	}
 	// it is possible to return != 0 (e.g. when the task detects errors), then the outer loop breaks and the task stops
 	return 0;
 }

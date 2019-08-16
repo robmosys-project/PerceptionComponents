@@ -45,9 +45,18 @@ void ObjectRecognitionQueryServiceAnsw::setAnswer(CommObjectRecognitionObjects::
 void ObjectRecognitionQueryServiceAnsw::handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommObjectRecognitionInformation& request) 
 {
 
-	COMP->evaluateColorSegmentation = true;
+
 	COMP->roiObject = request.getRoi();
-	COMP->colorObject = request.getColor();
+
+	if (request.getColor().getName() == CommObjectRecognitionObjects::Colors::UNDEFINED ){
+		COMP->evaluateColorSegmentation = true;
+		COMP->colorObject = request.getColor();
+	}
+	if (request.getShape().getName() == CommObjectRecognitionObjects::Shapes::UNDEFINED ){
+		COMP->evaluateShape = true;
+		COMP->shapeObject = request.getShape();
+	}
+
 
 	std::cout<< "[ObjectRecognitionQuery] roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
 

@@ -24,6 +24,7 @@
 #include <DomainVision/CommRGBDImage.hh>
 #include <CommObjectRecognitionObjects/ROI.hh>
 #include <CommObjectRecognitionObjects/Color.hh>
+#include <CommObjectRecognitionObjects/Shape.hh>
 
 class ObjectDetectionCore
 {
@@ -31,9 +32,11 @@ private:
 
 public:
 	bool evaluateColorSegmentation;
+	bool evaluateShape;
 	CommObjectRecognitionObjects::CommPoint2d colorSegmentation_point;
 	CommObjectRecognitionObjects::ROI roiObject;
 	CommObjectRecognitionObjects::Color colorObject;
+	CommObjectRecognitionObjects::Shape shapeObject;
 
 	DomainVision::CommVideoImage rGBImageObject;
 	DomainVision::CommDepthImage depthImageObject;

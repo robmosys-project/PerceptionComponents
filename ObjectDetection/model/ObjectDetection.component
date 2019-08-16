@@ -13,4 +13,6 @@ Activity CaptureSensor
 	}
 	RequestHandler ObjectRecognitionQueryServiceAnsw triggeredFrom ObjectRecognitionQueryService {
 	}
+RequestPort ShapeQueryServiceReq implements CommObjectRecognitionObjects.ObjectQueryService {
+	}
 }
