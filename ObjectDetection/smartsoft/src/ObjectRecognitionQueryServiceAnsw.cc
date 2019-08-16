@@ -49,7 +49,7 @@ void ObjectRecognitionQueryServiceAnsw::handleQuery(const SmartACE::QueryId &id,
 	COMP->roiObject = request.getRoi();
 	COMP->colorObject = request.getColor();
 
-//	std::cout<< "[ObjectRecognitionQuery] roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
+	std::cout<< "[ObjectRecognitionQuery] roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
 
 	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer;
 	CommBasicObjects::CommPose3d p_object;

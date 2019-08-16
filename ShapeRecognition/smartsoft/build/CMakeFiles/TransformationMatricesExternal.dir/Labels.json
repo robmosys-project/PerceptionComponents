@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles/TransformationMatricesExternal"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles/TransformationMatricesExternal.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles/TransformationMatricesExternal-complete.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-install.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-mkdir.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-download.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-update.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-patch.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-configure.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-build.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-TransformationMatricesStep1.rule"
+		},
+		{
+			"file" : "/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-TransformationMatricesStep2.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TransformationMatricesExternal"
+		],
+		"name" : "TransformationMatricesExternal"
+	}
+}
