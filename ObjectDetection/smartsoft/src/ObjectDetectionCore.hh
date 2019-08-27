@@ -34,6 +34,7 @@ public:
 	bool evaluateColorSegmentation;
 	bool evaluateShape;
 	CommObjectRecognitionObjects::CommPoint2d colorSegmentation_point;
+	CommBasicObjects::CommPose3d shape_pose;
 	CommObjectRecognitionObjects::ROI roiObject;
 	CommObjectRecognitionObjects::Color colorObject;
 	CommObjectRecognitionObjects::Shape shapeObject;

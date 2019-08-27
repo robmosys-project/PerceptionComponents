@@ -20,11 +20,17 @@
 #include "aceSmartSoft.hh"
 #include <iostream>
 
+#include <CommBasicObjects/CommPosition3d.hh>
+
 class ShapeRecognitionCore
 {
 private:
 
 public:
+	std::vector<CommBasicObjects::CommPosition3d> sphere_list;
+	std::vector<CommBasicObjects::CommPosition3d> cube_list;
+	std::vector<CommBasicObjects::CommPosition3d> cylinder_list;
+
 	ShapeRecognitionCore();
 };
 	

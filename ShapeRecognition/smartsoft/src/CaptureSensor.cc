@@ -93,6 +93,9 @@ void CaptureSensor::on_PointCloudPushServiceIn(const DomainVision::Comm3dPointCl
 		}
 		std::cout<< "Obj "<<i+1<<": "<<text_shape<<std::endl;
 	}
+	COMP->sphere_list = sphere_list;
+	COMP->cube_list = cube_list;
+	COMP->cylinder_list = cylinder_list;
 
 }
 

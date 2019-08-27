@@ -31,9 +31,23 @@ ObjectQueryServiceAnswHandler::~ObjectQueryServiceAnswHandler()
 
 void ObjectQueryServiceAnswHandler::handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommInfDetection& request) 
 {
+	std::cout<< "[ObjectQueryService] Service Call"<<std::endl;
+	std::cout<< "[ObjectQueryService] Service Call"<<request.getShape().getName()<<std::endl;
+
 	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer;
-	
-	// implement your query handling logic here and fill in the answer object
-	
+	CommBasicObjects::CommPose3d pose;
+	if(request.getShape().getName() ==  CommObjectRecognitionObjects::Shapes::SPHERE){
+		if(COMP->sphere_list.size() >0 )
+			pose.setPosition(COMP->sphere_list[0]);
+	}
+	if(request.getShape().getName() ==  CommObjectRecognitionObjects::Shapes::CUBE){
+		if(COMP->cube_list.size() >0 )
+			pose.setPosition(COMP->cube_list[0]);
+	}
+	if(request.getShape().getName() ==  CommObjectRecognitionObjects::Shapes::CYLINDER){
+		if(COMP->cylinder_list.size() >0 )
+			pose.setPosition(COMP->cylinder_list[0]);
+	}
+	answer.setPose(pose);
 	this->server->answer(id, answer);
 }

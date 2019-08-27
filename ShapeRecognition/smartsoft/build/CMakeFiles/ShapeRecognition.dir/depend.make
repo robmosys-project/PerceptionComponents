@@ -55,6 +55,9 @@ CMakeFiles/ShapeRecognition.dir/src-gen/CaptureSensorCore.cc.o: /home/lmartinez/
 CMakeFiles/ShapeRecognition.dir/src-gen/CaptureSensorCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/CaptureSensorCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/CaptureSensorCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/CaptureSensorCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/CaptureSensorCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/CaptureSensorCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/CaptureSensorCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/CaptureSensorCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/CaptureSensorCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -1188,6 +1191,9 @@ CMakeFiles/ShapeRecognition.dir/src-gen/ObjectQueryServiceAnswHandlerCore.cc.o: 
 CMakeFiles/ShapeRecognition.dir/src-gen/ObjectQueryServiceAnswHandlerCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ObjectQueryServiceAnswHandlerCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ObjectQueryServiceAnswHandlerCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ObjectQueryServiceAnswHandlerCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ObjectQueryServiceAnswHandlerCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ObjectQueryServiceAnswHandlerCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ObjectQueryServiceAnswHandlerCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ObjectQueryServiceAnswHandlerCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ObjectQueryServiceAnswHandlerCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -2510,6 +2516,9 @@ CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognition.cc.o: /home/lmartinez/S
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognition.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognition.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognition.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognition.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognition.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognition.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognition.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognition.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognition.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -3660,6 +3669,9 @@ CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionAcePortFactory.cc.o: /ho
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionAcePortFactory.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionAcePortFactory.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionAcePortFactory.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionAcePortFactory.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionAcePortFactory.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionAcePortFactory.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionAcePortFactory.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionAcePortFactory.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionAcePortFactory.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -4807,6 +4819,9 @@ CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionExtension.cc.o: /home/lm
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionExtension.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionExtension.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionExtension.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionExtension.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionExtension.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionExtension.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionExtension.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionExtension.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/ShapeRecognitionExtension.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -6470,6 +6485,9 @@ CMakeFiles/ShapeRecognition.dir/src-gen/main.cc.o: /home/lmartinez/SOFTWARE/smar
 CMakeFiles/ShapeRecognition.dir/src-gen/main.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/main.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/main.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/main.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/main.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/main.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/main.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/main.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/main.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -7620,6 +7638,9 @@ CMakeFiles/ShapeRecognition.dir/src-gen/params/ParameterUpdateHandler.cc.o: /hom
 CMakeFiles/ShapeRecognition.dir/src-gen/params/ParameterUpdateHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/params/ParameterUpdateHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/params/ParameterUpdateHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/params/ParameterUpdateHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/params/ParameterUpdateHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src-gen/params/ParameterUpdateHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/params/ParameterUpdateHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/params/ParameterUpdateHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src-gen/params/ParameterUpdateHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -8767,6 +8788,9 @@ CMakeFiles/ShapeRecognition.dir/src/CaptureSensor.cc.o: /home/lmartinez/SOFTWARE
 CMakeFiles/ShapeRecognition.dir/src/CaptureSensor.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src/CaptureSensor.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src/CaptureSensor.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src/CaptureSensor.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src/CaptureSensor.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src/CaptureSensor.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src/CaptureSensor.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src/CaptureSensor.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src/CaptureSensor.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -9914,6 +9938,9 @@ CMakeFiles/ShapeRecognition.dir/src/CompHandler.cc.o: /home/lmartinez/SOFTWARE/s
 CMakeFiles/ShapeRecognition.dir/src/CompHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src/CompHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src/CompHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src/CompHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src/CompHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src/CompHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src/CompHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src/CompHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src/CompHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -11061,6 +11088,9 @@ CMakeFiles/ShapeRecognition.dir/src/ObjectQueryServiceAnswHandler.cc.o: /home/lm
 CMakeFiles/ShapeRecognition.dir/src/ObjectQueryServiceAnswHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src/ObjectQueryServiceAnswHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src/ObjectQueryServiceAnswHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src/ObjectQueryServiceAnswHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src/ObjectQueryServiceAnswHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src/ObjectQueryServiceAnswHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src/ObjectQueryServiceAnswHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src/ObjectQueryServiceAnswHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src/ObjectQueryServiceAnswHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -12210,6 +12240,9 @@ CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /home/lmartinez/S
 CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh
@@ -13305,6 +13338,9 @@ CMakeFiles/ShapeRecognition.dir/src/ParameterStateStruct.cc.o: /usr/local/includ
 
 CMakeFiles/ShapeRecognition.dir/src/ShapeRecognitionCore.cc.o: ../src/ShapeRecognitionCore.cc
 CMakeFiles/ShapeRecognition.dir/src/ShapeRecognitionCore.cc.o: ../src/ShapeRecognitionCore.hh
+CMakeFiles/ShapeRecognition.dir/src/ShapeRecognitionCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommPosition3d.hh
+CMakeFiles/ShapeRecognition.dir/src/ShapeRecognitionCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommPosition3dCore.hh
+CMakeFiles/ShapeRecognition.dir/src/ShapeRecognitionCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommBasicObjects/CommPosition3dData.hh
 CMakeFiles/ShapeRecognition.dir/src/ShapeRecognitionCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartIActiveQueueInputHandlerDecorator_T.h
 CMakeFiles/ShapeRecognition.dir/src/ShapeRecognitionCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartIClientPattern.h
 CMakeFiles/ShapeRecognition.dir/src/ShapeRecognitionCore.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/SmartSoft_CD_API/smartICommunicationPattern.h
@@ -13873,6 +13909,9 @@ CMakeFiles/ShapeRecognition.dir/src/SmartStateChangeHandler.cc.o: /home/lmartine
 CMakeFiles/ShapeRecognition.dir/src/SmartStateChangeHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROI.hh
 CMakeFiles/ShapeRecognition.dir/src/SmartStateChangeHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROICore.hh
 CMakeFiles/ShapeRecognition.dir/src/SmartStateChangeHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
+CMakeFiles/ShapeRecognition.dir/src/SmartStateChangeHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CMakeFiles/ShapeRecognition.dir/src/SmartStateChangeHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CMakeFiles/ShapeRecognition.dir/src/SmartStateChangeHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
 CMakeFiles/ShapeRecognition.dir/src/SmartStateChangeHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CMakeFiles/ShapeRecognition.dir/src/SmartStateChangeHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColorsData.hh
 CMakeFiles/ShapeRecognition.dir/src/SmartStateChangeHandler.cc.o: /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumRelationType.hh

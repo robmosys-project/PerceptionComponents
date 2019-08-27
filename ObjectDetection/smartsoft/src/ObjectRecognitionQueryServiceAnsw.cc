@@ -48,17 +48,20 @@ void ObjectRecognitionQueryServiceAnsw::handleQuery(const SmartACE::QueryId &id,
 
 	COMP->roiObject = request.getRoi();
 
-	if (request.getColor().getName() == CommObjectRecognitionObjects::Colors::UNDEFINED ){
+	if (request.getColor().getName() != CommObjectRecognitionObjects::Colors::UNDEFINED ){
 		COMP->evaluateColorSegmentation = true;
 		COMP->colorObject = request.getColor();
 	}
-	if (request.getShape().getName() == CommObjectRecognitionObjects::Shapes::UNDEFINED ){
+	if (request.getShape().getName() == CommObjectRecognitionObjects::Shapes::SPHERE ||
+		request.getShape().getName() == CommObjectRecognitionObjects::Shapes::CUBE ||
+		request.getShape().getName() == CommObjectRecognitionObjects::Shapes::CYLINDER){
+		std::cout<< "[ObjectRecognitionQueryServiceAnsw] Shape"<<std::endl;
 		COMP->evaluateShape = true;
 		COMP->shapeObject = request.getShape();
 	}
 
 
-	std::cout<< "[ObjectRecognitionQuery] roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
+	//std::cout<< "[ObjectRecognitionQuery] roi width:"<<request.getRoi().getWidth() <<", height:"<<request.getRoi().getHeight()<<std::endl;
 
 	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer;
 	CommBasicObjects::CommPose3d p_object;
@@ -67,11 +70,14 @@ void ObjectRecognitionQueryServiceAnsw::handleQuery(const SmartACE::QueryId &id,
 	p_object.set_z(-1);
 	
 
-	if (COMP->colorSegmentation_point.getX() > 0 && COMP->colorSegmentation_point.getY() )
+	if (COMP->colorSegmentation_point.getX() > 0 && COMP->colorSegmentation_point.getY() > 0)
 		if(COMP->depthImageObjectStatus == Smart::SMART_OK)
 			p_object = COMP->get3dPoint (COMP->colorSegmentation_point, COMP->getDepthImage());
 		else
 			std::cout<< "Depth image not available"<<std::endl;
+
+	if (COMP->shape_pose.get_position().getX() !=-1 && COMP->shape_pose.get_position().getY() !=-1 && COMP->shape_pose.get_position().getZ() !=-1)
+		p_object = COMP->shape_pose;
 
 	answer.setPose(p_object);
 

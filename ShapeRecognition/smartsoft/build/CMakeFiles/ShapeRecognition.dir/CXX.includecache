@@ -155,6 +155,8 @@ object_pose_estimation/ObjectPoseEstimator.h
 ../src/ObjectQueryServiceAnswHandler.hh
 ObjectQueryServiceAnswHandlerCore.hh
 ../src/ObjectQueryServiceAnswHandlerCore.hh
+CommBasicObjects/CommPosition3d.hh
+-
 
 ../src/ParameterStateStruct.hh
 ParameterStateStructCore.hh
@@ -164,6 +166,8 @@ ParameterStateStructCore.hh
 aceSmartSoft.hh
 ../src/aceSmartSoft.hh
 iostream
+-
+CommBasicObjects/CommPosition3d.hh
 -
 
 ../src/SmartStateChangeHandler.hh
@@ -397,6 +401,8 @@ ShapeRecognition.hh
 /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/src/ObjectQueryServiceAnswHandler.hh
 ObjectQueryServiceAnswHandlerCore.hh
 /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/src/ObjectQueryServiceAnswHandlerCore.hh
+CommBasicObjects/CommPosition3d.hh
+-
 
 /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/src/ParameterStateStruct.cc
 ParameterStateStruct.hh
@@ -416,6 +422,8 @@ ShapeRecognitionCore.hh
 aceSmartSoft.hh
 /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/src/aceSmartSoft.hh
 iostream
+-
+CommBasicObjects/CommPosition3d.hh
 -
 
 /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/src/SmartStateChangeHandler.cc
@@ -529,10 +537,10 @@ CommObjectRecognitionObjects/CommInfDetectionData.hh
 /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/CommInfDetectionData.hh
 CommObjectRecognitionObjects/Color.hh
 /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/Color.hh
+CommObjectRecognitionObjects/Shape.hh
+/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/Shape.hh
 CommObjectRecognitionObjects/ROI.hh
 /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/ROI.hh
-CommObjectRecognitionObjects/enumShapes.hh
-/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/enumShapes.hh
 iostream
 -
 string
@@ -541,8 +549,8 @@ list
 -
 
 /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommInfDetectionData.hh
-CommObjectRecognitionObjects/enumShapesData.hh
-/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/enumShapesData.hh
+CommObjectRecognitionObjects/ShapeData.hh
+/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/ShapeData.hh
 CommObjectRecognitionObjects/ColorData.hh
 /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/ColorData.hh
 CommObjectRecognitionObjects/ROIData.hh
@@ -717,6 +725,26 @@ list
 /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ROIData.hh
 CommObjectRecognitionObjects/CommPoint2dData.hh
 /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/CommPoint2dData.hh
+
+/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/Shape.hh
+CommObjectRecognitionObjects/ShapeCore.hh
+/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/ShapeCore.hh
+
+/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeCore.hh
+CommObjectRecognitionObjects/ShapeData.hh
+/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/ShapeData.hh
+CommObjectRecognitionObjects/enumShapes.hh
+/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/enumShapes.hh
+iostream
+-
+string
+-
+list
+-
+
+/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/ShapeData.hh
+CommObjectRecognitionObjects/enumShapesData.hh
+/home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/CommObjectRecognitionObjects/enumShapesData.hh
 
 /home/lmartinez/SOFTWARE/smartsoft/include/CommObjectRecognitionObjects/enumColors.hh
 CommObjectRecognitionObjects/enumColorsData.hh

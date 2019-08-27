@@ -75,6 +75,8 @@ void CaptureSensor::ColorSegmentation()
 
 void CaptureSensor::ShapeRecognition()
 {
+	//std::cout<< "[ShapeRecognition] Enter"<<std::endl;
+
 	CommObjectRecognitionObjects::CommInfDetection objectinf_in;
 	objectinf_in.setShape(COMP->shapeObject);
 
@@ -87,9 +89,10 @@ void CaptureSensor::ShapeRecognition()
 		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status2)<< std::endl;
 	}
 
-//	COMP->colorSegmentation_point = objectinf_out;
+	COMP->shape_pose = objectinf_out.getPose() ;
 
-//	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<objectinf_out.getX()<<", y:"<<objectinf_out.getY()<<std::endl;
+	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<objectinf_out.getPose().get_position().getX()<<", y:"<<objectinf_out.getPose().get_position().getY()<<", z:"<<objectinf_out.getPose().get_position().getZ()<<std::endl;
+
 
 }
 
@@ -102,6 +105,8 @@ int CaptureSensor::on_entry()
 }
 int CaptureSensor::on_execute()
 {
+
+	//std::cout<< "[CaptureSensor] getColor:"<<COMP->evaluateColorSegmentation<<", getShape:"<<COMP->evaluateShape<<std::endl;
 
 	if(COMP->evaluateColorSegmentation){
 		ColorSegmentation();

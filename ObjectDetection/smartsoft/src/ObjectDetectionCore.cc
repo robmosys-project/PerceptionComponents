@@ -21,7 +21,10 @@ ObjectDetectionCore::ObjectDetectionCore()
 {
 	std::cout << "constructor ObjectDetectionCore\n";
 	evaluateColorSegmentation = false;
+	evaluateShape = false;
 	colorSegmentation_point.setX(-1).setY(-1);
+	CommBasicObjects::CommPosition3d pos;
+	shape_pose.set_position(pos.setX(-1).setY(-1).setZ(-1));
 }
 
 void ObjectDetectionCore::setVideoImage(DomainVision::CommVideoImage input, Smart::StatusCode status)

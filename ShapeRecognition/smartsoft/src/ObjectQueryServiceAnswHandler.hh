@@ -18,6 +18,7 @@
 #define _OBJECTQUERYSERVICEANSWHANDLER_USER_HH
 		
 #include "ObjectQueryServiceAnswHandlerCore.hh"
+#include <CommBasicObjects/CommPosition3d.hh>
 
 class ObjectQueryServiceAnswHandler : public ObjectQueryServiceAnswHandlerCore
 {
