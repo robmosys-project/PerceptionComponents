@@ -81,7 +81,7 @@ cv::Mat ObjectDetectionCore::getImageMat(const DomainVision::CommVideoImage inpu
 
 #include <string>
 
-CommBasicObjects::CommPose3d  ObjectDetectionCore::get3dPoint (CommObjectRecognitionObjects::CommPoint2d input, DomainVision::CommDepthImage depthImage)
+CommBasicObjects::CommPose3d  ObjectDetectionCore::get3dPoint (CommPerception::CommPoint2d input, DomainVision::CommDepthImage depthImage)
 {
 	CommBasicObjects::CommPose3d point;
 	uint16_t* depth_frame = (uint16_t*)depthImage.get_distances();

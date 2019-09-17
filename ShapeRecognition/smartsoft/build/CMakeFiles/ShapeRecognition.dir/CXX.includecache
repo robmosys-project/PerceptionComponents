@@ -609,6 +609,8 @@ CommBasicObjects/CommPose3d.hh
 /home/lmartinez/SOFTWARE/smartsoft/include/CommPerception/CommBasicObjects/CommPose3d.hh
 CommObjectRecognitionObjects/CommObjectRelation.hh
 /home/lmartinez/SOFTWARE/smartsoft/include/CommPerception/CommObjectRecognitionObjects/CommObjectRelation.hh
+CommPerception/CommPoint2d.hh
+/home/lmartinez/SOFTWARE/smartsoft/include/CommPerception/CommPerception/CommPoint2d.hh
 iostream
 -
 string
@@ -619,6 +621,8 @@ list
 /home/lmartinez/SOFTWARE/smartsoft/include/CommPerception/CommObjectPropertiesData.hh
 CommObjectRecognitionObjects/CommObjectRelationData.hh
 /home/lmartinez/SOFTWARE/smartsoft/include/CommPerception/CommObjectRecognitionObjects/CommObjectRelationData.hh
+CommPerception/CommPoint2dData.hh
+/home/lmartinez/SOFTWARE/smartsoft/include/CommPerception/CommPerception/CommPoint2dData.hh
 CommBasicObjects/CommPose3dData.hh
 /home/lmartinez/SOFTWARE/smartsoft/include/CommPerception/CommBasicObjects/CommPose3dData.hh
 vector

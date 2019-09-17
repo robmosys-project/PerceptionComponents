@@ -19,7 +19,9 @@
 
 #include "CaptureSensorCore.hh"
 #include <DomainVision/CommRGBDImage.hh>
-#include <CommObjectRecognitionObjects/CommPoint2d.hh>
+#include <CommPerception/CommPoint2d.hh>
+#include <CommPerception/CommInfDetection.hh>
+#include <CommPerception/CommObjectProperties.hh>
 
 class CaptureSensor  : public CaptureSensorCore
 {

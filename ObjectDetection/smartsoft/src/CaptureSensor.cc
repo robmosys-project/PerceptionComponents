@@ -53,23 +53,23 @@ void CaptureSensor::on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage 
 void CaptureSensor::ColorSegmentation()
 {
 	SmartACE::QueryId colorQueryId = 12;
-	CommObjectRecognitionObjects::CommColorDetection imageInformation;
-	imageInformation.setRoi(COMP->roiObject);
-	imageInformation.setColor(COMP->colorObject);
+	CommPerception::CommInfDetection object_properties;
+	object_properties.setRoi(COMP->roiObject);
+	object_properties.setColor(COMP->colorObject);
 
-	CommObjectRecognitionObjects::CommPoint2d objectInformation;
+	CommPerception::CommObjectProperties object_information;
 
 
-	Smart::StatusCode status2 = COMP->colorQueryServiceReq->query(imageInformation, objectInformation);
+	Smart::StatusCode status2 = COMP->colorQueryServiceReq->query(object_properties, object_information);
 
 	if(status2 != Smart::SMART_OK) {
 		std::cerr << "objectRecognitionQueryServiceReq: " << Smart::StatusCodeConversion(status2)<< std::endl;
 	}
 
-	COMP->colorSegmentation_point = objectInformation;
+	COMP->colorSegmentation_point = object_information.getPoint2d();
 //	status2 = COMP->colorQueryServiceReq->queryReceive(colorQueryId, objectInformation);
 //	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer_update;
-	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<objectInformation.getX()<<", y:"<<objectInformation.getY()<<std::endl;
+	std::cout<< "[ObjectRecognitionQuery] Object detected, position  x:"<<object_information.getPoint2d().getX()<<", y:"<<object_information.getPoint2d().getY()<<std::endl;
 //	objectRecognitionQueryServiceAnsw-> = objectInformation;
 }
 
@@ -77,10 +77,10 @@ void CaptureSensor::ShapeRecognition()
 {
 	//std::cout<< "[ShapeRecognition] Enter"<<std::endl;
 
-	CommObjectRecognitionObjects::CommInfDetection objectinf_in;
+	CommPerception::CommInfDetection objectinf_in;
 	objectinf_in.setShape(COMP->shapeObject);
 
-	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties objectinf_out;
+	CommPerception::CommObjectProperties objectinf_out;
 
 
 	Smart::StatusCode status2 = COMP->shapeQueryServiceReq->query(objectinf_in, objectinf_out);

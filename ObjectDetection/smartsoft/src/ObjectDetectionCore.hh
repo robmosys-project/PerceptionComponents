@@ -22,9 +22,9 @@
 #include "armadillo.hh"
 #include <opencv2/opencv.hpp>
 #include <DomainVision/CommRGBDImage.hh>
-#include <CommObjectRecognitionObjects/ROI.hh>
-#include <CommObjectRecognitionObjects/Color.hh>
-#include <CommObjectRecognitionObjects/Shape.hh>
+#include <CommPerception/ROI.hh>
+#include <CommPerception/Color.hh>
+#include <CommPerception/Shape.hh>
 
 class ObjectDetectionCore
 {
@@ -33,11 +33,11 @@ private:
 public:
 	bool evaluateColorSegmentation;
 	bool evaluateShape;
-	CommObjectRecognitionObjects::CommPoint2d colorSegmentation_point;
+	CommPerception::CommPoint2d colorSegmentation_point;
 	CommBasicObjects::CommPose3d shape_pose;
-	CommObjectRecognitionObjects::ROI roiObject;
-	CommObjectRecognitionObjects::Color colorObject;
-	CommObjectRecognitionObjects::Shape shapeObject;
+	CommPerception::ROI roiObject;
+	CommPerception::Color colorObject;
+	CommPerception::Shape shapeObject;
 
 	DomainVision::CommVideoImage rGBImageObject;
 	DomainVision::CommDepthImage depthImageObject;
@@ -52,7 +52,7 @@ public:
 	DomainVision::CommDepthImage getDepthImage();
 //	cv::Mat getDepthMat(const DomainVision::CommDepthImage input);
 	cv::Mat getImageMat(const DomainVision::CommVideoImage input);
-	CommBasicObjects::CommPose3d  get3dPoint (CommObjectRecognitionObjects::CommPoint2d colorSegmentation_point, DomainVision::CommDepthImage depthImage);
+	CommBasicObjects::CommPose3d  get3dPoint (CommPerception::CommPoint2d colorSegmentation_point, DomainVision::CommDepthImage depthImage);
 };
 
 
