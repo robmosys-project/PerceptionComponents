@@ -311,6 +311,19 @@ CommBasicObjectsExternal/fast:
 .PHONY : CommBasicObjectsExternal/fast
 
 #=============================================================================
+# Target rules for targets named CommPerceptionExternal
+
+# Build rule for target.
+CommPerceptionExternal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CommPerceptionExternal
+.PHONY : CommPerceptionExternal
+
+# fast build rule for target.
+CommPerceptionExternal/fast:
+	$(MAKE) -f CMakeFiles/CommPerceptionExternal.dir/build.make CMakeFiles/CommPerceptionExternal.dir/build
+.PHONY : CommPerceptionExternal/fast
+
+#=============================================================================
 # Target rules for targets named CommObjectRecognitionObjectsExternal
 
 # Build rule for target.
@@ -752,6 +765,7 @@ help:
 	@echo "... SmartPropertyExternal"
 	@echo "... TransformationMatricesExternal"
 	@echo "... CommBasicObjectsExternal"
+	@echo "... CommPerceptionExternal"
 	@echo "... CommObjectRecognitionObjectsExternal"
 	@echo "... src-gen/CaptureSensorCore.o"
 	@echo "... src-gen/CaptureSensorCore.i"

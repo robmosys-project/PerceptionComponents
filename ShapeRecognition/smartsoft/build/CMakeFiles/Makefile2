@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/Percepti
 CMakeFiles/autoinstall.dir/all: CMakeFiles/ShapeRecognition.dir/all
 	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/depend
 	$(MAKE) -f CMakeFiles/autoinstall.dir/build.make CMakeFiles/autoinstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=88 "Built target autoinstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=98 "Built target autoinstall"
 .PHONY : CMakeFiles/autoinstall.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/autoinstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/autoinstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles 87
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles 97
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/autoinstall.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/autoinstall.dir/rule
@@ -106,10 +106,11 @@ CMakeFiles/ShapeRecognition.dir/all: CMakeFiles/ArmadilloExternal.dir/all
 CMakeFiles/ShapeRecognition.dir/all: CMakeFiles/SmartPropertyExternal.dir/all
 CMakeFiles/ShapeRecognition.dir/all: CMakeFiles/TransformationMatricesExternal.dir/all
 CMakeFiles/ShapeRecognition.dir/all: CMakeFiles/CommBasicObjectsExternal.dir/all
+CMakeFiles/ShapeRecognition.dir/all: CMakeFiles/CommPerceptionExternal.dir/all
 CMakeFiles/ShapeRecognition.dir/all: CMakeFiles/CommObjectRecognitionObjectsExternal.dir/all
 	$(MAKE) -f CMakeFiles/ShapeRecognition.dir/build.make CMakeFiles/ShapeRecognition.dir/depend
 	$(MAKE) -f CMakeFiles/ShapeRecognition.dir/build.make CMakeFiles/ShapeRecognition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56 "Built target ShapeRecognition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Built target ShapeRecognition"
 .PHONY : CMakeFiles/ShapeRecognition.dir/all
 
 # Include target in all.
@@ -119,7 +120,7 @@ all: CMakeFiles/ShapeRecognition.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ShapeRecognition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles 86
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles 96
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ShapeRecognition.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles 0
 .PHONY : CMakeFiles/ShapeRecognition.dir/rule
@@ -147,7 +148,7 @@ CMakeFiles/DomainVisionExternal.dir/all: CMakeFiles/SmartXmlExternal.dir/all
 CMakeFiles/DomainVisionExternal.dir/all: CMakeFiles/CommBasicObjectsExternal.dir/all
 	$(MAKE) -f CMakeFiles/DomainVisionExternal.dir/build.make CMakeFiles/DomainVisionExternal.dir/depend
 	$(MAKE) -f CMakeFiles/DomainVisionExternal.dir/build.make CMakeFiles/DomainVisionExternal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40 "Built target DomainVisionExternal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50 "Built target DomainVisionExternal"
 .PHONY : CMakeFiles/DomainVisionExternal.dir/all
 
 # Include target in all.
@@ -184,7 +185,7 @@ clean: CMakeFiles/DomainVisionExternal.dir/clean
 CMakeFiles/nodep.dir/all:
 	$(MAKE) -f CMakeFiles/nodep.dir/build.make CMakeFiles/nodep.dir/depend
 	$(MAKE) -f CMakeFiles/nodep.dir/build.make CMakeFiles/nodep.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=89 "Built target nodep"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=99 "Built target nodep"
 .PHONY : CMakeFiles/nodep.dir/all
 
 # Build rule for subdir invocation for target.
@@ -248,7 +249,7 @@ clean: CMakeFiles/distclean-all.dir/clean
 CMakeFiles/ShapeRecognition_distclean.dir/all:
 	$(MAKE) -f CMakeFiles/ShapeRecognition_distclean.dir/build.make CMakeFiles/ShapeRecognition_distclean.dir/depend
 	$(MAKE) -f CMakeFiles/ShapeRecognition_distclean.dir/build.make CMakeFiles/ShapeRecognition_distclean.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=57 "Built target ShapeRecognition_distclean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=67 "Built target ShapeRecognition_distclean"
 .PHONY : CMakeFiles/ShapeRecognition_distclean.dir/all
 
 # Build rule for subdir invocation for target.
@@ -280,7 +281,7 @@ clean: CMakeFiles/ShapeRecognition_distclean.dir/clean
 CMakeFiles/uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=90 "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=100 "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
@@ -312,7 +313,7 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/SmartXmlExternal.dir/all:
 	$(MAKE) -f CMakeFiles/SmartXmlExternal.dir/build.make CMakeFiles/SmartXmlExternal.dir/depend
 	$(MAKE) -f CMakeFiles/SmartXmlExternal.dir/build.make CMakeFiles/SmartXmlExternal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=68,69,70,71,72,73,74,75,76,77 "Built target SmartXmlExternal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=78,79,80,81,82,83,84,85,86,87 "Built target SmartXmlExternal"
 .PHONY : CMakeFiles/SmartXmlExternal.dir/all
 
 # Include target in all.
@@ -386,7 +387,7 @@ clean: CMakeFiles/ArmadilloExternal.dir/clean
 CMakeFiles/SmartPropertyExternal.dir/all:
 	$(MAKE) -f CMakeFiles/SmartPropertyExternal.dir/build.make CMakeFiles/SmartPropertyExternal.dir/depend
 	$(MAKE) -f CMakeFiles/SmartPropertyExternal.dir/build.make CMakeFiles/SmartPropertyExternal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=58,59,60,61,62,63,64,65,66,67 "Built target SmartPropertyExternal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=68,69,70,71,72,73,74,75,76,77 "Built target SmartPropertyExternal"
 .PHONY : CMakeFiles/SmartPropertyExternal.dir/all
 
 # Include target in all.
@@ -423,7 +424,7 @@ clean: CMakeFiles/SmartPropertyExternal.dir/clean
 CMakeFiles/TransformationMatricesExternal.dir/all:
 	$(MAKE) -f CMakeFiles/TransformationMatricesExternal.dir/build.make CMakeFiles/TransformationMatricesExternal.dir/depend
 	$(MAKE) -f CMakeFiles/TransformationMatricesExternal.dir/build.make CMakeFiles/TransformationMatricesExternal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=78,79,80,81,82,83,84,85,86,87 "Built target TransformationMatricesExternal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=88,89,90,91,92,93,94,95,96,97 "Built target TransformationMatricesExternal"
 .PHONY : CMakeFiles/TransformationMatricesExternal.dir/all
 
 # Include target in all.
@@ -490,6 +491,45 @@ CMakeFiles/CommBasicObjectsExternal.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/CommBasicObjectsExternal.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CommPerceptionExternal.dir
+
+# All Build rule for target.
+CMakeFiles/CommPerceptionExternal.dir/all: CMakeFiles/SmartXmlExternal.dir/all
+CMakeFiles/CommPerceptionExternal.dir/all: CMakeFiles/CommBasicObjectsExternal.dir/all
+CMakeFiles/CommPerceptionExternal.dir/all: CMakeFiles/CommObjectRecognitionObjectsExternal.dir/all
+	$(MAKE) -f CMakeFiles/CommPerceptionExternal.dir/build.make CMakeFiles/CommPerceptionExternal.dir/depend
+	$(MAKE) -f CMakeFiles/CommPerceptionExternal.dir/build.make CMakeFiles/CommPerceptionExternal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40 "Built target CommPerceptionExternal"
+.PHONY : CMakeFiles/CommPerceptionExternal.dir/all
+
+# Include target in all.
+all: CMakeFiles/CommPerceptionExternal.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CommPerceptionExternal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles 70
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CommPerceptionExternal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ShapeRecognition/smartsoft/build/CMakeFiles 0
+.PHONY : CMakeFiles/CommPerceptionExternal.dir/rule
+
+# Convenience name for target.
+CommPerceptionExternal: CMakeFiles/CommPerceptionExternal.dir/rule
+
+.PHONY : CommPerceptionExternal
+
+# clean rule for target.
+CMakeFiles/CommPerceptionExternal.dir/clean:
+	$(MAKE) -f CMakeFiles/CommPerceptionExternal.dir/build.make CMakeFiles/CommPerceptionExternal.dir/clean
+.PHONY : CMakeFiles/CommPerceptionExternal.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/CommPerceptionExternal.dir/clean
 
 .PHONY : clean
 

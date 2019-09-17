@@ -18,14 +18,13 @@
 #define _OBJECTQUERYSERVICEANSWHANDLER_USER_HH
 		
 #include "ObjectQueryServiceAnswHandlerCore.hh"
-#include <CommBasicObjects/CommPosition3d.hh>
 
 class ObjectQueryServiceAnswHandler : public ObjectQueryServiceAnswHandlerCore
 {
 protected:
 public:
-	ObjectQueryServiceAnswHandler(Smart::IQueryServerPattern<CommObjectRecognitionObjects::CommInfDetection, CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties, SmartACE::QueryId>* server);
+	ObjectQueryServiceAnswHandler(Smart::IQueryServerPattern<CommPerception::CommInfDetection, CommPerception::CommObjectProperties, SmartACE::QueryId>* server);
 	virtual ~ObjectQueryServiceAnswHandler();
-	virtual void handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommInfDetection& request);
+	virtual void handleQuery(const SmartACE::QueryId &id, const CommPerception::CommInfDetection& request);
 };
 #endif

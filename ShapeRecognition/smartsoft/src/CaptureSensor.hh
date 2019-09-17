@@ -31,6 +31,8 @@
 #include <pcl/search/kdtree.h>
 #include <pcl/segmentation/sac_segmentation.h>
 #include <pcl/segmentation/extract_clusters.h>
+#include <pcl/visualization/cloud_viewer.h>
+#include <pcl/filters/statistical_outlier_removal.h>
 
 
 #include <object_pose_estimation/SQFitting.h>
@@ -45,6 +47,8 @@ typedef pcl::PointCloud<Point> PointCloud;
 class CaptureSensor  : public CaptureSensorCore
 {
 private:
+	PointCloud cloud_helper;
+
 	std::vector<CommBasicObjects::CommPosition3d> sphere_list;
 	std::vector<CommBasicObjects::CommPosition3d> cube_list;
 	std::vector<CommBasicObjects::CommPosition3d> cylinder_list;
@@ -57,14 +61,18 @@ private:
 	float _leaf_size;
 
 	void on_PointCloudPushServiceIn(const DomainVision::Comm3dPointCloud &input);
+	void filter_removeoutliers(PointCloud::Ptr cloud_in, PointCloud::Ptr cloud_out);
 	void filter_passthrough(PointCloud cloud_in, PointCloud::Ptr cloud_out);
 	void filter_voxel(PointCloud::Ptr  cloud_in, PointCloud::Ptr cloud_out);
-	std::vector<pcl::PointCloud<pcl::PointXYZ>::Ptr> get_clusters(PointCloud::Ptr  cloud_in);
+	std::vector <PointCloud::Ptr> get_clusters(PointCloud::Ptr  cloud_in);
 	void extract_planar(PointCloud::Ptr  cloud_in, PointCloud::Ptr cloud_out);
 	int quadratic_form_matcher(const ope::SQParameters& param);
-	int quadratic_matcher(pcl::PointCloud<pcl::PointXYZ>::Ptr& obj);
+	int quadratic_matcher(PointCloud::Ptr& obj);
 
 public:
+	//pcl::visualization::CloudViewer viewer;
+	//pcl::visualization::CloudViewer  viewer;
+
 	CaptureSensor(SmartACE::SmartComponent *comp);
 	virtual ~CaptureSensor();
 	

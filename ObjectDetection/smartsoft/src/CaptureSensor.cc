@@ -108,6 +108,10 @@ int CaptureSensor::on_execute()
 
 	//std::cout<< "[CaptureSensor] getColor:"<<COMP->evaluateColorSegmentation<<", getShape:"<<COMP->evaluateShape<<std::endl;
 
+	cv::Mat rgbimg = COMP->getImageMat(COMP->getVideoImage());
+	cv::imshow ("rgbimage", rgbimg);
+	cv::waitKey(10);
+
 	if(COMP->evaluateColorSegmentation){
 		ColorSegmentation();
 		COMP->evaluateColorSegmentation = false;

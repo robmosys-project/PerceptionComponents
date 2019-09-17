@@ -17,7 +17,7 @@
 #include "ObjectQueryServiceAnswHandler.hh"
 #include "ShapeRecognition.hh"
 
-ObjectQueryServiceAnswHandler::ObjectQueryServiceAnswHandler(Smart::IQueryServerPattern<CommObjectRecognitionObjects::CommInfDetection, CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties, SmartACE::QueryId>* server)
+ObjectQueryServiceAnswHandler::ObjectQueryServiceAnswHandler(Smart::IQueryServerPattern<CommPerception::CommInfDetection, CommPerception::CommObjectProperties, SmartACE::QueryId>* server)
 :	ObjectQueryServiceAnswHandlerCore(server)
 {
 	
@@ -29,25 +29,27 @@ ObjectQueryServiceAnswHandler::~ObjectQueryServiceAnswHandler()
 }
 
 
-void ObjectQueryServiceAnswHandler::handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommInfDetection& request) 
+void ObjectQueryServiceAnswHandler::handleQuery(const SmartACE::QueryId &id, const CommPerception::CommInfDetection& request) 
 {
+
 	std::cout<< "[ObjectQueryService] Service Call"<<std::endl;
 	std::cout<< "[ObjectQueryService] Service Call"<<request.getShape().getName()<<std::endl;
 
-	CommObjectRecognitionObjects::CommObjectRecognitionObjectProperties answer;
+	CommPerception::CommObjectProperties answer;
 	CommBasicObjects::CommPose3d pose;
-	if(request.getShape().getName() ==  CommObjectRecognitionObjects::Shapes::SPHERE){
+	if(request.getShape().getName() ==  CommPerception::Shapes::SPHERE){
 		if(COMP->sphere_list.size() >0 )
 			pose.setPosition(COMP->sphere_list[0]);
 	}
-	if(request.getShape().getName() ==  CommObjectRecognitionObjects::Shapes::CUBE){
+	if(request.getShape().getName() ==  CommPerception::Shapes::CUBE){
 		if(COMP->cube_list.size() >0 )
 			pose.setPosition(COMP->cube_list[0]);
 	}
-	if(request.getShape().getName() ==  CommObjectRecognitionObjects::Shapes::CYLINDER){
+	if(request.getShape().getName() ==  CommPerception::Shapes::CYLINDER){
 		if(COMP->cylinder_list.size() >0 )
 			pose.setPosition(COMP->cylinder_list[0]);
 	}
 	answer.setPose(pose);
 	this->server->answer(id, answer);
+	
 }

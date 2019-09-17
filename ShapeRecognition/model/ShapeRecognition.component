@@ -3,13 +3,13 @@ ComponentDefinition ShapeRecognition logo "/ShapeRecognition/model/logo.png"
 
 InputPort PointCloudPushServiceIn implements DomainVision.PointCloudPushService {
 	}
-	AnswerPort ObjectQueryServiceAnsw implements CommObjectRecognitionObjects.ObjectQueryService {
-	}
-	RequestHandler ObjectQueryServiceAnswHandler triggeredFrom ObjectQueryServiceAnsw {
-	}
 
 	Activity CaptureSensor
 	{
 	InputPortLink PointCloudPushServiceIn { oversamplingOk undersamplingOk }
+	}
+AnswerPort ObjectQueryServiceAnsw implements CommPerception.ObjectQueryService {
+	}
+	RequestHandler ObjectQueryServiceAnswHandler triggeredFrom ObjectQueryServiceAnsw {
 	}
 }

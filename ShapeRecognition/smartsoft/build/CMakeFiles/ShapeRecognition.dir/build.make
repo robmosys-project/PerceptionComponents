@@ -496,7 +496,7 @@ ShapeRecognition: /usr/lib/openmpi/lib/libmpi.so
 ShapeRecognition: /usr/lib/libvtkWrappingTools-6.2.a
 ShapeRecognition: /usr/lib/libgl2ps.so
 ShapeRecognition: /home/lmartinez/ros_ws/devel/lib/libobject_pose_estimation.so
-ShapeRecognition: /home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommObjectRecognitionObjects/smartsoft/build/libCommObjectRecognitionObjects.so.1.0.0
+ShapeRecognition: /home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommPerception/smartsoft/build/libCommPerception.so.1.0.0
 ShapeRecognition: /home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build/libDomainVision.so.1.0.0
 ShapeRecognition: /usr/local/lib/libpcl_segmentation.so
 ShapeRecognition: /usr/local/lib/libpcl_ml.so
@@ -679,6 +679,7 @@ ShapeRecognition: /usr/lib/x86_64-linux-gnu/libm.so
 ShapeRecognition: /usr/lib/x86_64-linux-gnu/hdf5/openmpi/lib/libhdf5_hl.so
 ShapeRecognition: /usr/lib/openmpi/lib/libmpi.so
 ShapeRecognition: /usr/lib/libgl2ps.so
+ShapeRecognition: /home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommObjectRecognitionObjects/smartsoft/build/libCommObjectRecognitionObjects.so.1.0.0
 ShapeRecognition: /home/lmartinez/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/libCommBasicObjects.so.1.0.0
 ShapeRecognition: /opt/ACE_wrappers/lib/libACE.so
 ShapeRecognition: /home/lmartinez/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build/libSmartXml.so.1.0.0

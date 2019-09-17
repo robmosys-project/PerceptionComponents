@@ -15,7 +15,7 @@
 #--------------------------------------------------------------------------
 
 # other CommunicationObject-dependencies are added here (if there are any)
-LIST(APPEND ShapeRecognition_DEPENDENCIES CommObjectRecognitionObjects)
+LIST(APPEND ShapeRecognition_DEPENDENCIES CommPerception)
 LIST(APPEND ShapeRecognition_DEPENDENCIES DomainVision)
 
 LIST(REMOVE_DUPLICATES ShapeRecognition_DEPENDENCIES)
