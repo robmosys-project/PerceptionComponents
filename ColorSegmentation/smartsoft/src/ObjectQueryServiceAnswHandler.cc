@@ -14,64 +14,33 @@
 // If you want the toolchain to re-generate this file, please 
 // delete it before running the code generator.
 //--------------------------------------------------------------------------
-#include "ColorQueryService.hh"
+#include "ObjectQueryServiceAnswHandler.hh"
 #include "ColorSegmentation.hh"
 
-ColorQueryService::ColorQueryService(Smart::IQueryServerPattern<CommObjectRecognitionObjects::CommColorDetection, CommObjectRecognitionObjects::CommPoint2d, SmartACE::QueryId>* server)
-:	ColorQueryServiceCore(server)
+ObjectQueryServiceAnswHandler::ObjectQueryServiceAnswHandler(Smart::IQueryServerPattern<CommPerception::CommInfDetection, CommPerception::CommObjectProperties, SmartACE::QueryId>* server)
+:	ObjectQueryServiceAnswHandlerCore(server)
 {
 	
 }
 
-ColorQueryService::~ColorQueryService()
+ObjectQueryServiceAnswHandler::~ObjectQueryServiceAnswHandler()
 {
 	
 }
-CommObjectRecognitionObjects::ROI ColorQueryService::fixROI(CommObjectRecognitionObjects::ROI input, int imagewidth, int imageheight )
-{//(a<b?a:b);
 
-	CommObjectRecognitionObjects::ROI roiFixed;
-	CommObjectRecognitionObjects::CommPoint2d point;
 
-	point.setX(input.getPoint().getX() < 0 ? 0:input.getPoint().getX());
-	point.setY(input.getPoint().getY() < 0 ? 0:input.getPoint().getY());
-	roiFixed.setPoint(point);
-
-	int roiWidth = input.getPoint().getX() + input.getWidth() <= imagewidth - 1? \
-			input.getWidth() : imagewidth - input.getPoint().getX() - 1;
-	int roiHeight = input.getPoint().getY() + input.getHeight() <= imageheight - 1?\
-			input.getHeight() : imageheight - input.getPoint().getY() - 1;
-	roiFixed.setWidth(roiWidth);
-	roiFixed.setHeight(roiHeight);
-
-	std::cout<< "[ColorQueryService-fixROI] image  width:"<< imagewidth <<\
-			", height:"<<imageheight<<std::endl;
-
-	std::cout<< "[ColorQueryService-fixROI] oldROI  x:"<<input.getPoint().getX()<<\
-			", y:"<<input.getPoint().getY()<<\
-			", width:"<<input.getWidth()<<\
-			", height:"<<input.getHeight()<<std::endl;
-
-	std::cout<< "[ColorQueryService-fixROI] newROI  x:"<<roiFixed.getPoint().getX()<<\
-			", y:"<<roiFixed.getPoint().getY()<<\
-			", width:"<<roiFixed.getWidth()<<\
-			", height:"<<roiFixed.getHeight()<<std::endl;
-
-	return roiFixed;
-
-}
-
-void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommColorDetection& request) 
+void ObjectQueryServiceAnswHandler::handleQuery(const SmartACE::QueryId &id, const CommPerception::CommInfDetection& request) 
 {
-	CommObjectRecognitionObjects::CommPoint2d answer;
-	answer.setX(-1);
-	answer.setY(-1);
+	CommPerception::CommObjectProperties answer;
+	answer.setIs_valid(false);
+	// implement your query handling logic here and fill in the answer object
+
 
 	if(COMP->newestImageStatus == Smart::SMART_OK){
 
 		//Check color
-		CommObjectRecognitionObjects::Color color;
-		CommObjectRecognitionObjects::HSVSpace min_range = request.getColor().getMin_range(), max_range = request.getColor().getMax_range();
+		CommPerception::Color color;
+		CommPerception::HSVSpace min_range = request.getColor().getMin_range(), max_range = request.getColor().getMax_range();
 		if(min_range.getH() == 0 && min_range.getS() == 0 && min_range.getV() == 0 ){
 			if(max_range.getH() == 0 && max_range.getS() == 0 && max_range.getV() == 0 ){
 				color = COMP->getColor(request.getColor().getName());
@@ -81,7 +50,8 @@ void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjec
 		else
 			color = request.getColor();
 
-		CommObjectRecognitionObjects::ROI roiFixed;
+		CommPerception::ROI roiFixed;
+		CommPerception::CommPoint2d cpoint;
 		cv::Mat image = COMP->getMat(COMP->newestImage), subImg;
 //		cv::imwrite("completeiamge.png", image);
 
@@ -109,9 +79,12 @@ void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjec
 				p_object.x += roiFixed.getPoint().getX() ;
 				p_object.y += roiFixed.getPoint().getY() ;
 			}
+			answer.setIs_valid(true);
+			cpoint.setX(p_object.x);
+			cpoint.setY(p_object.y);
 
-			answer.setX(p_object.x);
-			answer.setY(p_object.y);
+			answer.setPoint2d(cpoint);
+
 		}
 		else
 			std::cout<< "[ColorQueryService] Object not detected "<<std::endl;
@@ -121,5 +94,38 @@ void ColorQueryService::handleQuery(const SmartACE::QueryId &id, const CommObjec
 
 	this->server->answer(id, answer);
 
+}
+
+CommPerception::ROI ObjectQueryServiceAnswHandler::fixROI(CommPerception::ROI input, int image_width, int image_height )
+{//(a<b?a:b);
+
+	CommPerception::ROI roi_fixed;
+	CommPerception::CommPoint2d point;
+
+	point.setX(input.getPoint().getX() < 0 ? 0:input.getPoint().getX());
+	point.setY(input.getPoint().getY() < 0 ? 0:input.getPoint().getY());
+	roi_fixed.setPoint(point);
+
+	int roi_width = input.getPoint().getX() + input.getWidth() <= image_width - 1? \
+			input.getWidth() : image_width - input.getPoint().getX() - 1;
+	int roi_height = input.getPoint().getY() + input.getHeight() <= image_height - 1?\
+			input.getHeight() : image_height - input.getPoint().getY() - 1;
+	roi_fixed.setWidth(roi_width);
+	roi_fixed.setHeight(roi_height);
+
+	std::cout<< "[ColorQueryService-fixROI] image  width:"<< image_width <<\
+			", height:"<<image_height<<std::endl;
+
+	std::cout<< "[ColorQueryService-fixROI] oldROI  x:"<<input.getPoint().getX()<<\
+			", y:"<<input.getPoint().getY()<<\
+			", width:"<<input.getWidth()<<\
+			", height:"<<input.getHeight()<<std::endl;
+
+	std::cout<< "[ColorQueryService-fixROI] newROI  x:"<<roi_fixed.getPoint().getX()<<\
+			", y:"<<roi_fixed.getPoint().getY()<<\
+			", width:"<<roi_fixed.getWidth()<<\
+			", height:"<<roi_fixed.getHeight()<<std::endl;
+
+	return roi_fixed;
 
 }

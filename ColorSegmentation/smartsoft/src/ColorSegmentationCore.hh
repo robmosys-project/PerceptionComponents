@@ -21,9 +21,9 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 #include <DomainVision/CommRGBDImage.hh>
-#include <CommObjectRecognitionObjects/Color.hh>
+#include <CommPerception/Color.hh>
 //#include <CommObjectRecognitionObjects/Colors.hh>
-#include <CommObjectRecognitionObjects/HSVSpace.hh>
+#include <CommPerception/HSVSpace.hh>
 
 class ColorSegmentationCore
 {
@@ -38,8 +38,8 @@ public:
 	void setVideoImage(DomainVision::CommVideoImage input, Smart::StatusCode status);
 	DomainVision::CommVideoImage getVideoImage();
 	cv::Mat getMat(const DomainVision::CommVideoImage input);
-	CommObjectRecognitionObjects::Color getColor(CommObjectRecognitionObjects::Colors color_name);
-	cv::Mat segmentation(cv::Mat img, CommObjectRecognitionObjects::Color color);
+	CommPerception::Color getColor(CommPerception::Colors color_name);
+	cv::Mat segmentation(cv::Mat img, CommPerception::Color color);
 	cv::Point countour(cv::Mat mask);
 
 };

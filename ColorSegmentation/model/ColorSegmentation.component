@@ -7,8 +7,10 @@ Activity CaptureSensor
 	}
 	InputPort RGBImagePushServiceIn implements DomainVision.RGBImagePushService {
 	}
-	AnswerPort ColorQueryServiceAnsw implements CommObjectRecognitionObjects.ColorQueryService {
+
+	AnswerPort ObjectQueryServiceAnsw implements CommPerception.ObjectQueryService {
 	}
-	RequestHandler ColorQueryService triggeredFrom ColorQueryServiceAnsw {
+
+	RequestHandler ObjectQueryServiceAnswHandler triggeredFrom ObjectQueryServiceAnsw {
 	}
 }

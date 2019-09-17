@@ -14,20 +14,18 @@
 // If you want the toolchain to re-generate this file, please 
 // delete it before running the code generator.
 //--------------------------------------------------------------------------
-#ifndef _COLORQUERYSERVICE_USER_HH
-#define _COLORQUERYSERVICE_USER_HH
+#ifndef _OBJECTQUERYSERVICEANSWHANDLER_USER_HH
+#define _OBJECTQUERYSERVICEANSWHANDLER_USER_HH
 		
-#include "ColorQueryServiceCore.hh"
+#include "ObjectQueryServiceAnswHandlerCore.hh"
 
-class ColorQueryService : public ColorQueryServiceCore
+class ObjectQueryServiceAnswHandler : public ObjectQueryServiceAnswHandlerCore
 {
 protected:
 public:
-	ColorQueryService(Smart::IQueryServerPattern<CommObjectRecognitionObjects::CommColorDetection, CommObjectRecognitionObjects::CommPoint2d, SmartACE::QueryId>* server);
-	virtual ~ColorQueryService();
-	virtual void handleQuery(const SmartACE::QueryId &id, const CommObjectRecognitionObjects::CommColorDetection& request);
-
-	CommObjectRecognitionObjects::ROI fixROI(CommObjectRecognitionObjects::ROI input, int imagewidth, int imageheight );
-
+	ObjectQueryServiceAnswHandler(Smart::IQueryServerPattern<CommPerception::CommInfDetection, CommPerception::CommObjectProperties, SmartACE::QueryId>* server);
+	virtual ~ObjectQueryServiceAnswHandler();
+	virtual void handleQuery(const SmartACE::QueryId &id, const CommPerception::CommInfDetection& request);
+	CommPerception::ROI fixROI(CommPerception::ROI input, int imagewidth, int imageheight );
 };
 #endif

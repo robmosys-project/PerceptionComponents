@@ -52,26 +52,26 @@ cv::Mat ColorSegmentationCore::getMat(const DomainVision::CommVideoImage input){
 
 
 
-CommObjectRecognitionObjects::Color ColorSegmentationCore::getColor(CommObjectRecognitionObjects::Colors color_name){
+CommPerception::Color ColorSegmentationCore::getColor(CommPerception::Colors color_name){
 
-	CommObjectRecognitionObjects::Color c;
+	CommPerception::Color c;
 	c.setName(color_name);
-	CommObjectRecognitionObjects::HSVSpace min_range, max_range;
+	CommPerception::HSVSpace min_range, max_range;
 
 	switch(color_name) {
-	    case CommObjectRecognitionObjects::Colors::RED : // TODO add other (170, 120, 70) - (180, 255, 255)
+	    case CommPerception::Colors::RED : // TODO add other (170, 120, 70) - (180, 255, 255)
 	    	min_range.setH(0).setS(120).setV(70);
 	    	max_range.setH(10).setS(255).setV(255);
 	        break;
-	    case CommObjectRecognitionObjects::Colors::BLUE : //TODO
+	    case CommPerception::Colors::BLUE : //TODO
 	    	min_range.setH(0).setS(0).setV(115);
 	    	max_range.setH(0).setS(0).setV(178);
 	        break;
-	    case CommObjectRecognitionObjects::Colors::WHITE : //TODO
+	    case CommPerception::Colors::WHITE : //TODO
 	    	min_range.setH(0).setS(0).setV(115);
 	    	max_range.setH(0).setS(0).setV(178);
 	        break;
-	    case CommObjectRecognitionObjects::Colors::GRAY :
+	    case CommPerception::Colors::GRAY :
 	    	min_range.setH(0).setS(0).setV(90);
 	    	max_range.setH(180).setS(10).setV(178);
 	        break;
@@ -84,7 +84,7 @@ CommObjectRecognitionObjects::Color ColorSegmentationCore::getColor(CommObjectRe
 }
 
 
-cv::Mat ColorSegmentationCore::segmentation(cv::Mat img, CommObjectRecognitionObjects::Color color){
+cv::Mat ColorSegmentationCore::segmentation(cv::Mat img, CommPerception::Color color){
 	std::cout << "[ColorSegmentationCore] Segmentation node\n";
 
     //Converting image from BGR to HSV color space.
@@ -92,7 +92,7 @@ cv::Mat ColorSegmentationCore::segmentation(cv::Mat img, CommObjectRecognitionOb
     cv::cvtColor(img, hsv, cv::COLOR_BGR2HSV);
 
     // Creating masks to detect the upper and lower color.
-    CommObjectRecognitionObjects::HSVSpace min_range, max_range;
+    CommPerception::HSVSpace min_range, max_range;
     min_range = color.getMin_range();
     max_range = color.getMax_range();
     cv::inRange(hsv, cv::Scalar(min_range.getH(), min_range.getS(), min_range.getV()), cv::Scalar(max_range.getH(), max_range.getS(), max_range.getV()), mask1);
