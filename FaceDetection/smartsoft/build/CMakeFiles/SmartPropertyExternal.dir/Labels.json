@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartPropertyExternal"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartPropertyExternal.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartPropertyExternal-complete.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-install.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-mkdir.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-download.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-update.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-patch.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-configure.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-build.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep1.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep2.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"SmartPropertyExternal"
+		],
+		"name" : "SmartPropertyExternal"
+	}
+}
