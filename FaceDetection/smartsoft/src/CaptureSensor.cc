@@ -24,6 +24,20 @@ CaptureSensor::CaptureSensor(SmartACE::SmartComponent *comp)  // @suppress("Memb
 {
 	std::cout << "constructor CaptureSensor\n";
 
+	std::string prefix = "CaptureSensor";
+	std::string parameter = "filename";
+
+
+	SmartACE::SmartIniParameter param;
+	std::ifstream parameterfile;
+
+	param.searchFile("FaceDetection.ini", parameterfile);
+	param.addFile(parameterfile);
+
+	if (param.checkIfParameterExists(prefix, parameter)) {
+		_face_cascade_filename = param.getString(prefix, parameter);
+	}
+
 	// cascacde initialization
 	if (!_cascade.load(_face_cascade_filename)) {
 		std::cout << "Couln't load face detector: " << _face_cascade_filename;

@@ -21,6 +21,8 @@
 #include "CaptureSensorCore.hh"
 #include "DomainVision/CommVideoImage.hh"
 
+#include <smartIniParameter.hh>
+
 #include <opencv2/objdetect.hpp>
 #include <opencv2/imgproc.hpp>
 
@@ -41,8 +43,8 @@ private:
 	DomainVision::CommVideoImage _input_image;
 
 	// cascade classifier
-	//std::string _face_cascade_filename = "/home/rosmosys/haarcascade_frontalface_alt.xml";
-	std::string _face_cascade_filename = ".haarcascade_frontalface_alt.xml";
+	std::string _face_cascade_filename = "/home/rosmosys/haarcascade_frontalface_alt.xml";
+	//std::string _face_cascade_filename = "./data/haarcascade_frontalface_alt.xml";
 	cv::CascadeClassifier _cascade;
 
 	cv::Mat getMat(const DomainVision::CommVideoImage &input);
