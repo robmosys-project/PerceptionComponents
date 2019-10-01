@@ -1,0 +1,12 @@
+ComponentDefinition InstanceRecognition logo "/InstanceRecognition/model/logo.png"
+{
+
+InputPort RGBDImagePushServiceIn implements DomainVision.RGBDImagePushService {
+	}
+	Activity CaptureSensor
+	{
+	InputPortLink RGBDImagePushServiceIn { oversamplingOk undersamplingOk }
+	}
+	OutputPort ObjectPropertiesPushServiceOut implements CommPerception.ObjectPropertiesPushService realizedBy CaptureSensor {
+	}
+}

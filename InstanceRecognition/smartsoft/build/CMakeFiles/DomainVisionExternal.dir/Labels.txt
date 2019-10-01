@@ -1,0 +1,15 @@
+# Target labels
+ DomainVisionExternal
+# Source files and their labels
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/CMakeFiles/DomainVisionExternal
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/CMakeFiles/DomainVisionExternal.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/CMakeFiles/DomainVisionExternal-complete.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-install.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-mkdir.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-download.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-update.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-patch.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-configure.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-build.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep1.rule
+/home/lmartinez/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/InstanceRecognition/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep2.rule
