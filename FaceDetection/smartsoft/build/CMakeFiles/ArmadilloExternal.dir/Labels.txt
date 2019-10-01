@@ -1,0 +1,15 @@
+# Target labels
+ ArmadilloExternal
+# Source files and their labels
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal.rule
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal-complete.rule
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-install.rule
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-mkdir.rule
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-download.rule
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-update.rule
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-patch.rule
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-configure.rule
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-build.rule
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep1.rule
+/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep2.rule

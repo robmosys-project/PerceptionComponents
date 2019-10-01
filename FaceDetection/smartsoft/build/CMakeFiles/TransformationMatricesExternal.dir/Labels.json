@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/TransformationMatricesExternal"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/TransformationMatricesExternal.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/TransformationMatricesExternal-complete.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-install.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-mkdir.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-download.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-update.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-patch.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-configure.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-build.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-TransformationMatricesStep1.rule"
+		},
+		{
+			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/TransformationMatrices/src/TransformationMatricesExternal-stamp/TransformationMatricesExternal-TransformationMatricesStep2.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"TransformationMatricesExternal"
+		],
+		"name" : "TransformationMatricesExternal"
+	}
+}
