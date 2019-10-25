@@ -48,6 +48,7 @@ void CaptureSensor::on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage 
 	if(this->rGBDImageObject.getDepth_image().getDataSize() != 0){
 		COMP->setDepthImage(this->rGBDImageObject.getDepth_image(), Smart::SMART_OK);
 	}
+	this->rGBDImageObject.getDepth_image().getHeight()
 }
 
 void CaptureSensor::ColorSegmentation()
