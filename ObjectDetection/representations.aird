@@ -140,10 +140,10 @@
         </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_F3tmYHI_EemtE9imTG4vRw" name="ObjectDetection" tooltipText="ComponentDefinition">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_F3tmYHI_EemtE9imTG4vRw" name="ObjectDetection" tooltipText="ComponentDefinition: ObjectDetection&#xA;">
       <target xmi:type="ComponentDefinition:ComponentDefinition" href="model/ObjectDetection.component#//@component"/>
       <semanticElements xmi:type="ComponentDefinition:ComponentDefinition" href="model/ObjectDetection.component#//@component"/>
-      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_89dLsHI_EemtE9imTG4vRw" name="RGBDImagePushServiceIn" tooltipText="InputPort" outgoingEdges="_LUO1MHMKEembNqgva4_9VA" width="3" height="3" resizeKind="NSEW">
+      <ownedBorderedNodes xmi:type="diagram:DNode" uid="_89dLsHI_EemtE9imTG4vRw" name="RGBDImagePushServiceIn" tooltipText="InputPort: RGBDImagePushServiceIn&#xA;" outgoingEdges="_LUO1MHMKEembNqgva4_9VA" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="ComponentDefinition:InputPort" href="model/ObjectDetection.component#//@component/@elements.1"/>
         <semanticElements xmi:type="ComponentDefinition:InputPort" href="model/ObjectDetection.component#//@component/@elements.1"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>

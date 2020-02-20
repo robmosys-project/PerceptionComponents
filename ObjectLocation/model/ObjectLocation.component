@@ -1,0 +1,12 @@
+ComponentDefinition ObjectLocation logo "/ObjectLocation/model/logo.png"
+{
+Activity CaptureSensor
+	{
+	}
+	InputPort RGBDImagePushServiceIn implements DomainVision.RGBDImagePushService {
+	}
+	AnswerPort ObjectQueryServiceAnsw implements CommPerception.ObjectQueryService {
+	}
+	RequestHandler ObjectQueryServiceAnswHandler triggeredFrom ObjectQueryServiceAnsw {
+	}
+}
