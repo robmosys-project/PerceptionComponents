@@ -1,6 +1,0 @@
-ComponentDefinition ROSBridge logo "/ROSBridge/model/logo.png"
-{
-Activity Spin
-	{
-	}
-}
