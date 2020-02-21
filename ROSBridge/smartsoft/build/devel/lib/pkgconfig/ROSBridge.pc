@@ -1,0 +1,8 @@
+prefix=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ROSBridge/smartsoft/build/devel
+
+Name: ROSBridge
+Description: Description of ROSBridge
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/PerceptionComponents/ROSBridge/smartsoft/build/devel/lib 
+Requires: roscpp roslib std_msgs std_srvs sensor_msgs image_transport cv_bridge robmosys_srvs

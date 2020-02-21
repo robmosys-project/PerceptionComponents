@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build
 
 # Utility rule file for SmartPropertyExternal.
 
@@ -66,62 +66,62 @@ CMakeFiles/SmartPropertyExternal-complete: SmartProperty/src/SmartPropertyExtern
 CMakeFiles/SmartPropertyExternal-complete: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-install
 CMakeFiles/SmartPropertyExternal-complete: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep1
 CMakeFiles/SmartPropertyExternal-complete: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep2
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'SmartPropertyExternal'"
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartPropertyExternal-complete
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'SmartPropertyExternal'"
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartPropertyExternal-complete
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-done
 
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-install: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'SmartPropertyExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'SmartPropertyExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -E echo_append
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-install
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-install
 
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'SmartPropertyExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'SmartPropertyExternal'"
 	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty
 	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/tmp
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-mkdir
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/tmp
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-mkdir
 
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-download: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'SmartPropertyExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'SmartPropertyExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-download
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-download
 
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-update: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'SmartPropertyExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'SmartPropertyExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-update
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-update
 
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-patch: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'SmartPropertyExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'SmartPropertyExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-patch
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-patch
 
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-configure: SmartProperty/tmp/SmartPropertyExternal-cfgcmd.txt
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-configure: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-update
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-configure: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'SmartPropertyExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'SmartPropertyExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -DBUILD_DEPENDENCIES=OFF "-GUnix Makefiles" /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-configure
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-configure
 
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-build: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'SmartPropertyExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'SmartPropertyExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && $(MAKE)
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-build
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-build
 
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep1: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Reset BUILD_DEPENDENCIES of 'SmartPropertyExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Reset BUILD_DEPENDENCIES of 'SmartPropertyExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -DBUILD_DEPENDENCIES=ON .
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep1
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep1
 
 SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep2: SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Touch file 'SmartPropertyExternal-update' to trigger configure on next build"
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp && /usr/bin/cmake -E touch SmartPropertyExternal-update
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Touch file 'SmartPropertyExternal-update' to trigger configure on next build"
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp && /usr/bin/cmake -E touch SmartPropertyExternal-update
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep2
 
 SmartPropertyExternal: CMakeFiles/SmartPropertyExternal
 SmartPropertyExternal: CMakeFiles/SmartPropertyExternal-complete
@@ -148,6 +148,6 @@ CMakeFiles/SmartPropertyExternal.dir/clean:
 .PHONY : CMakeFiles/SmartPropertyExternal.dir/clean
 
 CMakeFiles/SmartPropertyExternal.dir/depend:
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartPropertyExternal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartPropertyExternal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SmartPropertyExternal.dir/depend
 

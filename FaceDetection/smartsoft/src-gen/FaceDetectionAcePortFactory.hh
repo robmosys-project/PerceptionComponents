@@ -34,8 +34,10 @@ public:
 	virtual void initialize(FaceDetection *component, int argc, char* argv[]) override;
 	virtual int onStartup() override;
 
-	virtual Smart::IPushClientPattern<DomainVision::CommVideoImage> * createRGBImagePushServiceIn() override;
+	virtual Smart::IPushClientPattern<DomainVision::CommRGBDImage> * createRGBDImagePushServiceIn() override;
+	virtual Smart::IQueryClientPattern<DomainVision::CommVideoImage, CommPerception::CommLabel,SmartACE::QueryId> * createRecognitionQueryServiceReq() override;
 	
+	virtual Smart::IQueryServerPattern<CommPerception::Empty, CommPerception::CommPersonDetection,SmartACE::QueryId> * createPersonQueryServiceAnsw(const std::string &serviceName) override;
 	virtual Smart::IPushServerPattern<DomainVision::CommVideoImage> * createRGBImagePushServiceOut(const std::string &serviceName) override;
 	
 	// get a pointer to the internal component implementation

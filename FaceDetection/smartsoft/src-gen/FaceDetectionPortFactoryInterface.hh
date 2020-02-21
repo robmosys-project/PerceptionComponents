@@ -18,8 +18,16 @@
 #define FACEDETECTION_PORTFACTORYINTERFACE_HH_
 
 // include communication objects
+#include <CommPerception/CommLabel.hh>
+#include <CommPerception/CommLabelACE.hh>
+#include <CommPerception/CommPersonDetection.hh>
+#include <CommPerception/CommPersonDetectionACE.hh>
+#include <DomainVision/CommRGBDImage.hh>
+#include <DomainVision/CommRGBDImageACE.hh>
 #include <DomainVision/CommVideoImage.hh>
 #include <DomainVision/CommVideoImageACE.hh>
+#include <CommPerception/Empty.hh>
+#include <CommPerception/EmptyACE.hh>
 
 #include <chrono>
 
@@ -37,8 +45,10 @@ public:
 	virtual void initialize(FaceDetection *component, int argc, char* argv[]) = 0;
 	virtual int onStartup() = 0;
 
-	virtual Smart::IPushClientPattern<DomainVision::CommVideoImage> * createRGBImagePushServiceIn() = 0;
+	virtual Smart::IPushClientPattern<DomainVision::CommRGBDImage> * createRGBDImagePushServiceIn() = 0;
+	virtual Smart::IQueryClientPattern<DomainVision::CommVideoImage, CommPerception::CommLabel,SmartACE::QueryId> * createRecognitionQueryServiceReq() = 0;
 	
+	virtual Smart::IQueryServerPattern<CommPerception::Empty, CommPerception::CommPersonDetection,SmartACE::QueryId> * createPersonQueryServiceAnsw(const std::string &serviceName) = 0;
 	virtual Smart::IPushServerPattern<DomainVision::CommVideoImage> * createRGBImagePushServiceOut(const std::string &serviceName) = 0;
 
 	virtual int onShutdown(const std::chrono::steady_clock::duration &timeoutTime=std::chrono::seconds(2)) = 0;

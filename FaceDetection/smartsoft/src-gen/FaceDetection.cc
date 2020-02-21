@@ -33,10 +33,14 @@ FaceDetection::FaceDetection()
 	// set all pointer members to NULL
 	captureSensor = NULL;
 	captureSensorTrigger = NULL;
-	rGBImagePushServiceIn = NULL;
-	rGBImagePushServiceInInputTaskTrigger = NULL;
-	rGBImagePushServiceInUpcallManager = NULL;
+	personQueryServiceAnsw = NULL;
+	personQueryServiceAnswInputTaskTrigger = NULL;
+	personQueryServiceAnswHandler = NULL;
+	rGBDImagePushServiceIn = NULL;
+	rGBDImagePushServiceInInputTaskTrigger = NULL;
+	rGBDImagePushServiceInUpcallManager = NULL;
 	rGBImagePushServiceOut = NULL;
+	recognitionQueryServiceReq = NULL;
 	stateChangeHandler = NULL;
 	stateSlave = NULL;
 	wiringSlave = NULL;
@@ -47,13 +51,21 @@ FaceDetection::FaceDetection()
 	connections.component.defaultScheduler = "DEFAULT";
 	connections.component.useLogger = false;
 	
+	connections.personQueryServiceAnsw.serviceName = "PersonQueryServiceAnsw";
+	connections.personQueryServiceAnsw.roboticMiddleware = "ACE_SmartSoft";
 	connections.rGBImagePushServiceOut.serviceName = "RGBImagePushServiceOut";
 	connections.rGBImagePushServiceOut.roboticMiddleware = "ACE_SmartSoft";
-	connections.rGBImagePushServiceIn.wiringName = "RGBImagePushServiceIn";
-	connections.rGBImagePushServiceIn.serverName = "unknown";
-	connections.rGBImagePushServiceIn.serviceName = "unknown";
-	connections.rGBImagePushServiceIn.interval = 1;
-	connections.rGBImagePushServiceIn.roboticMiddleware = "ACE_SmartSoft";
+	connections.rGBDImagePushServiceIn.wiringName = "RGBDImagePushServiceIn";
+	connections.rGBDImagePushServiceIn.serverName = "unknown";
+	connections.rGBDImagePushServiceIn.serviceName = "unknown";
+	connections.rGBDImagePushServiceIn.interval = 1;
+	connections.rGBDImagePushServiceIn.roboticMiddleware = "ACE_SmartSoft";
+	connections.recognitionQueryServiceReq.initialConnect = false;
+	connections.recognitionQueryServiceReq.wiringName = "RecognitionQueryServiceReq";
+	connections.recognitionQueryServiceReq.serverName = "unknown";
+	connections.recognitionQueryServiceReq.serviceName = "unknown";
+	connections.recognitionQueryServiceReq.interval = 1;
+	connections.recognitionQueryServiceReq.roboticMiddleware = "ACE_SmartSoft";
 	connections.captureSensor.minActFreq = 0.0;
 	connections.captureSensor.maxActFreq = 0.0;
 	// scheduling default parameters
@@ -95,18 +107,34 @@ void FaceDetection::setStartupFinished() {
 }
 
 
-Smart::StatusCode FaceDetection::connectRGBImagePushServiceIn(const std::string &serverName, const std::string &serviceName) {
+Smart::StatusCode FaceDetection::connectRGBDImagePushServiceIn(const std::string &serverName, const std::string &serviceName) {
 	Smart::StatusCode status;
 	
 	std::cout << "connecting to: " << serverName << "; " << serviceName << std::endl;
-	status = rGBImagePushServiceIn->connect(serverName, serviceName);
+	status = rGBDImagePushServiceIn->connect(serverName, serviceName);
 	while(status != Smart::SMART_OK)
 	{
 		ACE_OS::sleep(ACE_Time_Value(0,500000));
-		status = COMP->rGBImagePushServiceIn->connect(serverName, serviceName);
+		status = COMP->rGBDImagePushServiceIn->connect(serverName, serviceName);
 	}
 	std::cout << "connected.\n";
-	rGBImagePushServiceIn->subscribe(connections.rGBImagePushServiceIn.interval);
+	rGBDImagePushServiceIn->subscribe(connections.rGBDImagePushServiceIn.interval);
+	return status;
+}
+Smart::StatusCode FaceDetection::connectRecognitionQueryServiceReq(const std::string &serverName, const std::string &serviceName) {
+	Smart::StatusCode status;
+	
+	if(connections.recognitionQueryServiceReq.initialConnect == false) {
+		return Smart::SMART_OK;
+	}
+	std::cout << "connecting to: " << serverName << "; " << serviceName << std::endl;
+	status = recognitionQueryServiceReq->connect(serverName, serviceName);
+	while(status != Smart::SMART_OK)
+	{
+		ACE_OS::sleep(ACE_Time_Value(0,500000));
+		status = COMP->recognitionQueryServiceReq->connect(serverName, serviceName);
+	}
+	std::cout << "connected.\n";
 	return status;
 }
 
@@ -118,7 +146,9 @@ Smart::StatusCode FaceDetection::connectRGBImagePushServiceIn(const std::string 
 Smart::StatusCode FaceDetection::connectAndStartAllServices() {
 	Smart::StatusCode status = Smart::SMART_OK;
 	
-	status = connectRGBImagePushServiceIn(connections.rGBImagePushServiceIn.serverName, connections.rGBImagePushServiceIn.serviceName);
+	status = connectRGBDImagePushServiceIn(connections.rGBDImagePushServiceIn.serverName, connections.rGBDImagePushServiceIn.serviceName);
+	if(status != Smart::SMART_OK) return status;
+	status = connectRecognitionQueryServiceReq(connections.recognitionQueryServiceReq.serverName, connections.recognitionQueryServiceReq.serviceName);
 	if(status != Smart::SMART_OK) return status;
 	return status;
 }
@@ -152,7 +182,7 @@ void FaceDetection::startAllTimers() {
 
 Smart::TaskTriggerSubject* FaceDetection::getInputTaskTriggerFromString(const std::string &client)
 {
-	if(client == "RGBImagePushServiceIn") return rGBImagePushServiceInInputTaskTrigger;
+	if(client == "RGBDImagePushServiceIn") return rGBDImagePushServiceInInputTaskTrigger;
 	
 	return NULL;
 }
@@ -205,18 +235,22 @@ void FaceDetection::init(int argc, char *argv[])
 		
 		// create server ports
 		// TODO: set minCycleTime from Ini-file
+		personQueryServiceAnsw = portFactoryRegistry[connections.personQueryServiceAnsw.roboticMiddleware]->createPersonQueryServiceAnsw(connections.personQueryServiceAnsw.serviceName);
+		personQueryServiceAnswInputTaskTrigger = new Smart::QueryServerTaskTrigger<CommPerception::Empty, CommPerception::CommPersonDetection,SmartACE::QueryId>(personQueryServiceAnsw);
 		rGBImagePushServiceOut = portFactoryRegistry[connections.rGBImagePushServiceOut.roboticMiddleware]->createRGBImagePushServiceOut(connections.rGBImagePushServiceOut.serviceName);
 		
 		// create client ports
-		rGBImagePushServiceIn = portFactoryRegistry[connections.rGBImagePushServiceIn.roboticMiddleware]->createRGBImagePushServiceIn();
+		rGBDImagePushServiceIn = portFactoryRegistry[connections.rGBDImagePushServiceIn.roboticMiddleware]->createRGBDImagePushServiceIn();
+		recognitionQueryServiceReq = portFactoryRegistry[connections.recognitionQueryServiceReq.roboticMiddleware]->createRecognitionQueryServiceReq();
 		
 		// create InputTaskTriggers and UpcallManagers
-		rGBImagePushServiceInInputTaskTrigger = new Smart::InputTaskTrigger<DomainVision::CommVideoImage>(rGBImagePushServiceIn);
-		rGBImagePushServiceInUpcallManager = new RGBImagePushServiceInUpcallManager(rGBImagePushServiceIn);
+		rGBDImagePushServiceInInputTaskTrigger = new Smart::InputTaskTrigger<DomainVision::CommRGBDImage>(rGBDImagePushServiceIn);
+		rGBDImagePushServiceInUpcallManager = new RGBDImagePushServiceInUpcallManager(rGBDImagePushServiceIn);
 		
 		// create input-handler
 		
 		// create request-handlers
+		personQueryServiceAnswHandler = new PersonQueryServiceAnswHandler(personQueryServiceAnsw);
 		
 		// create state pattern
 		stateChangeHandler = new SmartStateChangeHandler();
@@ -229,9 +263,13 @@ void FaceDetection::init(int argc, char *argv[])
 		
 		wiringSlave = new SmartACE::WiringSlave(component);
 		// add client port to wiring slave
-		if(connections.rGBImagePushServiceIn.roboticMiddleware == "ACE_SmartSoft") {
+		if(connections.rGBDImagePushServiceIn.roboticMiddleware == "ACE_SmartSoft") {
 			//FIXME: this must also work with other implementations
-			dynamic_cast<SmartACE::PushClient<DomainVision::CommVideoImage>*>(rGBImagePushServiceIn)->add(wiringSlave, connections.rGBImagePushServiceIn.wiringName);
+			dynamic_cast<SmartACE::PushClient<DomainVision::CommRGBDImage>*>(rGBDImagePushServiceIn)->add(wiringSlave, connections.rGBDImagePushServiceIn.wiringName);
+		}
+		if(connections.recognitionQueryServiceReq.roboticMiddleware == "ACE_SmartSoft") {
+			//FIXME: this must also work with other implementations
+			dynamic_cast<SmartACE::QueryClient<DomainVision::CommVideoImage, CommPerception::CommLabel>*>(recognitionQueryServiceReq)->add(wiringSlave, connections.recognitionQueryServiceReq.wiringName);
 		}
 		
 		
@@ -239,7 +277,7 @@ void FaceDetection::init(int argc, char *argv[])
 		// create Task CaptureSensor
 		captureSensor = new CaptureSensor(component);
 		// configure input-links
-		rGBImagePushServiceInUpcallManager->attach(captureSensor);
+		rGBDImagePushServiceInUpcallManager->attach(captureSensor);
 		// configure task-trigger (if task is configurable)
 		if(connections.captureSensor.trigger == "PeriodicTimer") {
 			// create PeriodicTimerTrigger
@@ -323,7 +361,7 @@ void FaceDetection::fini()
 	
 	// destroy all task instances
 	// unlink all UpcallManagers
-	rGBImagePushServiceInUpcallManager->detach(captureSensor);
+	rGBDImagePushServiceInUpcallManager->detach(captureSensor);
 	// unlink the TaskTrigger
 	if(captureSensorTrigger != NULL){
 		captureSensorTrigger->detach(captureSensor);
@@ -333,17 +371,21 @@ void FaceDetection::fini()
 	// destroy all input-handler
 
 	// destroy InputTaskTriggers and UpcallManagers
-	delete rGBImagePushServiceInInputTaskTrigger;
-	delete rGBImagePushServiceInUpcallManager;
+	delete rGBDImagePushServiceInInputTaskTrigger;
+	delete rGBDImagePushServiceInUpcallManager;
 
 	// destroy client ports
-	delete rGBImagePushServiceIn;
+	delete rGBDImagePushServiceIn;
+	delete recognitionQueryServiceReq;
 
 	// destroy server ports
+	delete personQueryServiceAnsw;
+	delete personQueryServiceAnswInputTaskTrigger;
 	delete rGBImagePushServiceOut;
 	// destroy event-test handlers (if needed)
 	
 	// destroy request-handlers
+	delete personQueryServiceAnswHandler;
 	
 	delete stateSlave;
 	// destroy state-change-handler
@@ -441,15 +483,28 @@ void FaceDetection::loadParameter(int argc, char *argv[])
 			parameter.getBoolean("component", "useLogger", connections.component.useLogger);
 		}
 		
-		// load parameters for client RGBImagePushServiceIn
-		parameter.getString("RGBImagePushServiceIn", "serviceName", connections.rGBImagePushServiceIn.serviceName);
-		parameter.getString("RGBImagePushServiceIn", "serverName", connections.rGBImagePushServiceIn.serverName);
-		parameter.getString("RGBImagePushServiceIn", "wiringName", connections.rGBImagePushServiceIn.wiringName);
-		parameter.getInteger("RGBImagePushServiceIn", "interval", connections.rGBImagePushServiceIn.interval);
-		if(parameter.checkIfParameterExists("RGBImagePushServiceIn", "roboticMiddleware")) {
-			parameter.getString("RGBImagePushServiceIn", "roboticMiddleware", connections.rGBImagePushServiceIn.roboticMiddleware);
+		// load parameters for client RGBDImagePushServiceIn
+		parameter.getString("RGBDImagePushServiceIn", "serviceName", connections.rGBDImagePushServiceIn.serviceName);
+		parameter.getString("RGBDImagePushServiceIn", "serverName", connections.rGBDImagePushServiceIn.serverName);
+		parameter.getString("RGBDImagePushServiceIn", "wiringName", connections.rGBDImagePushServiceIn.wiringName);
+		parameter.getInteger("RGBDImagePushServiceIn", "interval", connections.rGBDImagePushServiceIn.interval);
+		if(parameter.checkIfParameterExists("RGBDImagePushServiceIn", "roboticMiddleware")) {
+			parameter.getString("RGBDImagePushServiceIn", "roboticMiddleware", connections.rGBDImagePushServiceIn.roboticMiddleware);
+		}
+		// load parameters for client RecognitionQueryServiceReq
+		parameter.getBoolean("RecognitionQueryServiceReq", "initialConnect", connections.recognitionQueryServiceReq.initialConnect);
+		parameter.getString("RecognitionQueryServiceReq", "serviceName", connections.recognitionQueryServiceReq.serviceName);
+		parameter.getString("RecognitionQueryServiceReq", "serverName", connections.recognitionQueryServiceReq.serverName);
+		parameter.getString("RecognitionQueryServiceReq", "wiringName", connections.recognitionQueryServiceReq.wiringName);
+		if(parameter.checkIfParameterExists("RecognitionQueryServiceReq", "roboticMiddleware")) {
+			parameter.getString("RecognitionQueryServiceReq", "roboticMiddleware", connections.recognitionQueryServiceReq.roboticMiddleware);
 		}
 		
+		// load parameters for server PersonQueryServiceAnsw
+		parameter.getString("PersonQueryServiceAnsw", "serviceName", connections.personQueryServiceAnsw.serviceName);
+		if(parameter.checkIfParameterExists("PersonQueryServiceAnsw", "roboticMiddleware")) {
+			parameter.getString("PersonQueryServiceAnsw", "roboticMiddleware", connections.personQueryServiceAnsw.roboticMiddleware);
+		}
 		// load parameters for server RGBImagePushServiceOut
 		parameter.getString("RGBImagePushServiceOut", "serviceName", connections.rGBImagePushServiceOut.serviceName);
 		if(parameter.checkIfParameterExists("RGBImagePushServiceOut", "roboticMiddleware")) {

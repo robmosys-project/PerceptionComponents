@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,9 +124,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -181,19 +181,6 @@ FaceDetection/fast:
 .PHONY : FaceDetection/fast
 
 #=============================================================================
-# Target rules for targets named nodep
-
-# Build rule for target.
-nodep: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nodep
-.PHONY : nodep
-
-# fast build rule for target.
-nodep/fast:
-	$(MAKE) -f CMakeFiles/nodep.dir/build.make CMakeFiles/nodep.dir/build
-.PHONY : nodep/fast
-
-#=============================================================================
 # Target rules for targets named DomainVisionExternal
 
 # Build rule for target.
@@ -205,6 +192,19 @@ DomainVisionExternal: cmake_check_build_system
 DomainVisionExternal/fast:
 	$(MAKE) -f CMakeFiles/DomainVisionExternal.dir/build.make CMakeFiles/DomainVisionExternal.dir/build
 .PHONY : DomainVisionExternal/fast
+
+#=============================================================================
+# Target rules for targets named nodep
+
+# Build rule for target.
+nodep: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nodep
+.PHONY : nodep
+
+# fast build rule for target.
+nodep/fast:
+	$(MAKE) -f CMakeFiles/nodep.dir/build.make CMakeFiles/nodep.dir/build
+.PHONY : nodep/fast
 
 #=============================================================================
 # Target rules for targets named distclean-all
@@ -309,6 +309,32 @@ CommBasicObjectsExternal: cmake_check_build_system
 CommBasicObjectsExternal/fast:
 	$(MAKE) -f CMakeFiles/CommBasicObjectsExternal.dir/build.make CMakeFiles/CommBasicObjectsExternal.dir/build
 .PHONY : CommBasicObjectsExternal/fast
+
+#=============================================================================
+# Target rules for targets named CommPerceptionExternal
+
+# Build rule for target.
+CommPerceptionExternal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CommPerceptionExternal
+.PHONY : CommPerceptionExternal
+
+# fast build rule for target.
+CommPerceptionExternal/fast:
+	$(MAKE) -f CMakeFiles/CommPerceptionExternal.dir/build.make CMakeFiles/CommPerceptionExternal.dir/build
+.PHONY : CommPerceptionExternal/fast
+
+#=============================================================================
+# Target rules for targets named CommObjectRecognitionObjectsExternal
+
+# Build rule for target.
+CommObjectRecognitionObjectsExternal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CommObjectRecognitionObjectsExternal
+.PHONY : CommObjectRecognitionObjectsExternal
+
+# fast build rule for target.
+CommObjectRecognitionObjectsExternal/fast:
+	$(MAKE) -f CMakeFiles/CommObjectRecognitionObjectsExternal.dir/build.make CMakeFiles/CommObjectRecognitionObjectsExternal.dir/build
+.PHONY : CommObjectRecognitionObjectsExternal/fast
 
 src-gen/CaptureSensorCore.o: src-gen/CaptureSensorCore.cc.o
 
@@ -445,32 +471,59 @@ src-gen/FaceDetectionImpl.cc.s:
 	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.s
 .PHONY : src-gen/FaceDetectionImpl.cc.s
 
-src-gen/RGBImagePushServiceInUpcallManager.o: src-gen/RGBImagePushServiceInUpcallManager.cc.o
+src-gen/PersonQueryServiceAnswHandlerCore.o: src-gen/PersonQueryServiceAnswHandlerCore.cc.o
 
-.PHONY : src-gen/RGBImagePushServiceInUpcallManager.o
+.PHONY : src-gen/PersonQueryServiceAnswHandlerCore.o
 
 # target to build an object file
-src-gen/RGBImagePushServiceInUpcallManager.cc.o:
-	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o
-.PHONY : src-gen/RGBImagePushServiceInUpcallManager.cc.o
+src-gen/PersonQueryServiceAnswHandlerCore.cc.o:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o
+.PHONY : src-gen/PersonQueryServiceAnswHandlerCore.cc.o
 
-src-gen/RGBImagePushServiceInUpcallManager.i: src-gen/RGBImagePushServiceInUpcallManager.cc.i
+src-gen/PersonQueryServiceAnswHandlerCore.i: src-gen/PersonQueryServiceAnswHandlerCore.cc.i
 
-.PHONY : src-gen/RGBImagePushServiceInUpcallManager.i
+.PHONY : src-gen/PersonQueryServiceAnswHandlerCore.i
 
 # target to preprocess a source file
-src-gen/RGBImagePushServiceInUpcallManager.cc.i:
-	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.i
-.PHONY : src-gen/RGBImagePushServiceInUpcallManager.cc.i
+src-gen/PersonQueryServiceAnswHandlerCore.cc.i:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.i
+.PHONY : src-gen/PersonQueryServiceAnswHandlerCore.cc.i
 
-src-gen/RGBImagePushServiceInUpcallManager.s: src-gen/RGBImagePushServiceInUpcallManager.cc.s
+src-gen/PersonQueryServiceAnswHandlerCore.s: src-gen/PersonQueryServiceAnswHandlerCore.cc.s
 
-.PHONY : src-gen/RGBImagePushServiceInUpcallManager.s
+.PHONY : src-gen/PersonQueryServiceAnswHandlerCore.s
 
 # target to generate assembly for a file
-src-gen/RGBImagePushServiceInUpcallManager.cc.s:
-	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.s
-.PHONY : src-gen/RGBImagePushServiceInUpcallManager.cc.s
+src-gen/PersonQueryServiceAnswHandlerCore.cc.s:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.s
+.PHONY : src-gen/PersonQueryServiceAnswHandlerCore.cc.s
+
+src-gen/RGBDImagePushServiceInUpcallManager.o: src-gen/RGBDImagePushServiceInUpcallManager.cc.o
+
+.PHONY : src-gen/RGBDImagePushServiceInUpcallManager.o
+
+# target to build an object file
+src-gen/RGBDImagePushServiceInUpcallManager.cc.o:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o
+.PHONY : src-gen/RGBDImagePushServiceInUpcallManager.cc.o
+
+src-gen/RGBDImagePushServiceInUpcallManager.i: src-gen/RGBDImagePushServiceInUpcallManager.cc.i
+
+.PHONY : src-gen/RGBDImagePushServiceInUpcallManager.i
+
+# target to preprocess a source file
+src-gen/RGBDImagePushServiceInUpcallManager.cc.i:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.i
+.PHONY : src-gen/RGBDImagePushServiceInUpcallManager.cc.i
+
+src-gen/RGBDImagePushServiceInUpcallManager.s: src-gen/RGBDImagePushServiceInUpcallManager.cc.s
+
+.PHONY : src-gen/RGBDImagePushServiceInUpcallManager.s
+
+# target to generate assembly for a file
+src-gen/RGBDImagePushServiceInUpcallManager.cc.s:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.s
+.PHONY : src-gen/RGBDImagePushServiceInUpcallManager.cc.s
 
 src-gen/main.o: src-gen/main.cc.o
 
@@ -580,6 +633,33 @@ src/FaceDetectionCore.cc.s:
 	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.s
 .PHONY : src/FaceDetectionCore.cc.s
 
+src/PersonQueryServiceAnswHandler.o: src/PersonQueryServiceAnswHandler.cc.o
+
+.PHONY : src/PersonQueryServiceAnswHandler.o
+
+# target to build an object file
+src/PersonQueryServiceAnswHandler.cc.o:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o
+.PHONY : src/PersonQueryServiceAnswHandler.cc.o
+
+src/PersonQueryServiceAnswHandler.i: src/PersonQueryServiceAnswHandler.cc.i
+
+.PHONY : src/PersonQueryServiceAnswHandler.i
+
+# target to preprocess a source file
+src/PersonQueryServiceAnswHandler.cc.i:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.i
+.PHONY : src/PersonQueryServiceAnswHandler.cc.i
+
+src/PersonQueryServiceAnswHandler.s: src/PersonQueryServiceAnswHandler.cc.s
+
+.PHONY : src/PersonQueryServiceAnswHandler.s
+
+# target to generate assembly for a file
+src/PersonQueryServiceAnswHandler.cc.s:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.s
+.PHONY : src/PersonQueryServiceAnswHandler.cc.s
+
 src/SmartStateChangeHandler.o: src/SmartStateChangeHandler.cc.o
 
 .PHONY : src/SmartStateChangeHandler.o
@@ -607,6 +687,87 @@ src/SmartStateChangeHandler.cc.s:
 	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.s
 .PHONY : src/SmartStateChangeHandler.cc.s
 
+src/mtcnn.o: src/mtcnn.cpp.o
+
+.PHONY : src/mtcnn.o
+
+# target to build an object file
+src/mtcnn.cpp.o:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o
+.PHONY : src/mtcnn.cpp.o
+
+src/mtcnn.i: src/mtcnn.cpp.i
+
+.PHONY : src/mtcnn.i
+
+# target to preprocess a source file
+src/mtcnn.cpp.i:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.i
+.PHONY : src/mtcnn.cpp.i
+
+src/mtcnn.s: src/mtcnn.cpp.s
+
+.PHONY : src/mtcnn.s
+
+# target to generate assembly for a file
+src/mtcnn.cpp.s:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.s
+.PHONY : src/mtcnn.cpp.s
+
+src/network.o: src/network.cpp.o
+
+.PHONY : src/network.o
+
+# target to build an object file
+src/network.cpp.o:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/network.cpp.o
+.PHONY : src/network.cpp.o
+
+src/network.i: src/network.cpp.i
+
+.PHONY : src/network.i
+
+# target to preprocess a source file
+src/network.cpp.i:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/network.cpp.i
+.PHONY : src/network.cpp.i
+
+src/network.s: src/network.cpp.s
+
+.PHONY : src/network.s
+
+# target to generate assembly for a file
+src/network.cpp.s:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/network.cpp.s
+.PHONY : src/network.cpp.s
+
+src/pBox.o: src/pBox.cpp.o
+
+.PHONY : src/pBox.o
+
+# target to build an object file
+src/pBox.cpp.o:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/pBox.cpp.o
+.PHONY : src/pBox.cpp.o
+
+src/pBox.i: src/pBox.cpp.i
+
+.PHONY : src/pBox.i
+
+# target to preprocess a source file
+src/pBox.cpp.i:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/pBox.cpp.i
+.PHONY : src/pBox.cpp.i
+
+src/pBox.s: src/pBox.cpp.s
+
+.PHONY : src/pBox.s
+
+# target to generate assembly for a file
+src/pBox.cpp.s:
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/pBox.cpp.s
+.PHONY : src/pBox.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -619,8 +780,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... autoinstall"
 	@echo "... FaceDetection"
-	@echo "... nodep"
 	@echo "... DomainVisionExternal"
+	@echo "... nodep"
 	@echo "... distclean-all"
 	@echo "... install/local"
 	@echo "... FaceDetection_distclean"
@@ -631,6 +792,8 @@ help:
 	@echo "... SmartPropertyExternal"
 	@echo "... TransformationMatricesExternal"
 	@echo "... CommBasicObjectsExternal"
+	@echo "... CommPerceptionExternal"
+	@echo "... CommObjectRecognitionObjectsExternal"
 	@echo "... src-gen/CaptureSensorCore.o"
 	@echo "... src-gen/CaptureSensorCore.i"
 	@echo "... src-gen/CaptureSensorCore.s"
@@ -646,9 +809,12 @@ help:
 	@echo "... src-gen/FaceDetectionImpl.o"
 	@echo "... src-gen/FaceDetectionImpl.i"
 	@echo "... src-gen/FaceDetectionImpl.s"
-	@echo "... src-gen/RGBImagePushServiceInUpcallManager.o"
-	@echo "... src-gen/RGBImagePushServiceInUpcallManager.i"
-	@echo "... src-gen/RGBImagePushServiceInUpcallManager.s"
+	@echo "... src-gen/PersonQueryServiceAnswHandlerCore.o"
+	@echo "... src-gen/PersonQueryServiceAnswHandlerCore.i"
+	@echo "... src-gen/PersonQueryServiceAnswHandlerCore.s"
+	@echo "... src-gen/RGBDImagePushServiceInUpcallManager.o"
+	@echo "... src-gen/RGBDImagePushServiceInUpcallManager.i"
+	@echo "... src-gen/RGBDImagePushServiceInUpcallManager.s"
 	@echo "... src-gen/main.o"
 	@echo "... src-gen/main.i"
 	@echo "... src-gen/main.s"
@@ -661,9 +827,21 @@ help:
 	@echo "... src/FaceDetectionCore.o"
 	@echo "... src/FaceDetectionCore.i"
 	@echo "... src/FaceDetectionCore.s"
+	@echo "... src/PersonQueryServiceAnswHandler.o"
+	@echo "... src/PersonQueryServiceAnswHandler.i"
+	@echo "... src/PersonQueryServiceAnswHandler.s"
 	@echo "... src/SmartStateChangeHandler.o"
 	@echo "... src/SmartStateChangeHandler.i"
 	@echo "... src/SmartStateChangeHandler.s"
+	@echo "... src/mtcnn.o"
+	@echo "... src/mtcnn.i"
+	@echo "... src/mtcnn.s"
+	@echo "... src/network.o"
+	@echo "... src/network.i"
+	@echo "... src/network.s"
+	@echo "... src/pBox.o"
+	@echo "... src/pBox.i"
+	@echo "... src/pBox.s"
 .PHONY : help
 
 

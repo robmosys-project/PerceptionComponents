@@ -20,6 +20,8 @@
 
 #include "CaptureSensorCore.hh"
 #include "DomainVision/CommVideoImage.hh"
+#include "CommPerception/CommPoint2d.hh"
+#include "CommPerception/CommPoint3d.hh"
 
 #include <smartIniParameter.hh>
 
@@ -28,6 +30,8 @@
 
 #include <vector>
 #include <string>
+
+#include "mtcnn.h"
 
 class CaptureSensor  : public CaptureSensorCore
 {
@@ -40,16 +44,24 @@ public:
 	virtual int on_exit();
 
 private:
-	DomainVision::CommVideoImage _input_image;
+	//DomainVision::CommVideoImage _input_image;
+	DomainVision::CommVideoImage _rgb_input;
+	DomainVision::CommRGBDImage _rgbd_input;
 
-	// cascade classifier
-	std::string _face_cascade_filename = "/home/rosmosys/haarcascade_frontalface_alt.xml";
-	//std::string _face_cascade_filename = "./data/haarcascade_frontalface_alt.xml";
-	cv::CascadeClassifier _cascade;
+	// MTCNN model
+	mtcnn* _mtcnn;
+
+	void fromVideo2Mat(const DomainVision::CommVideoImage& input, cv::Mat& rgb_img);
+	void fromDepth2Mat(const DomainVision::CommDepthImage& input, cv::Mat& depth_img);
+	void fromRGBD2Mat(const DomainVision::CommRGBDImage& input, cv::Mat& rgb_img, cv::Mat& depth_img);
+	//void on_RGBImagePushServiceIn(const DomainVision::CommVideoImage &rgb_input);
+	void on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input);
+
+	CommBasicObjects::CommPosition3d from2dTo3d(double x, double y, double depth, double fx, double fy, double cx, double cy);
 
 	cv::Mat getMat(const DomainVision::CommVideoImage &input);
-	std::vector<cv::Rect> faceDetect(const cv::Mat& img);
-	void on_RGBImagePushServiceIn(const DomainVision::CommVideoImage &input);
+
+
 };
 
 #endif

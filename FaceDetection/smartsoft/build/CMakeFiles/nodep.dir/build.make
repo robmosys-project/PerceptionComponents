@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build
 
 # Utility rule file for nodep.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft/build
 include CMakeFiles/nodep.dir/progress.make
 
 CMakeFiles/nodep:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Build FaceDetection without dependency checking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Build FaceDetection without dependency checking"
 	/usr/bin/make FaceDetection/fast
 
 nodep: CMakeFiles/nodep
@@ -72,6 +72,6 @@ CMakeFiles/nodep.dir/clean:
 .PHONY : CMakeFiles/nodep.dir/clean
 
 CMakeFiles/nodep.dir/depend:
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/nodep.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/nodep.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nodep.dir/depend
 

@@ -37,16 +37,25 @@ class FaceDetectionExtension;
 
 
 // include communication objects
+#include <CommPerception/CommLabel.hh>
+#include <CommPerception/CommLabelACE.hh>
+#include <CommPerception/CommPersonDetection.hh>
+#include <CommPerception/CommPersonDetectionACE.hh>
+#include <DomainVision/CommRGBDImage.hh>
+#include <DomainVision/CommRGBDImageACE.hh>
 #include <DomainVision/CommVideoImage.hh>
 #include <DomainVision/CommVideoImageACE.hh>
+#include <CommPerception/Empty.hh>
+#include <CommPerception/EmptyACE.hh>
 
 // include tasks
 #include "CaptureSensor.hh"
 // include UpcallManagers
-#include "RGBImagePushServiceInUpcallManager.hh"
+#include "RGBDImagePushServiceInUpcallManager.hh"
 
 // include input-handler
 // include input-handler
+#include "PersonQueryServiceAnswHandler.hh"
 
 // include handler
 #include "CompHandler.hh"
@@ -91,12 +100,13 @@ public:
 	CaptureSensor *captureSensor;
 	
 	// define input-ports
-	// InputPort RGBImagePushServiceIn
-	Smart::IPushClientPattern<DomainVision::CommVideoImage> *rGBImagePushServiceIn;
-	Smart::InputTaskTrigger<DomainVision::CommVideoImage> *rGBImagePushServiceInInputTaskTrigger;
-	RGBImagePushServiceInUpcallManager *rGBImagePushServiceInUpcallManager;
+	// InputPort RGBDImagePushServiceIn
+	Smart::IPushClientPattern<DomainVision::CommRGBDImage> *rGBDImagePushServiceIn;
+	Smart::InputTaskTrigger<DomainVision::CommRGBDImage> *rGBDImagePushServiceInInputTaskTrigger;
+	RGBDImagePushServiceInUpcallManager *rGBDImagePushServiceInUpcallManager;
 	
 	// define request-ports
+	Smart::IQueryClientPattern<DomainVision::CommVideoImage, CommPerception::CommLabel,SmartACE::QueryId> *recognitionQueryServiceReq;
 	
 	// define input-handler
 	
@@ -104,8 +114,11 @@ public:
 	Smart::IPushServerPattern<DomainVision::CommVideoImage> *rGBImagePushServiceOut;
 	
 	// define answer-ports
+	Smart::IQueryServerPattern<CommPerception::Empty, CommPerception::CommPersonDetection,SmartACE::QueryId> *personQueryServiceAnsw;
+	Smart::QueryServerTaskTrigger<CommPerception::Empty, CommPerception::CommPersonDetection,SmartACE::QueryId> *personQueryServiceAnswInputTaskTrigger;
 	
 	// define request-handlers
+	PersonQueryServiceAnswHandler *personQueryServiceAnswHandler;
 	
 	// definitions of FaceDetectionROSExtension
 	
@@ -157,7 +170,8 @@ public:
 	/// start all associated timers
 	void startAllTimers();
 	
-	Smart::StatusCode connectRGBImagePushServiceIn(const std::string &serverName, const std::string &serviceName);
+	Smart::StatusCode connectRGBDImagePushServiceIn(const std::string &serverName, const std::string &serviceName);
+	Smart::StatusCode connectRecognitionQueryServiceReq(const std::string &serverName, const std::string &serviceName);
 
 	// return singleton instance
 	static FaceDetection* instance()
@@ -208,19 +222,31 @@ public:
 		//--- upcall parameter ---
 		
 		//--- server port parameter ---
+		struct PersonQueryServiceAnsw_struct {
+				std::string serviceName;
+				std::string roboticMiddleware;
+		} personQueryServiceAnsw;
 		struct RGBImagePushServiceOut_struct {
 				std::string serviceName;
 				std::string roboticMiddleware;
 		} rGBImagePushServiceOut;
 	
 		//--- client port parameter ---
-		struct RGBImagePushServiceIn_struct {
+		struct RGBDImagePushServiceIn_struct {
 			std::string serverName;
 			std::string serviceName;
 			std::string wiringName;
 			long interval;
 			std::string roboticMiddleware;
-		} rGBImagePushServiceIn;
+		} rGBDImagePushServiceIn;
+		struct RecognitionQueryServiceReq_struct {
+			bool initialConnect;
+			std::string serverName;
+			std::string serviceName;
+			std::string wiringName;
+			long interval;
+			std::string roboticMiddleware;
+		} recognitionQueryServiceReq;
 		
 		// -- parameters for FaceDetectionROSExtension
 		

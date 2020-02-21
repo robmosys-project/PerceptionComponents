@@ -52,6 +52,10 @@ maxActFreqHz 0.0
 ##########################
 # server port parameter
 
+[PersonQueryServiceAnsw]
+serviceName PersonQueryServiceAnsw
+roboticMiddleware ACE_SmartSoft
+
 [RGBImagePushServiceOut]
 serviceName RGBImagePushServiceOut
 roboticMiddleware ACE_SmartSoft
@@ -59,10 +63,18 @@ roboticMiddleware ACE_SmartSoft
 ##########################
 # client port parameter
 
-[RGBImagePushServiceIn]
+[RGBDImagePushServiceIn]
 serverName unknown
 serviceName unknown
-wiringName RGBImagePushServiceIn
+wiringName RGBDImagePushServiceIn
+interval 1
+roboticMiddleware ACE_SmartSoft
+
+[RecognitionQueryServiceReq]
+initialConnect false
+serverName unknown
+serviceName unknown
+wiringName RecognitionQueryServiceReq
 interval 1
 roboticMiddleware ACE_SmartSoft
 

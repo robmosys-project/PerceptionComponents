@@ -3,6 +3,19 @@
 	<name>FaceDetection</name>
 	<comment></comment>
 	<projects>
+		<project>CommBasicObjects</project>
+		<project>CommLocalizationObjects</project>
+		<project>CommManipulationPlannerObjects</project>
+		<project>CommManipulatorObjects</project>
+		<project>CommNavigationObjects</project>
+		<project>CommPerception</project>
+		<project>CommRobotinoObjects</project>
+		<project>CommTrackingObjects</project>
+		<project>DomainForklift</project>
+		<project>DomainHMI</project>
+		<project>DomainPTU</project>
+		<project>DomainSpeech</project>
+		<project>DomainSymbolicPlanner</project>
 		<project>DomainVision</project>
 	</projects>
 	<buildSpec>

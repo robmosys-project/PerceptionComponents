@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build
 
 # Utility rule file for DomainVisionExternal.
 
@@ -66,64 +66,64 @@ CMakeFiles/DomainVisionExternal-complete: DomainVision/src/DomainVisionExternal-
 CMakeFiles/DomainVisionExternal-complete: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-install
 CMakeFiles/DomainVisionExternal-complete: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep1
 CMakeFiles/DomainVisionExternal-complete: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep2
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'DomainVisionExternal'"
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/DomainVisionExternal-complete
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'DomainVisionExternal'"
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/DomainVisionExternal-complete
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-done
 
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-install: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'DomainVisionExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'DomainVisionExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -E echo_append
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-install
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-install
 
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'DomainVisionExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'DomainVisionExternal'"
 	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft
 	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/tmp
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-mkdir
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/tmp
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-mkdir
 
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-download: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'DomainVisionExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'DomainVisionExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-download
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-download
 
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-update: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'DomainVisionExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'DomainVisionExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-update
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-update
 
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-patch: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'DomainVisionExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'DomainVisionExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-patch
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-patch
 
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-configure: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-done
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-configure: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-done
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-configure: DomainVision/tmp/DomainVisionExternal-cfgcmd.txt
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-configure: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-update
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-configure: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'DomainVisionExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'DomainVisionExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -DBUILD_DEPENDENCIES=OFF "-GUnix Makefiles" /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-configure
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-configure
 
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-build: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'DomainVisionExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'DomainVisionExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && $(MAKE)
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-build
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-build
 
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep1: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Reset BUILD_DEPENDENCIES of 'DomainVisionExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Reset BUILD_DEPENDENCIES of 'DomainVisionExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -DBUILD_DEPENDENCIES=ON .
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep1
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep1
 
 DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep2: DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Touch file 'DomainVisionExternal-update' to trigger configure on next build"
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp && /usr/bin/cmake -E touch DomainVisionExternal-update
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Touch file 'DomainVisionExternal-update' to trigger configure on next build"
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp && /usr/bin/cmake -E touch DomainVisionExternal-update
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/DomainVision/src/DomainVisionExternal-stamp/DomainVisionExternal-DomainVisionStep2
 
 DomainVisionExternal: CMakeFiles/DomainVisionExternal
 DomainVisionExternal: CMakeFiles/DomainVisionExternal-complete
@@ -150,6 +150,6 @@ CMakeFiles/DomainVisionExternal.dir/clean:
 .PHONY : CMakeFiles/DomainVisionExternal.dir/clean
 
 CMakeFiles/DomainVisionExternal.dir/depend:
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/DomainVisionExternal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/DomainVisionExternal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DomainVisionExternal.dir/depend
 

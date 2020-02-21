@@ -18,20 +18,51 @@
 #define _FACEDETECTIONCORE_HH
 	
 #include "aceSmartSoft.hh"
+#include "armadillo.hh"
+
 #include <iostream>
+#include <sstream>
+#include <vector>
 
 #include <opencv2/opencv.hpp>
-#include "DomainVision/CommVideoImage.hh"
+#include <DomainVision/CommVideoImage.hh>
+#include <DomainVision/CommRGBDImage.hh>
+#include <CommPerception/CommPersonDetection.hh>
 
+
+using namespace std;
 
 class FaceDetectionCore
 {
 private:
+	CommPerception::CommPersonDetection _person_info;
+	SmartACE::SmartIniParameter* param = nullptr;
+
+	void addParam(const string& inifile);
 
 public:
 	FaceDetectionCore();
-	DomainVision::CommVideoImage getVideoImage();
+	void setPersonInfo(const std::vector<CommPerception::CommPersonInf>& person_info);
+	CommPerception::CommPersonDetection getPersonInfo();
 
+	template <typename T>
+	bool getParam(const string& prefix_name, const string &param_name, T &param_val, const T &default_val) const
+	{
+		if (param==nullptr) {
+			return false;
+		}
+	    if (param->checkIfParameterExists(prefix_name, param_name)) {
+	        map<string, string> param_map = param->getAllParametersFromGroup(prefix_name);
+
+	        istringstream iss(param_map[param_name]);
+	        iss >> param_val;
+
+	        return true;
+	    } else {
+	        param_val = default_val;
+	        return true;
+	    }
+	}
 
 };
 	

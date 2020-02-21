@@ -50,6 +50,7 @@ INCLUDE_DIRECTORIES(
   ${CMAKE_CURRENT_LIST_DIR}/src
   ${CMAKE_CURRENT_LIST_DIR}/src-gen
   ${CMAKE_CURRENT_LIST_DIR}/src-gen/params
+  ${openblas_INCLUDE_DIRS}
 )
 
 # collect the toolchain-generated source-files
@@ -58,13 +59,13 @@ FILE(GLOB_RECURSE SRC_GEN ${CMAKE_CURRENT_LIST_DIR}/src-gen/*.cc)
 FILE(GLOB_RECURSE SRC_GEN_PARAMS ${CMAKE_CURRENT_LIST_DIR}/src-gen/params/*.cc)
 
 # collect your own (local) source-files here (if needed)
-#FILE(GLOB_RECURSE USER_SRC ${CMAKE_CURRENT_LIST_DIR}/src/<your-sources>)
+FILE(GLOB_RECURSE USER_SRC ${CMAKE_CURRENT_LIST_DIR}/src/mtcnn.cpp ${CMAKE_CURRENT_LIST_DIR}/src/network.cpp ${CMAKE_CURRENT_LIST_DIR}/src/pBox.cpp )
 
 # create the executable using collected source-files
-ADD_EXECUTABLE(${PROJECT_NAME} ${SRC} ${SRC_GEN} ${SRC_GEN_PARAMS} ${FURTHER_SRCS}) # add ${USER_SRC} (if needed)
+ADD_EXECUTABLE(${PROJECT_NAME} ${SRC} ${SRC_GEN} ${SRC_GEN_PARAMS} ${FURTHER_SRCS} ${USER_SRC}) # add ${USER_SRC} (if needed)
 
 # link your external libraries here (if there are any)
-#TARGET_LINK_LIBRARIES(${PROJECT_NAME} <your-libs>)
+TARGET_LINK_LIBRARIES(${PROJECT_NAME} openblas)
 
 INCLUDE(${CMAKE_CURRENT_LIST_DIR}/src-gen/MixedPortTargetConfigs.cmake)
 

@@ -1,0 +1,7 @@
+ComponentDefinition FaceRecognition logo "/FaceRecognition/model/logo.png"
+{
+AnswerPort RecognitionQueryServiceAnsw implements CommPerception.RecognitionQueryService {
+	}
+	RequestHandler RecognitionQueryServiceAnswHandler triggeredFrom RecognitionQueryServiceAnsw {
+	}
+}

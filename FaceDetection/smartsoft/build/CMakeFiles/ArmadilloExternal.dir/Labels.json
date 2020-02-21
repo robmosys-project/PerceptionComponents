@@ -2,40 +2,40 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal-complete.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal-complete.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-install.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-install.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-mkdir.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-mkdir.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-download.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-download.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-update.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-update.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-patch.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-patch.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-configure.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-configure.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-build.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-build.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep1.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep1.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep2.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep2.rule"
 		}
 	],
 	"target" : 

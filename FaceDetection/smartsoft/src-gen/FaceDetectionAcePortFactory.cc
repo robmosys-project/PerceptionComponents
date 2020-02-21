@@ -52,11 +52,21 @@ int FaceDetectionAcePortFactory::onStartup()
 	return componentImpl->startComponentInfrastructure();
 }
 
-Smart::IPushClientPattern<DomainVision::CommVideoImage> * FaceDetectionAcePortFactory::createRGBImagePushServiceIn()
+Smart::IPushClientPattern<DomainVision::CommRGBDImage> * FaceDetectionAcePortFactory::createRGBDImagePushServiceIn()
 {
-	return new SmartACE::PushClient<DomainVision::CommVideoImage>(componentImpl);
+	return new SmartACE::PushClient<DomainVision::CommRGBDImage>(componentImpl);
 }
 
+Smart::IQueryClientPattern<DomainVision::CommVideoImage, CommPerception::CommLabel,SmartACE::QueryId> * FaceDetectionAcePortFactory::createRecognitionQueryServiceReq()
+{
+	return new SmartACE::QueryClient<DomainVision::CommVideoImage, CommPerception::CommLabel>(componentImpl);
+}
+
+
+Smart::IQueryServerPattern<CommPerception::Empty, CommPerception::CommPersonDetection,SmartACE::QueryId> * FaceDetectionAcePortFactory::createPersonQueryServiceAnsw(const std::string &serviceName)
+{
+	return new SmartACE::QueryServer<CommPerception::Empty, CommPerception::CommPersonDetection>(componentImpl, serviceName);
+}
 
 Smart::IPushServerPattern<DomainVision::CommVideoImage> * FaceDetectionAcePortFactory::createRGBImagePushServiceOut(const std::string &serviceName)
 {

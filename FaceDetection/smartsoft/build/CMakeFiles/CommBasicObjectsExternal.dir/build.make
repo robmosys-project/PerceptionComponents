@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build
 
 # Utility rule file for CommBasicObjectsExternal.
 
@@ -66,40 +66,40 @@ CMakeFiles/CommBasicObjectsExternal-complete: CommBasicObjects/src/CommBasicObje
 CMakeFiles/CommBasicObjectsExternal-complete: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-install
 CMakeFiles/CommBasicObjectsExternal-complete: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep1
 CMakeFiles/CommBasicObjectsExternal-complete: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep2
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'CommBasicObjectsExternal'"
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/CommBasicObjectsExternal-complete
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'CommBasicObjectsExternal'"
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/CommBasicObjectsExternal-complete
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-done
 
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-install: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'CommBasicObjectsExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'CommBasicObjectsExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -E echo_append
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-install
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-install
 
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'CommBasicObjectsExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'CommBasicObjectsExternal'"
 	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
 	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/tmp
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-mkdir
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/tmp
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-mkdir
 
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-download: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'CommBasicObjectsExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'CommBasicObjectsExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-download
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-download
 
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-update: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'CommBasicObjectsExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'CommBasicObjectsExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-update
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-update
 
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-patch: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'CommBasicObjectsExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'CommBasicObjectsExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-patch
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-patch
 
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-done
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-done
@@ -108,24 +108,24 @@ CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-con
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure: CommBasicObjects/tmp/CommBasicObjectsExternal-cfgcmd.txt
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-update
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'CommBasicObjectsExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'CommBasicObjectsExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -DBUILD_DEPENDENCIES=OFF "-GUnix Makefiles" /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure
 
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-build: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'CommBasicObjectsExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'CommBasicObjectsExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && $(MAKE)
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-build
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-build
 
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep1: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Reset BUILD_DEPENDENCIES of 'CommBasicObjectsExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Reset BUILD_DEPENDENCIES of 'CommBasicObjectsExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -DBUILD_DEPENDENCIES=ON .
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep1
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep1
 
 CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep2: CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Touch file 'CommBasicObjectsExternal-update' to trigger configure on next build"
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp && /usr/bin/cmake -E touch CommBasicObjectsExternal-update
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Touch file 'CommBasicObjectsExternal-update' to trigger configure on next build"
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp && /usr/bin/cmake -E touch CommBasicObjectsExternal-update
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep2
 
 CommBasicObjectsExternal: CMakeFiles/CommBasicObjectsExternal
 CommBasicObjectsExternal: CMakeFiles/CommBasicObjectsExternal-complete
@@ -152,6 +152,6 @@ CMakeFiles/CommBasicObjectsExternal.dir/clean:
 .PHONY : CMakeFiles/CommBasicObjectsExternal.dir/clean
 
 CMakeFiles/CommBasicObjectsExternal.dir/depend:
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/CommBasicObjectsExternal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/CommBasicObjectsExternal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CommBasicObjectsExternal.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FaceDetection.dir/depend.make
@@ -57,18 +57,42 @@ include CMakeFiles/FaceDetection.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FaceDetection.dir/flags.make
 
+CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o: CMakeFiles/FaceDetection.dir/flags.make
+CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o: ../src/PersonQueryServiceAnswHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/PersonQueryServiceAnswHandler.cc
+
+CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/PersonQueryServiceAnswHandler.cc > CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.i
+
+CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/PersonQueryServiceAnswHandler.cc -o CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.s
+
+CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o.requires:
+
+.PHONY : CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o.requires
+
+CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o.provides: CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o.requires
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o.provides.build
+.PHONY : CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o.provides
+
+CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o.provides.build: CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o
+
+
 CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o: CMakeFiles/FaceDetection.dir/flags.make
 CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o: ../src/CaptureSensor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src/CaptureSensor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/CaptureSensor.cc
 
 CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src/CaptureSensor.cc > CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/CaptureSensor.cc > CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.i
 
 CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src/CaptureSensor.cc -o CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/CaptureSensor.cc -o CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.s
 
 CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o.requires:
 
@@ -83,16 +107,16 @@ CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o.provides.build: CMakeFiles/F
 
 CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o: CMakeFiles/FaceDetection.dir/flags.make
 CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o: ../src/CompHandler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src/CompHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/CompHandler.cc
 
 CMakeFiles/FaceDetection.dir/src/CompHandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src/CompHandler.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src/CompHandler.cc > CMakeFiles/FaceDetection.dir/src/CompHandler.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/CompHandler.cc > CMakeFiles/FaceDetection.dir/src/CompHandler.cc.i
 
 CMakeFiles/FaceDetection.dir/src/CompHandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src/CompHandler.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src/CompHandler.cc -o CMakeFiles/FaceDetection.dir/src/CompHandler.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/CompHandler.cc -o CMakeFiles/FaceDetection.dir/src/CompHandler.cc.s
 
 CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o.requires:
 
@@ -107,16 +131,16 @@ CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o.provides.build: CMakeFiles/Fac
 
 CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o: CMakeFiles/FaceDetection.dir/flags.make
 CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o: ../src/SmartStateChangeHandler.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src/SmartStateChangeHandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/SmartStateChangeHandler.cc
 
 CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src/SmartStateChangeHandler.cc > CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/SmartStateChangeHandler.cc > CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.i
 
 CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src/SmartStateChangeHandler.cc -o CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/SmartStateChangeHandler.cc -o CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.s
 
 CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o.requires:
 
@@ -131,16 +155,16 @@ CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o.provides.build: CM
 
 CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o: CMakeFiles/FaceDetection.dir/flags.make
 CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o: ../src/FaceDetectionCore.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src/FaceDetectionCore.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/FaceDetectionCore.cc
 
 CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src/FaceDetectionCore.cc > CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/FaceDetectionCore.cc > CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.i
 
 CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src/FaceDetectionCore.cc -o CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/FaceDetectionCore.cc -o CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.s
 
 CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o.requires:
 
@@ -155,16 +179,16 @@ CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o.provides.build: CMakeFil
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o: CMakeFiles/FaceDetection.dir/flags.make
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o: ../src-gen/FaceDetection.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetection.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetection.cc
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetection.cc > CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetection.cc > CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.i
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetection.cc -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetection.cc -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.s
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o.requires:
 
@@ -177,18 +201,42 @@ CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o.provides: CMakeFiles/Fac
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o.provides.build: CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o
 
 
+CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o: CMakeFiles/FaceDetection.dir/flags.make
+CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o: ../src-gen/PersonQueryServiceAnswHandlerCore.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/PersonQueryServiceAnswHandlerCore.cc
+
+CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/PersonQueryServiceAnswHandlerCore.cc > CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.i
+
+CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/PersonQueryServiceAnswHandlerCore.cc -o CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.s
+
+CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o.requires:
+
+.PHONY : CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o.requires
+
+CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o.provides: CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o.requires
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o.provides.build
+.PHONY : CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o.provides
+
+CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o.provides.build: CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o
+
+
 CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o: CMakeFiles/FaceDetection.dir/flags.make
 CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o: ../src-gen/CaptureSensorCore.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/CaptureSensorCore.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/CaptureSensorCore.cc
 
 CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/CaptureSensorCore.cc > CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/CaptureSensorCore.cc > CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.i
 
 CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/CaptureSensorCore.cc -o CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/CaptureSensorCore.cc -o CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.s
 
 CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o.requires:
 
@@ -201,42 +249,18 @@ CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o.provides: CMakeFiles
 CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o.provides.build: CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o
 
 
-CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o: CMakeFiles/FaceDetection.dir/flags.make
-CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o: ../src-gen/RGBImagePushServiceInUpcallManager.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc
-
-CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc > CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.i
-
-CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/RGBImagePushServiceInUpcallManager.cc -o CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.s
-
-CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o.requires:
-
-.PHONY : CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o.requires
-
-CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o.provides: CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o.requires
-	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o.provides.build
-.PHONY : CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o.provides
-
-CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o.provides.build: CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o
-
-
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o: CMakeFiles/FaceDetection.dir/flags.make
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o: ../src-gen/FaceDetectionImpl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionImpl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionImpl.cc
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionImpl.cc > CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionImpl.cc > CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.i
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionImpl.cc -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionImpl.cc -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.s
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o.requires:
 
@@ -251,16 +275,16 @@ CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o.provides.build: CMak
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o: CMakeFiles/FaceDetection.dir/flags.make
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o: ../src-gen/FaceDetectionExtension.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionExtension.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionExtension.cc
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionExtension.cc > CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionExtension.cc > CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.i
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionExtension.cc -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionExtension.cc -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.s
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o.requires:
 
@@ -273,18 +297,42 @@ CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o.provides: CMake
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o.provides.build: CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o
 
 
+CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o: CMakeFiles/FaceDetection.dir/flags.make
+CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o: ../src-gen/RGBDImagePushServiceInUpcallManager.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/RGBDImagePushServiceInUpcallManager.cc
+
+CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/RGBDImagePushServiceInUpcallManager.cc > CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.i
+
+CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/RGBDImagePushServiceInUpcallManager.cc -o CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.s
+
+CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o.requires:
+
+.PHONY : CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o.requires
+
+CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o.provides: CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o.requires
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o.provides.build
+.PHONY : CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o.provides
+
+CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o.provides.build: CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o
+
+
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o: CMakeFiles/FaceDetection.dir/flags.make
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o: ../src-gen/FaceDetectionAcePortFactory.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionAcePortFactory.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionAcePortFactory.cc
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionAcePortFactory.cc > CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionAcePortFactory.cc > CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.i
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionAcePortFactory.cc -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/FaceDetectionAcePortFactory.cc -o CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.s
 
 CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o.requires:
 
@@ -299,16 +347,16 @@ CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o.provides.b
 
 CMakeFiles/FaceDetection.dir/src-gen/main.cc.o: CMakeFiles/FaceDetection.dir/flags.make
 CMakeFiles/FaceDetection.dir/src-gen/main.cc.o: ../src-gen/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/main.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/main.cc.o -c /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FaceDetection.dir/src-gen/main.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src-gen/main.cc.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/main.cc
 
 CMakeFiles/FaceDetection.dir/src-gen/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src-gen/main.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/main.cc > CMakeFiles/FaceDetection.dir/src-gen/main.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/main.cc > CMakeFiles/FaceDetection.dir/src-gen/main.cc.i
 
 CMakeFiles/FaceDetection.dir/src-gen/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src-gen/main.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/workspace/FaceDetection/smartsoft/src-gen/main.cc -o CMakeFiles/FaceDetection.dir/src-gen/main.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src-gen/main.cc -o CMakeFiles/FaceDetection.dir/src-gen/main.cc.s
 
 CMakeFiles/FaceDetection.dir/src-gen/main.cc.o.requires:
 
@@ -321,34 +369,116 @@ CMakeFiles/FaceDetection.dir/src-gen/main.cc.o.provides: CMakeFiles/FaceDetectio
 CMakeFiles/FaceDetection.dir/src-gen/main.cc.o.provides.build: CMakeFiles/FaceDetection.dir/src-gen/main.cc.o
 
 
+CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o: CMakeFiles/FaceDetection.dir/flags.make
+CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o: ../src/mtcnn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/mtcnn.cpp
+
+CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/mtcnn.cpp > CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.i
+
+CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/mtcnn.cpp -o CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.s
+
+CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o.requires:
+
+.PHONY : CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o.requires
+
+CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o.provides: CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o.requires
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o.provides.build
+.PHONY : CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o.provides
+
+CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o.provides.build: CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o
+
+
+CMakeFiles/FaceDetection.dir/src/network.cpp.o: CMakeFiles/FaceDetection.dir/flags.make
+CMakeFiles/FaceDetection.dir/src/network.cpp.o: ../src/network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FaceDetection.dir/src/network.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/network.cpp.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/network.cpp
+
+CMakeFiles/FaceDetection.dir/src/network.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src/network.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/network.cpp > CMakeFiles/FaceDetection.dir/src/network.cpp.i
+
+CMakeFiles/FaceDetection.dir/src/network.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src/network.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/network.cpp -o CMakeFiles/FaceDetection.dir/src/network.cpp.s
+
+CMakeFiles/FaceDetection.dir/src/network.cpp.o.requires:
+
+.PHONY : CMakeFiles/FaceDetection.dir/src/network.cpp.o.requires
+
+CMakeFiles/FaceDetection.dir/src/network.cpp.o.provides: CMakeFiles/FaceDetection.dir/src/network.cpp.o.requires
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/network.cpp.o.provides.build
+.PHONY : CMakeFiles/FaceDetection.dir/src/network.cpp.o.provides
+
+CMakeFiles/FaceDetection.dir/src/network.cpp.o.provides.build: CMakeFiles/FaceDetection.dir/src/network.cpp.o
+
+
+CMakeFiles/FaceDetection.dir/src/pBox.cpp.o: CMakeFiles/FaceDetection.dir/flags.make
+CMakeFiles/FaceDetection.dir/src/pBox.cpp.o: ../src/pBox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FaceDetection.dir/src/pBox.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FaceDetection.dir/src/pBox.cpp.o -c /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/pBox.cpp
+
+CMakeFiles/FaceDetection.dir/src/pBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FaceDetection.dir/src/pBox.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/pBox.cpp > CMakeFiles/FaceDetection.dir/src/pBox.cpp.i
+
+CMakeFiles/FaceDetection.dir/src/pBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FaceDetection.dir/src/pBox.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/src/pBox.cpp -o CMakeFiles/FaceDetection.dir/src/pBox.cpp.s
+
+CMakeFiles/FaceDetection.dir/src/pBox.cpp.o.requires:
+
+.PHONY : CMakeFiles/FaceDetection.dir/src/pBox.cpp.o.requires
+
+CMakeFiles/FaceDetection.dir/src/pBox.cpp.o.provides: CMakeFiles/FaceDetection.dir/src/pBox.cpp.o.requires
+	$(MAKE) -f CMakeFiles/FaceDetection.dir/build.make CMakeFiles/FaceDetection.dir/src/pBox.cpp.o.provides.build
+.PHONY : CMakeFiles/FaceDetection.dir/src/pBox.cpp.o.provides
+
+CMakeFiles/FaceDetection.dir/src/pBox.cpp.o.provides.build: CMakeFiles/FaceDetection.dir/src/pBox.cpp.o
+
+
 # Object files for target FaceDetection
 FaceDetection_OBJECTS = \
+"CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o" \
 "CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o" \
 "CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o" \
 "CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o" \
 "CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o" \
 "CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o" \
+"CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o" \
 "CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o" \
-"CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o" \
 "CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o" \
 "CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o" \
+"CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o" \
 "CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o" \
-"CMakeFiles/FaceDetection.dir/src-gen/main.cc.o"
+"CMakeFiles/FaceDetection.dir/src-gen/main.cc.o" \
+"CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o" \
+"CMakeFiles/FaceDetection.dir/src/network.cpp.o" \
+"CMakeFiles/FaceDetection.dir/src/pBox.cpp.o"
 
 # External object files for target FaceDetection
 FaceDetection_EXTERNAL_OBJECTS =
 
+FaceDetection: CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o
 FaceDetection: CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o
 FaceDetection: CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o
 FaceDetection: CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o
 FaceDetection: CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o
 FaceDetection: CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o
+FaceDetection: CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o
 FaceDetection: CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o
-FaceDetection: CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o
 FaceDetection: CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o
 FaceDetection: CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o
+FaceDetection: CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o
 FaceDetection: CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o
 FaceDetection: CMakeFiles/FaceDetection.dir/src-gen/main.cc.o
+FaceDetection: CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o
+FaceDetection: CMakeFiles/FaceDetection.dir/src/network.cpp.o
+FaceDetection: CMakeFiles/FaceDetection.dir/src/pBox.cpp.o
 FaceDetection: CMakeFiles/FaceDetection.dir/build.make
 FaceDetection: /home/rosmosys/SOFTWARE/smartsoft/repos/AceSmartSoftFramework/build/AceSmartSoftKernel/libAceSmartSoftKernel.so.3.1.0
 FaceDetection: /usr/local/lib/libopencv_stitching.so.3.4.7
@@ -361,7 +491,8 @@ FaceDetection: /usr/local/lib/libopencv_superres.so.3.4.7
 FaceDetection: /usr/local/lib/libopencv_dnn.so.3.4.7
 FaceDetection: /usr/local/lib/libopencv_videostab.so.3.4.7
 FaceDetection: /usr/local/lib/libopencv_video.so.3.4.7
-FaceDetection: /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/DomainVision/smartsoft/build/libDomainVision.so.1.0.0
+FaceDetection: /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/DomainModelsRepositories/CommPerception/smartsoft/build/libCommPerception.so.1.0.0
+FaceDetection: /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/DomainModelsRepositories/DomainVision/smartsoft/build/libDomainVision.so.1.0.0
 FaceDetection: /usr/local/lib/libopencv_calib3d.so.3.4.7
 FaceDetection: /usr/local/lib/libopencv_features2d.so.3.4.7
 FaceDetection: /usr/local/lib/libopencv_videoio.so.3.4.7
@@ -370,12 +501,13 @@ FaceDetection: /usr/local/lib/libopencv_photo.so.3.4.7
 FaceDetection: /usr/local/lib/libopencv_imgproc.so.3.4.7
 FaceDetection: /usr/local/lib/libopencv_flann.so.3.4.7
 FaceDetection: /usr/local/lib/libopencv_core.so.3.4.7
-FaceDetection: /home/rosmosys/SOFTWARE/smartsoft/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/libCommBasicObjects.so.1.0.0
+FaceDetection: /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/DomainModelsRepositories/CommObjectRecognitionObjects/smartsoft/build/libCommObjectRecognitionObjects.so.1.0.0
+FaceDetection: /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/DomainModelsRepositories/CommBasicObjects/smartsoft/build/libCommBasicObjects.so.1.0.0
 FaceDetection: /opt/ACE_wrappers/lib/libACE.so
 FaceDetection: /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build/libSmartXml.so.1.0.0
 FaceDetection: /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartProperty/build/libSmartProperty.so.1.0.0
 FaceDetection: CMakeFiles/FaceDetection.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable FaceDetection"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable FaceDetection"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FaceDetection.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -383,17 +515,22 @@ CMakeFiles/FaceDetection.dir/build: FaceDetection
 
 .PHONY : CMakeFiles/FaceDetection.dir/build
 
+CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src/PersonQueryServiceAnswHandler.cc.o.requires
 CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src/CaptureSensor.cc.o.requires
 CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src/CompHandler.cc.o.requires
 CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src/SmartStateChangeHandler.cc.o.requires
 CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src/FaceDetectionCore.cc.o.requires
 CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src-gen/FaceDetection.cc.o.requires
+CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src-gen/PersonQueryServiceAnswHandlerCore.cc.o.requires
 CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src-gen/CaptureSensorCore.cc.o.requires
-CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src-gen/RGBImagePushServiceInUpcallManager.cc.o.requires
 CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionImpl.cc.o.requires
 CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionExtension.cc.o.requires
+CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src-gen/RGBDImagePushServiceInUpcallManager.cc.o.requires
 CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src-gen/FaceDetectionAcePortFactory.cc.o.requires
 CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src-gen/main.cc.o.requires
+CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src/mtcnn.cpp.o.requires
+CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src/network.cpp.o.requires
+CMakeFiles/FaceDetection.dir/requires: CMakeFiles/FaceDetection.dir/src/pBox.cpp.o.requires
 
 .PHONY : CMakeFiles/FaceDetection.dir/requires
 
@@ -402,6 +539,6 @@ CMakeFiles/FaceDetection.dir/clean:
 .PHONY : CMakeFiles/FaceDetection.dir/clean
 
 CMakeFiles/FaceDetection.dir/depend:
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/FaceDetection.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/FaceDetection.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/FaceDetection.dir/depend
 

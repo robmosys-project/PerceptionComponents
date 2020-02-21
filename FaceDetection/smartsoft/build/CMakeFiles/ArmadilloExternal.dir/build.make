@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build
 
 # Utility rule file for ArmadilloExternal.
 
@@ -66,62 +66,62 @@ CMakeFiles/ArmadilloExternal-complete: Armadillo/src/ArmadilloExternal-stamp/Arm
 CMakeFiles/ArmadilloExternal-complete: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-install
 CMakeFiles/ArmadilloExternal-complete: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep1
 CMakeFiles/ArmadilloExternal-complete: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep2
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ArmadilloExternal'"
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal-complete
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ArmadilloExternal'"
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal-complete
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-done
 
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-install: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'ArmadilloExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'ArmadilloExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -E echo_append
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-install
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-install
 
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'ArmadilloExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'ArmadilloExternal'"
 	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo
 	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/tmp
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-mkdir
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/tmp
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-mkdir
 
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-download: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ArmadilloExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ArmadilloExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-download
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-download
 
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-update: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'ArmadilloExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'ArmadilloExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-update
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-update
 
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-patch: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'ArmadilloExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'ArmadilloExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-patch
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-patch
 
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-configure: Armadillo/tmp/ArmadilloExternal-cfgcmd.txt
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-configure: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-update
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-configure: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'ArmadilloExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'ArmadilloExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -DBUILD_DEPENDENCIES=OFF "-GUnix Makefiles" /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-configure
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-configure
 
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-build: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'ArmadilloExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'ArmadilloExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && $(MAKE)
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-build
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-build
 
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep1: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Reset BUILD_DEPENDENCIES of 'ArmadilloExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Reset BUILD_DEPENDENCIES of 'ArmadilloExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -DBUILD_DEPENDENCIES=ON .
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep1
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/armadillo/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep1
 
 Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep2: Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Touch file 'ArmadilloExternal-update' to trigger configure on next build"
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp && /usr/bin/cmake -E touch ArmadilloExternal-update
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Touch file 'ArmadilloExternal-update' to trigger configure on next build"
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp && /usr/bin/cmake -E touch ArmadilloExternal-update
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/Armadillo/src/ArmadilloExternal-stamp/ArmadilloExternal-ArmadilloStep2
 
 ArmadilloExternal: CMakeFiles/ArmadilloExternal
 ArmadilloExternal: CMakeFiles/ArmadilloExternal-complete
@@ -148,6 +148,6 @@ CMakeFiles/ArmadilloExternal.dir/clean:
 .PHONY : CMakeFiles/ArmadilloExternal.dir/clean
 
 CMakeFiles/ArmadilloExternal.dir/depend:
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/ArmadilloExternal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ArmadilloExternal.dir/depend
 

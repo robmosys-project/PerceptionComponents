@@ -29,8 +29,8 @@ CaptureSensorCore::CaptureSensorCore(Smart::IComponent *comp, const bool &useDef
 ,	useLogging(false)
 ,	taskLoggingId(0)
 ,	currentUpdateCount(0)
-,	rGBImagePushServiceInStatus(Smart::SMART_DISCONNECTED)
-,	rGBImagePushServiceInObject()
+,	rGBDImagePushServiceInStatus(Smart::SMART_DISCONNECTED)
+,	rGBDImagePushServiceInObject()
 {
 }
 
@@ -89,7 +89,7 @@ int CaptureSensorCore::execute_protected_region()
 
 void CaptureSensorCore::updateAllCommObjects()
 {
-	rGBImagePushServiceInStatus = COMP->rGBImagePushServiceInInputTaskTrigger->getUpdate(rGBImagePushServiceInObject);
+	rGBDImagePushServiceInStatus = COMP->rGBDImagePushServiceInInputTaskTrigger->getUpdate(rGBDImagePushServiceInObject);
 	
 }
 

@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommPerceptionExternal"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommPerceptionExternal.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommPerceptionExternal-complete.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-install.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-mkdir.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-download.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-update.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-patch.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-configure.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-build.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-CommPerceptionStep1.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-CommPerceptionStep2.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"CommPerceptionExternal"
+		],
+		"name" : "CommPerceptionExternal"
+	}
+}

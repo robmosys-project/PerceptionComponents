@@ -19,7 +19,7 @@
 #include "aceSmartSoft.hh"
 
 // include upcall interface
-#include "RGBImagePushServiceInUpcallInterface.hh"
+#include "RGBDImagePushServiceInUpcallInterface.hh"
 
 // include communication-objects for output ports
 #include <DomainVision/CommVideoImage.hh>
@@ -31,7 +31,7 @@
 class CaptureSensorCore
 :	public SmartACE::ManagedTask
 ,	public Smart::TaskTriggerSubject
-,	public RGBImagePushServiceInUpcallInterface
+,	public RGBDImagePushServiceInUpcallInterface
 {
 private:
 	bool useDefaultState; 
@@ -39,8 +39,8 @@ private:
 	int taskLoggingId;
 	unsigned int currentUpdateCount;
 	
-	Smart::StatusCode rGBImagePushServiceInStatus;
-	DomainVision::CommVideoImage rGBImagePushServiceInObject;
+	Smart::StatusCode rGBDImagePushServiceInStatus;
+	DomainVision::CommRGBDImage rGBDImagePushServiceInObject;
 	
 	
 protected:
@@ -53,17 +53,17 @@ protected:
 	void triggerLogEntry(const int& idOffset);
 	
 	
-	// overload and implement this method in derived classes to immediately get all incoming updates from RGBImagePushServiceIn (as soon as they arrive)
-	virtual void on_RGBImagePushServiceIn(const DomainVision::CommVideoImage &input) {
+	// overload and implement this method in derived classes to immediately get all incoming updates from RGBDImagePushServiceIn (as soon as they arrive)
+	virtual void on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input) {
 		// no-op
 	}
 	
 	// this method can be safely used from the thread in derived classes
-	inline Smart::StatusCode rGBImagePushServiceInGetUpdate(DomainVision::CommVideoImage &rGBImagePushServiceInObject) const
+	inline Smart::StatusCode rGBDImagePushServiceInGetUpdate(DomainVision::CommRGBDImage &rGBDImagePushServiceInObject) const
 	{
 		// copy local object buffer and return the last status code
-		rGBImagePushServiceInObject = this->rGBImagePushServiceInObject;
-		return rGBImagePushServiceInStatus;
+		rGBDImagePushServiceInObject = this->rGBDImagePushServiceInObject;
+		return rGBDImagePushServiceInStatus;
 	}
 	
 	// this method is meant to be used in derived classes

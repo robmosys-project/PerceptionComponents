@@ -26,35 +26,27 @@ CaptureSensor::CaptureSensor(SmartACE::SmartComponent *comp)  // @suppress("Memb
 
 	std::string prefix = "CaptureSensor";
 	std::string parameter = "filename";
+	std::string filepath;
 
 
-	SmartACE::SmartIniParameter param;
-	std::ifstream parameterfile;
+	// parameter
+	COMP->getParam<string>(prefix, parameter, filepath, ""); //TODO
 
-	param.searchFile("FaceDetection.ini", parameterfile);
-	param.addFile(parameterfile);
-
-	if (param.checkIfParameterExists(prefix, parameter)) {
-		_face_cascade_filename = param.getString(prefix, parameter);
-	}
-
-	// cascacde initialization
-	if (!_cascade.load(_face_cascade_filename)) {
-		std::cout << "Couln't load face detector: " << _face_cascade_filename;
-	}
+	// mtcnn
+	_mtcnn = new mtcnn(480, 640); // TODO: add to parameter
 
 }
+
 CaptureSensor::~CaptureSensor() 
 {
 	std::cout << "destructor CaptureSensor\n";
 }
 
-
-
 int CaptureSensor::on_entry()
 {
 	// do initialization procedures here, which are called once, each time the task is started
 	// it is possible to return != 0 (e.g. when initialization fails) then the task is not executed further
+	std::cout << "[FACE_DETECTION] : Established" << endl;
 	return 0;
 }
 int CaptureSensor::on_execute()
@@ -71,12 +63,14 @@ int CaptureSensor::on_execute()
 	// it is possible to return != 0 (e.g. when the task detects errors), then the outer loop breaks and the task stops
 	return 0;
 }
+
 int CaptureSensor::on_exit()
 {
 	// use this method to clean-up resources which are initialized in on_entry() and needs to be freed before the on_execute() can be called again
+	std::cout << "[FACE_DETECTION] : Finished" << endl;
+
 	return 0;
 }
-
 
 cv::Mat CaptureSensor::getMat(const DomainVision::CommVideoImage &input)
 {
@@ -92,56 +86,131 @@ cv::Mat CaptureSensor::getMat(const DomainVision::CommVideoImage &input)
 	return img;
 }
 
-std::vector<cv::Rect> CaptureSensor::faceDetect(const cv::Mat& img)
+void CaptureSensor::fromRGBD2Mat(const DomainVision::CommRGBDImage &input, cv::Mat &rgb_img, cv::Mat &depth_img)
 {
-	// configuration
-	int flags = CV_HAAR_DO_CANNY_PRUNING;
-	float search_scale_factor = 1.1f;
-	cv::Size minFeatureSize = cv::Size(20, 20);
-	cv::Rect rc;
+    DomainVision::CommDepthImage depth_input = input.getDepth_image();
+    DomainVision::CommVideoImage rgb_input = input.getColor_image();
 
-	cv::Mat img_gray;
-	std::vector<cv::Rect> rects;
-
-	// image processing
-	if (img.channels() > 1) {
-		cvtColor(img, img_gray, CV_BGR2GRAY);
-	} else {
-		img_gray = img;
-	}
-
-	// detect all the faces
-	_cascade.detectMultiScale(img_gray, rects, search_scale_factor, 3, flags, minFeatureSize);
-
-	return rects;
+    fromDepth2Mat(depth_input, depth_img);
+    fromVideo2Mat(rgb_input, rgb_img);
 }
 
-void CaptureSensor::on_RGBImagePushServiceIn(const DomainVision::CommVideoImage &input)
+void CaptureSensor::fromDepth2Mat(const DomainVision::CommDepthImage &input, cv::Mat &depth_img)
 {
-	cv::Mat img = getMat(input);
+    const unsigned char* dist_frame = input.get_distances();
 
-	// detect faces
-	std::vector<cv::Rect> face_rect = faceDetect(img);
+    const int w = input.getHeight();
+    const int h = input.getWidth();
 
-	// draw box
-	for (std::vector<cv::Rect>::iterator iter = face_rect.begin(); iter!=face_rect.end(); iter++) {
-		cv::rectangle(img, *iter, cv::Scalar(0, 0, 2), 3, 8, 0);
-
-		// output testing
-		std::cout << "[FaceDetection] Boundingbox  x"<< iter->x <<", y:"<< iter->y <<", width:" << iter->width << ", height" << iter->height << std::endl;
-	}
-
-	// convert from mat to CommVideoImage
-	const unsigned char* img_out = (unsigned char*)img.data;
-	int w = img.cols;
-	int h = img.rows;
-
-	DomainVision::CommVideoImage output;
-	output.set_parameters(w, h, DomainVision::FormatType::RGB24);
-	output.set_data(img_out);
-
-	COMP->rGBImagePushServiceOut->put(output);
-
-
+    depth_img = cv::Mat(cv::Size(w, h), CV_8UC1, (void*)input.get_distances());
 }
 
+void CaptureSensor::fromVideo2Mat(const DomainVision::CommVideoImage &input, cv::Mat &rgb_img)
+{
+    const unsigned char* color_frame = input.get_data();
+
+    const int w = input.get_width();
+    const int h = input.get_height();
+
+    rgb_img = cv::Mat(cv::Size(w, h), CV_8UC3, (void*)input.get_data());
+
+    return;
+}
+
+void CaptureSensor::on_RGBDImagePushServiceIn(const DomainVision::CommRGBDImage &input)
+{
+    cv::Mat rgb_img, depth_img;
+    std::vector<cv::Rect> rects;
+    std::vector<CommPerception::CommPersonInf> person_info;
+
+    cout << "1" << endl;
+
+    fromRGBD2Mat(input, rgb_img, depth_img);
+
+    // intrinsic matrix
+    double fx = 1;
+    double fy = 1;
+    double cx = 320;
+    double cy = 240;
+
+    _mtcnn->findFace(rgb_img, rects);
+
+    std::cout << "timestamp: " << input.getSeq_count() << endl;
+
+    for (std::vector<cv::Rect>::iterator iter = rects.begin(); iter!=rects.end(); iter++) {
+    	int ox = iter->x;
+    	int oy = iter->y;
+    	int width = iter->width;
+    	int height = iter->height;
+
+    	int px = ox + width/2;
+    	int py = oy + height/2;
+
+    	double depth = depth_img.at<double>(py, px);
+
+        CommPerception::CommPersonInf info;
+
+        // recognition
+        cv::Mat bb = rgb_img(cv::Rect(iter->x, iter->y, iter->width, iter->height));
+        DomainVision::CommVideoImage request;
+        request.set_parameters(bb.cols, bb.rows, DomainVision::FormatType::RGB24);
+        request.set_data((uchar*)bb.data);
+        CommPerception::CommLabel answer;
+
+        Smart::StatusCode status = COMP->recognitionQueryServiceReq->query(request, answer);
+
+        if (status!=Smart::SMART_OK) {
+        	std::cerr << "recognitionQueryServiceReq: " << Smart::StatusCodeConversion(status) << endl;
+        }
+
+        info.setName(answer.getName());
+        cout << answer.getName() << endl;
+
+        // ROI
+        CommPerception::CommPoint2d point;
+        CommPerception::ROI roi;
+
+        point.setX(ox);
+        point.setY(oy);
+        roi.setWidth(width);
+        roi.setHeight(height);
+        roi.setPoint(point);
+        info.setRoi(CommPerception::ROI());
+
+        cout << point.getX() << "," << point.getY() << "," << roi.getWidth() << "," << roi.getHeight() << endl; // TEST
+
+        CommBasicObjects::CommPosition3d position;
+        CommBasicObjects::CommPose3d pose;
+
+        position = from2dTo3d(px, py, depth, fx, fy, cx, cy);
+
+        pose.setPosition(position);
+        pose.setOrientation(CommBasicObjects::CommOrientation3d());
+        info.setPose(pose);
+
+        person_info.push_back(info);
+
+        std::cout << "No." << (iter-rects.begin()) << " : "
+        		  << info.getName()
+				  << " x:" << info.getPose().getPosition().getX()
+        		  << " y:" << info.getPose().getPosition().getY()
+				  << " z:" << info.getPose().getPosition().getZ()
+				  << endl;
+    }
+
+    COMP->setPersonInfo(person_info);
+}
+
+CommBasicObjects::CommPosition3d CaptureSensor::from2dTo3d(double px, double py, double depth, double fx, double fy, double cx, double cy)
+{
+    CommBasicObjects::CommPosition3d point_3d;
+
+    double X = (px-cx)*depth/fx;
+    double Y = (py-cy)*depth/fy;
+
+    point_3d.setX(X);
+    point_3d.setY(Y);
+    point_3d.setZ(depth);
+
+    return point_3d;
+}

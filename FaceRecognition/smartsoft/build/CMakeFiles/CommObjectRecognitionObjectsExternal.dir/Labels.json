@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommObjectRecognitionObjectsExternal"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommObjectRecognitionObjectsExternal.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommObjectRecognitionObjectsExternal-complete.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-install.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-mkdir.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-download.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-update.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-patch.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-configure.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-build.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-CommObjectRecognitionObjectsStep1.rule"
+		},
+		{
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommObjectRecognitionObjects/src/CommObjectRecognitionObjectsExternal-stamp/CommObjectRecognitionObjectsExternal-CommObjectRecognitionObjectsStep2.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"CommObjectRecognitionObjectsExternal"
+		],
+		"name" : "CommObjectRecognitionObjectsExternal"
+	}
+}

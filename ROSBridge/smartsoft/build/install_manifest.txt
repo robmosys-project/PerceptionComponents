@@ -1,0 +1,14 @@
+/home/rosmosys/SOFTWARE/smartsoft/_setup_util.py
+/home/rosmosys/SOFTWARE/smartsoft/env.sh
+/home/rosmosys/SOFTWARE/smartsoft/setup.bash
+/home/rosmosys/SOFTWARE/smartsoft/local_setup.bash
+/home/rosmosys/SOFTWARE/smartsoft/setup.sh
+/home/rosmosys/SOFTWARE/smartsoft/local_setup.sh
+/home/rosmosys/SOFTWARE/smartsoft/setup.zsh
+/home/rosmosys/SOFTWARE/smartsoft/local_setup.zsh
+/home/rosmosys/SOFTWARE/smartsoft/.rosinstall
+/home/rosmosys/SOFTWARE/smartsoft/lib/pkgconfig/ROSBridge.pc
+/home/rosmosys/SOFTWARE/smartsoft/share/ROSBridge/cmake/ROSBridgeConfig.cmake
+/home/rosmosys/SOFTWARE/smartsoft/share/ROSBridge/cmake/ROSBridgeConfig-version.cmake
+/home/rosmosys/SOFTWARE/smartsoft/share/ROSBridge/package.xml
+/home/rosmosys/SOFTWARE/smartsoft/bin/ROSBridge

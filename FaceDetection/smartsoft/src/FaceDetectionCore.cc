@@ -22,4 +22,27 @@ FaceDetectionCore::FaceDetectionCore()
 	std::cout << "constructor FaceDetectionCore\n";
 }
 
+void FaceDetectionCore::addParam(const string& inifile)
+{
+    std::ifstream parameterfile;
+
+    if (!param->searchFile(inifile, parameterfile)) {
+        cerr << "The filename " << inifile << "is not found" << endl;
+        return;
+    }
+
+    param->addFile(parameterfile);
+}
+
+void FaceDetectionCore::setPersonInfo(const std::vector <CommPerception::CommPersonInf> &person_info)
+{
+    _person_info.setPersons(person_info);
+}
+
+CommPerception::CommPersonDetection FaceDetectionCore::getPersonInfo()
+{
+	return _person_info;
+}
+
+
 

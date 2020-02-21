@@ -2,10 +2,17 @@ ComponentDefinition FaceDetection logo "/FaceDetection/model/logo.png"
 {
 Activity CaptureSensor
 	{
-		InputPortLink RGBImagePushServiceIn { oversamplingOk undersamplingOk }
+		InputPortLink RGBDImagePushServiceIn { oversamplingOk undersamplingOk }
 	}
-	InputPort RGBImagePushServiceIn implements DomainVision.RGBImagePushService {
-	}
+
 	OutputPort RGBImagePushServiceOut implements DomainVision.RGBImagePushService realizedBy CaptureSensor {
+	}
+AnswerPort PersonQueryServiceAnsw implements CommPerception.PersonQueryService {
+	}
+	RequestHandler PersonQueryServiceAnswHandler triggeredFrom PersonQueryServiceAnsw {
+	}
+	InputPort RGBDImagePushServiceIn implements DomainVision.RGBDImagePushService {
+	}
+RequestPort RecognitionQueryServiceReq implements CommPerception.RecognitionQueryService {
 	}
 }

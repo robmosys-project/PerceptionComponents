@@ -1,0 +1,15 @@
+# Target labels
+ CommBasicObjectsExternal
+# Source files and their labels
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommBasicObjectsExternal
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommBasicObjectsExternal.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommBasicObjectsExternal-complete.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-install.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-mkdir.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-download.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-update.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-patch.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-build.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep1.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep2.rule

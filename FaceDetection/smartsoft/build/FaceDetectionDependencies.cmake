@@ -15,6 +15,7 @@
 #--------------------------------------------------------------------------
 
 # other CommunicationObject-dependencies are added here (if there are any)
+LIST(APPEND FaceDetection_DEPENDENCIES CommPerception)
 LIST(APPEND FaceDetection_DEPENDENCIES DomainVision)
 
 LIST(REMOVE_DUPLICATES FaceDetection_DEPENDENCIES)

@@ -1,0 +1,15 @@
+# Target labels
+ CommPerceptionExternal
+# Source files and their labels
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommPerceptionExternal
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommPerceptionExternal.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/CommPerceptionExternal-complete.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-install.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-mkdir.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-download.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-update.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-patch.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-configure.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-build.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-CommPerceptionStep1.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CommPerception/src/CommPerceptionExternal-stamp/CommPerceptionExternal-CommPerceptionStep2.rule

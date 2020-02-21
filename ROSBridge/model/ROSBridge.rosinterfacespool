@@ -1,0 +1,3 @@
+RosInterfacesPool {
+	RosSubscriber _det { topicName "/object_detection" type "objectinformation"}
+}

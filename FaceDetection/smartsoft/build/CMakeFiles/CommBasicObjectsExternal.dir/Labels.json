@@ -2,40 +2,40 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/CommBasicObjectsExternal"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/CommBasicObjectsExternal"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/CommBasicObjectsExternal.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/CommBasicObjectsExternal.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/CommBasicObjectsExternal-complete.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/CommBasicObjectsExternal-complete.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-install.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-install.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-mkdir.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-mkdir.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-download.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-download.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-update.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-update.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-patch.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-patch.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-configure.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-build.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-build.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep1.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep1.rule"
 		},
 		{
-			"file" : "/home/rosmosys/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep2.rule"
+			"file" : "/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CommBasicObjects/src/CommBasicObjectsExternal-stamp/CommBasicObjectsExternal-CommBasicObjectsStep2.rule"
 		}
 	],
 	"target" : 

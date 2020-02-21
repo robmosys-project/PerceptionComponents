@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft
+CMAKE_SOURCE_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rosmosys/workspace/FaceDetection/smartsoft/build
+CMAKE_BINARY_DIR = /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build
 
 # Utility rule file for SmartXmlExternal.
 
@@ -66,62 +66,62 @@ CMakeFiles/SmartXmlExternal-complete: SmartXml/src/SmartXmlExternal-stamp/SmartX
 CMakeFiles/SmartXmlExternal-complete: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-install
 CMakeFiles/SmartXmlExternal-complete: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep1
 CMakeFiles/SmartXmlExternal-complete: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep2
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'SmartXmlExternal'"
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartXmlExternal-complete
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'SmartXmlExternal'"
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartXmlExternal-complete
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-done
 
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-install: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'SmartXmlExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'SmartXmlExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -E echo_append
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-install
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-install
 
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'SmartXmlExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'SmartXmlExternal'"
 	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml
 	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/tmp
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp
-	/usr/bin/cmake -E make_directory /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-mkdir
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/tmp
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp
+	/usr/bin/cmake -E make_directory /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-mkdir
 
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-download: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'SmartXmlExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'SmartXmlExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-download
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-download
 
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-update: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'SmartXmlExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'SmartXmlExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-update
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-update
 
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-patch: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'SmartXmlExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'SmartXmlExternal'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-patch
+	/usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-patch
 
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-configure: SmartXml/tmp/SmartXmlExternal-cfgcmd.txt
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-configure: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-update
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-configure: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'SmartXmlExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'SmartXmlExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -DBUILD_DEPENDENCIES=OFF "-GUnix Makefiles" /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-configure
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-configure
 
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-build: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'SmartXmlExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'SmartXmlExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && $(MAKE)
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-build
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-build
 
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep1: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Reset BUILD_DEPENDENCIES of 'SmartXmlExternal'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Reset BUILD_DEPENDENCIES of 'SmartXmlExternal'"
 	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -DBUILD_DEPENDENCIES=ON .
-	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep1
+	cd /home/rosmosys/SOFTWARE/smartsoft/repos/UtilityRepository/smartXml/build && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep1
 
 SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep2: SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Touch file 'SmartXmlExternal-update' to trigger configure on next build"
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp && /usr/bin/cmake -E touch SmartXmlExternal-update
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp && /usr/bin/cmake -E touch /home/rosmosys/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep2
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Touch file 'SmartXmlExternal-update' to trigger configure on next build"
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp && /usr/bin/cmake -E touch SmartXmlExternal-update
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp && /usr/bin/cmake -E touch /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep2
 
 SmartXmlExternal: CMakeFiles/SmartXmlExternal
 SmartXmlExternal: CMakeFiles/SmartXmlExternal-complete
@@ -148,6 +148,6 @@ CMakeFiles/SmartXmlExternal.dir/clean:
 .PHONY : CMakeFiles/SmartXmlExternal.dir/clean
 
 CMakeFiles/SmartXmlExternal.dir/depend:
-	cd /home/rosmosys/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build /home/rosmosys/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartXmlExternal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build /home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceDetection/smartsoft/build/CMakeFiles/SmartXmlExternal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SmartXmlExternal.dir/depend
 

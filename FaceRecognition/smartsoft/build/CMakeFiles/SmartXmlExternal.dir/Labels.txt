@@ -1,0 +1,15 @@
+# Target labels
+ SmartXmlExternal
+# Source files and their labels
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/SmartXmlExternal
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/SmartXmlExternal.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/SmartXmlExternal-complete.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-install.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-mkdir.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-download.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-update.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-patch.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-configure.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-build.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep1.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartXml/src/SmartXmlExternal-stamp/SmartXmlExternal-SmartXmlStep2.rule

@@ -1,0 +1,15 @@
+# Target labels
+ SmartPropertyExternal
+# Source files and their labels
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/SmartPropertyExternal
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/SmartPropertyExternal.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/CMakeFiles/SmartPropertyExternal-complete.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-install.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-mkdir.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-download.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-update.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-patch.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-configure.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-build.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep1.rule
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/FaceRecognition/smartsoft/build/SmartProperty/src/SmartPropertyExternal-stamp/SmartPropertyExternal-SmartPropertyStep2.rule
