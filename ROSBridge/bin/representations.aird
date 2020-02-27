@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ComponentDefinition="http://www.ecore.org/component/ComponentDefinition" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_Of2u8FPuEeqDH6EXWf4QcA" selectedViews="_OjQoQFPuEeqDH6EXWf4QcA" version="14.1.0.201810161215">
+    <ownedViews xmi:type="viewpoint:DView" uid="_OjQoQFPuEeqDH6EXWf4QcA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_OjWu4FPuEeqDH6EXWf4QcA" name="ROSBridge" repPath="#_OjSdcFPuEeqDH6EXWf4QcA">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']"/>
+        <target xmi:type="ComponentDefinition:ComponentDefModel" href="model/ROSBridge.component#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_OjSdcFPuEeqDH6EXWf4QcA" name="ROSBridge">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_OjWH0FPuEeqDH6EXWf4QcA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_OjWH0VPuEeqDH6EXWf4QcA"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_OjXV8FPuEeqDH6EXWf4QcA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_OjXV8VPuEeqDH6EXWf4QcA" type="Sirius" element="_OjSdcFPuEeqDH6EXWf4QcA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_OjX9AFPuEeqDH6EXWf4QcA" type="2002" element="_OjUSoFPuEeqDH6EXWf4QcA">
+          <children xmi:type="notation:Node" xmi:id="_OjX9A1PuEeqDH6EXWf4QcA" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_OjYkEFPuEeqDH6EXWf4QcA" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_V064AFPuEeqDH6EXWf4QcA" type="3008" element="_V00xYFPuEeqDH6EXWf4QcA">
+              <children xmi:type="notation:Node" xmi:id="_V064A1PuEeqDH6EXWf4QcA" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_V07fEFPuEeqDH6EXWf4QcA" type="7002">
+                <styles xmi:type="notation:SortingStyle" xmi:id="_V07fEVPuEeqDH6EXWf4QcA"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_V07fElPuEeqDH6EXWf4QcA"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_V064AVPuEeqDH6EXWf4QcA" fontName="Ubuntu" fontHeight="8" bold="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V064AlPuEeqDH6EXWf4QcA" x="43" y="42"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_OjYkEVPuEeqDH6EXWf4QcA"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_OjYkElPuEeqDH6EXWf4QcA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_OjX9AVPuEeqDH6EXWf4QcA" fontName="Ubuntu" fontHeight="10" bold="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OjX9AlPuEeqDH6EXWf4QcA" x="336" y="180" width="231" height="147"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_OjXV8lPuEeqDH6EXWf4QcA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_OjUSoFPuEeqDH6EXWf4QcA" name="ROSBridge" tooltipText="ComponentDefinition: ROSBridge&#xA;">
+      <target xmi:type="ComponentDefinition:ComponentDefinition" href="model/ROSBridge.component#//@component"/>
+      <semanticElements xmi:type="ComponentDefinition:ComponentDefinition" href="model/ROSBridge.component#//@component"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_OjU5sFPuEeqDH6EXWf4QcA" labelSize="10" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,245,181">
+        <labelFormat>bold</labelFormat>
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMappingImport" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@additionalLayers[name='SeRoNet']/@containerMappings[name='ComponentContainerImport']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_V00xYFPuEeqDH6EXWf4QcA" name="Spin" tooltipText="Activity">
+        <target xmi:type="ComponentDefinition:Activity" href="model/ROSBridge.component#//@component/@elements.0"/>
+        <semanticElements xmi:type="ComponentDefinition:Activity" href="model/ROSBridge.component#//@component/@elements.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_V01YcFPuEeqDH6EXWf4QcA" borderSize="1" borderSizeComputationExpression="1">
+          <labelFormat>bold</labelFormat>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ActivityContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer/@containerMappings[name='ComponentContainer']/@subContainerMappings[name='ActivityContainer']"/>
+      </ownedDiagramElements>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_OjSdcVPuEeqDH6EXWf4QcA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.sirius.component.design/description/component.odesign#//@ownedViewpoints[name='ComponentDefinitionViewpoint']/@ownedRepresentations[name='ComponentDefinitionDiagram']/@additionalLayers[name='SeRoNet']"/>
+    <target xmi:type="ComponentDefinition:ComponentDefModel" href="model/ROSBridge.component#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

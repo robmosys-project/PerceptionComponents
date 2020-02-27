@@ -1,0 +1,12 @@
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/install.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/nodep.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/distclean-all.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/uninstall.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/ComponentFaceRecognition_distclean.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/ComponentFaceRecognition.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/list_install_components.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/install/strip.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/install/local.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/autoinstall.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/edit_cache.dir
+/home/rosmosys/SOFTWARE/smartsoft-ace-mdsd-v3/repos/workspace/ComponentFaceRecognition/smartsoft/build/CMakeFiles/rebuild_cache.dir
