@@ -16,11 +16,14 @@ openblas
 ## Service Ports
 ### PushedService
 pushedIn: DomainVision::CommRGBDImage 
+
 pushedOut: DomainVision::CommVideoImage
 
 ### QueryService
 **PersonQueryServiceAnsw**
+
 request: CommPerception::Empty
+
 answer: CommPerception::CommPersonDetection
 
 ## Usage
