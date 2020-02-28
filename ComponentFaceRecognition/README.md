@@ -1,6 +1,6 @@
 # ComponentFaceRecogtion Component
 
-![ComponentDaceRecognition-ComponentImage](model/ComponentFaceRecogtionComponentDefinition.jpg)
+![ComponentFaceRecognition-ComponentImage](model/ComponentFaceRecognitionComponentDefinition.jpg)
 
 
 | Metaelement | Documentation |
